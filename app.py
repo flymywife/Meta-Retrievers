@@ -57,7 +57,7 @@ def generate_5w1h_queries(entity: str) -> Dict[str, str]:
     queries = response.choices[0].message.content.strip().split("\n")
     return {f"query_{i+1}": query.strip() for i, query in enumerate(queries)}
 
-def generate_answer(entity: str, query: str) -> str:
+def generate_answer(entity: str, query: str, max_tokens: int) -> str:
     """クエリに対する回答を生成する"""
     prompt = f"Answer the following question about {entity} concisely: {query}"
     response = client.chat.completions.create(
@@ -66,7 +66,7 @@ def generate_answer(entity: str, query: str) -> str:
             {"role": "system", "content": "You are a helpful assistant that provides concise answers to questions."},
             {"role": "user", "content": prompt}
         ],
-        max_tokens=150,
+        max_tokens=max_tokens,
         n=1,
         temperature=0.7,
     )
@@ -84,7 +84,7 @@ def cosine_similarity(v1: List[float], v2: List[float]) -> float:
     """2つのベクトル間のコサイン類似度を計算する"""
     return np.dot(v1, v2) / (np.linalg.norm(v1) * np.linalg.norm(v2))
 
-def process_entity(entity: str, embedding_model: str) -> Tuple[Dict, Dict, Dict, Dict]:
+def process_entity(entity: str, embedding_model: str, max_tokens: int) -> Tuple[Dict, Dict, Dict, Dict]:
     """固有名詞を処理し、クエリ、コーパス、類似度、ベストマッチを生成する"""
     # クエリの生成とベクトル化
     queries = generate_5w1h_queries(entity)
@@ -95,7 +95,7 @@ def process_entity(entity: str, embedding_model: str) -> Tuple[Dict, Dict, Dict,
     
     # 各クエリに対する回答の生成とベクトル化
     corpus_data = {
-        key: {"text": generate_answer(entity, query), "vector": vectorize(generate_answer(entity, query), embedding_model)}
+        key: {"text": generate_answer(entity, query, max_tokens), "vector": vectorize(generate_answer(entity, query, max_tokens), embedding_model)}
         for key, query in queries.items()
     }
     
@@ -121,12 +121,12 @@ def process_entity(entity: str, embedding_model: str) -> Tuple[Dict, Dict, Dict,
     
     return queries_data, corpus_data, similarities_data, best_matches_data
 
-def gradio_interface(entity: str, embedding_model: str) -> Tuple[str, str, str, str]:
+def gradio_interface(entity: str, embedding_model: str, max_tokens: int) -> Tuple[str, str, str, str]:
     """Gradioインターフェース用の関数"""
     try:
-        logging.info(f"Processing entity: {entity} with model: {embedding_model}")
+        logging.info(f"Processing entity: {entity} with model: {embedding_model} and max tokens: {max_tokens}")
         
-        queries_data, corpus_data, similarities_data, best_matches_data = process_entity(entity, embedding_model)
+        queries_data, corpus_data, similarities_data, best_matches_data = process_entity(entity, embedding_model, max_tokens)
         
         # Save data to separate JSON files with timestamps in the history/model_name folder
         save_json_file({"entity": entity, "queries": queries_data}, "queries", embedding_model)
@@ -135,7 +135,7 @@ def gradio_interface(entity: str, embedding_model: str) -> Tuple[str, str, str, 
         save_json_file({"entity": entity, "best_matches": best_matches_data}, "best_matches", embedding_model)
         
         # Prepare output for Gradio interface
-        queries_and_answers_text = f"Generated 5W1H Queries and Answers for '{entity}' using {embedding_model}:\n\n"
+        queries_and_answers_text = f"Generated 5W1H Queries and Answers for '{entity}' using {embedding_model} (max tokens: {max_tokens}):\n\n"
         for (query_key, query_data), (answer_key, answer_data) in zip(queries_data.items(), corpus_data.items()):
             queries_and_answers_text += f"{query_key}: {query_data['text']}\n"
             queries_and_answers_text += f"{answer_key}: {answer_data['text']}\n\n"
@@ -167,7 +167,8 @@ iface = gr.Interface(
     fn=gradio_interface,
     inputs=[
         gr.Textbox(label="Enter an entity (person, place, event, etc.)"),
-        gr.Dropdown(choices=EMBEDDING_MODELS, label="Select Embedding Model", value=EMBEDDING_MODELS[0])
+        gr.Dropdown(choices=EMBEDDING_MODELS, label="Select Embedding Model", value=EMBEDDING_MODELS[0]),
+        gr.Slider(minimum=50, maximum=500, step=10, label="Max Tokens for Answer", value=150)
     ],
     outputs=[
         gr.Textbox(label="Generated Queries and Answers"),
@@ -176,7 +177,7 @@ iface = gr.Interface(
         gr.Textbox(label="Best Matches Summary")
     ],
     title="5W1H RAG Model for Entities",
-    description="Enter an entity and select an embedding model to generate 5W1H queries, answers, calculate similarities, and find best matches."
+    description="Enter an entity, select an embedding model, and set the maximum tokens for answers to generate 5W1H queries, answers, calculate similarities, and find best matches."
 )
 
 # アプリケーションの起動（デバッグモードを有効に）
