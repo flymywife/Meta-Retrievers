@@ -29,18 +29,18 @@ os.makedirs(HISTORY_FOLDER, exist_ok=True)
 # 利用可能なembeddingモデル
 EMBEDDING_MODELS = ["text-embedding-ada-002", "text-embedding-3-small"]
 
-def save_json_file(data: Dict, file_prefix: str, model_name: str):
+def save_json_file(data: Dict, file_prefix: str, model_name: str, max_tokens: int):
     """データをタイムスタンプ付きのJSONファイルとしてhistory/model名フォルダに保存する"""
     current_time = datetime.now().strftime("%Y%m%d_%H%M%S")
     model_folder = os.path.join(HISTORY_FOLDER, model_name)
     os.makedirs(model_folder, exist_ok=True)
-    file_name = f"{file_prefix}_{current_time}.json"
+    file_name = f"{file_prefix}_{current_time}_{str(max_tokens)}.json"
     file_path = os.path.join(model_folder, file_name)
     
     with open(file_path, 'w') as f:
         json.dump(data, f, indent=2)
     logging.info(f"Data saved to {file_path}")
-
+    
 def generate_5w1h_queries(entity: str) -> Dict[str, str]:
     """固有名詞に基づいて5W1Hのクエリを生成する"""
     prompt = f"Generate 6 questions about {entity} based on Who, What, When, Where, Why, and How. Ensure each question is a complete sentence."
@@ -129,10 +129,10 @@ def gradio_interface(entity: str, embedding_model: str, max_tokens: int) -> Tupl
         queries_data, corpus_data, similarities_data, best_matches_data = process_entity(entity, embedding_model, max_tokens)
         
         # Save data to separate JSON files with timestamps in the history/model_name folder
-        save_json_file({"entity": entity, "queries": queries_data}, "queries", embedding_model)
-        save_json_file({"entity": entity, "corpus": corpus_data}, "corpus", embedding_model)
-        save_json_file({"entity": entity, "similarities": similarities_data}, "similarities", embedding_model)
-        save_json_file({"entity": entity, "best_matches": best_matches_data}, "best_matches", embedding_model)
+        save_json_file({"entity": entity, "queries": queries_data}, "queries", embedding_model, max_tokens)
+        save_json_file({"entity": entity, "corpus": corpus_data}, "corpus", embedding_model, max_tokens)
+        save_json_file({"entity": entity, "similarities": similarities_data}, "similarities", embedding_model, max_tokens)
+        save_json_file({"entity": entity, "best_matches": best_matches_data}, "best_matches", embedding_model, max_tokens)
         
         # Prepare output for Gradio interface
         queries_and_answers_text = f"Generated 5W1H Queries and Answers for '{entity}' using {embedding_model} (max tokens: {max_tokens}):\n\n"

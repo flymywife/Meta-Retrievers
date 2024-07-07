@@ -1,0 +1,35 @@
+{
+  "entity": "Jeanne d'Arc",
+  "best_matches": {
+    "query_1": {
+      "query_text": "1. Who was Jeanne d'Arc and what was her role in history?",
+      "best_answer_text": "Jeanne d'Arc, also known as Joan of Arc, was a French heroine who played a significant role during the Hundred Years' War. She claimed to have received visions from saints instructing her to support Charles VII and help him claim the French throne. Jeanne led the French army to several victories, but was ultimately captured by the English and executed for heresy in 1431. She was later canonized as a saint by the Catholic Church.",
+      "similarity": 0.7690242223754535
+    },
+    "query_2": {
+      "query_text": "2. What were the significant events in Jeanne d'Arc's life that led to her becoming a prominent figure?",
+      "best_answer_text": "Jeanne d'Arc's significant events included her visions from saints, leading the French army to victories in the Hundred Years' War, and her capture and trial for heresy, which ultimately led to her being declared a martyr and a saint.",
+      "similarity": 0.8495696872546719
+    },
+    "query_3": {
+      "query_text": "3. When did Jeanne d'Arc live and what was the historical context of her time?",
+      "best_answer_text": "Jeanne d'Arc lived from 1412 to 1431 during the Hundred Years' War between England and France. She is known for her role in the war, claiming to have received divine guidance to support the French Dauphin, Charles VII, in his efforts to reclaim France from English control.",
+      "similarity": 0.7356651228907876
+    },
+    "query_4": {
+      "query_text": "4. Where did Jeanne d'Arc come from and where did she make her mark in history?",
+      "best_answer_text": "Jeanne d'Arc, also known as Joan of Arc, was born in Domr\u00e9my, France. She made her mark in history by leading the French army to several victories during the Hundred Years' War, most notably the lifting of the siege of Orl\u00e9ans in 1429.",
+      "similarity": 0.8212740196074427
+    },
+    "query_5": {
+      "query_text": "5. Why was Jeanne d'Arc known as the Maid of Orl\u00e9ans and what impact did she have on the Hundred Years' War?",
+      "best_answer_text": "Jeanne d'Arc was known as the Maid of Orl\u00e9ans because she led the French army to victory at the Siege of Orl\u00e9ans during the Hundred Years' War. Her leadership boosted French morale, turning the tide of the war in favor of the French.",
+      "similarity": 0.8423164884567289
+    },
+    "query_6": {
+      "query_text": "6. How did Jeanne d'Arc rise to prominence and what were the key strategies she employed in battle?",
+      "best_answer_text": "Jeanne d'Arc rose to prominence by claiming to have received visions from saints and rallying French troops against the English during the Hundred Years' War. She employed key strategies such as inspiring troops with her faith, utilizing swift and decisive military tactics, and leading by example on the battlefield.",
+      "similarity": 0.8121727408084315
+    }
+  }
+}

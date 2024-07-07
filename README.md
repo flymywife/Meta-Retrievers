@@ -14,7 +14,7 @@ This application is a Retrieval-Augmented Generation (RAG) system that generates
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.10+
 - OpenAI API key
 
 ## Installation
@@ -61,10 +61,16 @@ The application generates four types of output:
 4. Best Matches Summary: Displayed in the fourth text box, showing the best matching query-answer pairs.
 
 Additionally, four JSON files are saved in the `history/{model_name}` folder for each run:
-- `queries_YYYYMMDD_HHMMSS.json`: Contains the generated queries and their vectors.
-- `corpus_YYYYMMDD_HHMMSS.json`: Contains the generated answers and their vectors.
-- `similarities_YYYYMMDD_HHMMSS.json`: Contains the calculated similarities between queries and answers.
-- `best_matches_YYYYMMDD_HHMMSS.json`: Contains the best matching query-answer pairs based on similarity.
+- `queries_YYYYMMDD_HHMMSS_MaxTokens.json`: Contains the generated queries and their vectors.
+- `corpus_YYYYMMDD_HHMMSS_MaxTokens.json`: Contains the generated answers and their vectors.
+- `similarities_YYYYMMDD_HHMMSS_MaxTokens.json`: Contains the calculated similarities between queries and answers.
+- `best_matches_YYYYMMDD_HHMMSS_MaxTokens.json`: Contains the best matching query-answer pairs based on similarity.
+
+Where:
+- `YYYYMMDD_HHMMSS` represents the timestamp of the run.
+- `MaxTokens` is the maximum number of tokens set for answer generation.
+
+These files allow for easy tracking and comparison of different runs with various settings.
 
 ## Embedding Models
 

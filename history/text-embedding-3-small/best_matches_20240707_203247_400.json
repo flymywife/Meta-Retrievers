@@ -1,0 +1,35 @@
+{
+  "entity": "Jeanne d'Arc",
+  "best_matches": {
+    "query_1": {
+      "query_text": "1. Who was Jeanne d'Arc and what was her role in history?",
+      "best_answer_text": "Jeanne d'Arc, also known as Joan of Arc, was a French heroine and military leader who played a significant role in the Hundred Years' War. She claimed to have received visions from saints instructing her to support Charles VII and help him claim the French throne. Jeanne led the French army to several key victories, most notably the lifting of the siege of Orl\u00e9ans. She was later captured by the English, tried for heresy, and burned at the stake. Jeanne d'Arc was later canonized as a saint by the Catholic Church.",
+      "similarity": 0.7705505129983035
+    },
+    "query_2": {
+      "query_text": "2. What led to Jeanne d'Arc being known as the \"Maid of Orl\u00e9ans\"?",
+      "best_answer_text": "Jeanne d'Arc was known as the \"Maid of Orl\u00e9ans\" because of her pivotal role in the siege of Orl\u00e9ans during the Hundred Years' War, where she led the French army to victory against the English in 1429.",
+      "similarity": 0.8559003252134877
+    },
+    "query_3": {
+      "query_text": "3. When did Jeanne d'Arc lead the French army in the Hundred Years' War?",
+      "best_answer_text": "Jeanne d'Arc led the French army in the Hundred Years' War from 1429 to 1430.",
+      "similarity": 0.8460426110584564
+    },
+    "query_4": {
+      "query_text": "4. Where did Jeanne d'Arc experience her visions and receive her divine guidance?",
+      "best_answer_text": "Jeanne d'Arc experienced her visions and received her divine guidance in the village of Domr\u00e9my, France.",
+      "similarity": 0.8598805617440346
+    },
+    "query_5": {
+      "query_text": "5. Why was Jeanne d'Arc ultimately captured and tried for heresy?",
+      "best_answer_text": "Jeanne d'Arc was ultimately captured and tried for heresy because she claimed to have received divine guidance from God, which was seen as a challenge to the authority of the church during that time.",
+      "similarity": 0.8287685046735092
+    },
+    "query_6": {
+      "query_text": "6. How did Jeanne d'Arc inspire and influence the French army during her military campaigns?",
+      "best_answer_text": "Jeanne d'Arc inspired and influenced the French army during her military campaigns by boosting morale, providing strategic guidance, and leading with courage and determination.",
+      "similarity": 0.8732704544025958
+    }
+  }
+}
