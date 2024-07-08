@@ -1,0 +1,35 @@
+{
+  "entity": "Jeanne d'Arc",
+  "best_matches": {
+    "query_1": {
+      "query_text": "1. Who was Jeanne d'Arc and what impact did she have on history?",
+      "best_answer_text": "Jeanne d'Arc was tried and executed by the English in 1431 on charges of heresy, witchcraft, and dressing as a man. Jeanne d'Arc's trial was politically motivated as she was seen as a threat to English interests during the Hundred Years' War. Her visions and military successes also challenged the authority of the church and state. The trial was conducted by a pro-English ecclesiastical court, and she was ultimately convicted and burned at the stake. Additionally, Jeanne d'Arc's trial was heavily influenced by powerful figures who saw her as a symbol of resistance and a threat to their control. The English sought to discredit her and undermine her influence by accusing her of heresy and other charges. Despite her tragic end, Jeanne d'Arc's legacy as a courageous and inspirational figure has endured through history.",
+      "similarity": 0.7513747157003101
+    },
+    "query_2": {
+      "query_text": "2. What were the key events in Jeanne d'Arc's life that led to her being known as the Maid of Orl\u00e9ans?",
+      "best_answer_text": "Jeanne d'Arc's key events leading to her being known as the Maid of Orl\u00e9ans include her visions of saints, leading the French army to victory at Orl\u00e9ans, and her role in the crowning of Charles VII as King of France. Additionally, Jeanne d'Arc's trial and eventual execution by the English and their allies in 1431 further solidified her legacy as a national heroine in France. Her courage, faith, and military leadership continue to inspire admiration and fascination worldwide.",
+      "similarity": 0.8385496763730048
+    },
+    "query_3": {
+      "query_text": "3. When did Jeanne d'Arc live and when did she lead the French army to victory at Orl\u00e9ans?",
+      "best_answer_text": "Jeanne d'Arc lived from 1412 to 1431. She led the French army to victory at Orl\u00e9ans in 1429. Jeanne d'Arc, also known as Joan of Arc, played a crucial role in the Hundred Years' War between France and England. She claimed to have received divine guidance to lead the French army to several victories, including the Siege of Orl\u00e9ans. Her actions helped crown Charles VII as the rightful king of France, boosting French morale and turning the tide of the war. Jeanne was eventually captured by the English and their allies, tried for heresy, and executed at the stake in 1431.",
+      "similarity": 0.822483790667756
+    },
+    "query_4": {
+      "query_text": "4. Where was Jeanne d'Arc born and where did she play a pivotal role in the Hundred Years' War?",
+      "best_answer_text": "Jeanne d'Arc was born in Domr\u00e9my, France, and played a pivotal role in the Hundred Years' War in Orl\u00e9ans. Jeanne d'Arc, also known as Joan of Arc, was born around 1412 in Domr\u00e9my, a village in northeastern France. She played a crucial role in the Hundred Years' War by leading the French army to victory in the Siege of Orl\u00e9ans in 1429. This victory boosted French morale and paved the way for Charles VII to be crowned king. Joan of Arc's actions during the war ultimately led to the end of English domination in France.",
+      "similarity": 0.809092503647798
+    },
+    "query_5": {
+      "query_text": "5. Why was Jeanne d'Arc tried and executed by the English in 1431?",
+      "best_answer_text": "Jeanne d'Arc was tried and executed by the English in 1431 on charges of heresy, witchcraft, and dressing as a man. Jeanne d'Arc's trial was politically motivated as she was seen as a threat to English interests during the Hundred Years' War. Her visions and military successes also challenged the authority of the church and state. The trial was conducted by a pro-English ecclesiastical court, and she was ultimately convicted and burned at the stake. Additionally, Jeanne d'Arc's trial was heavily influenced by powerful figures who saw her as a symbol of resistance and a threat to their control. The English sought to discredit her and undermine her influence by accusing her of heresy and other charges. Despite her tragic end, Jeanne d'Arc's legacy as a courageous and inspirational figure has endured through history.",
+      "similarity": 0.7845946578672427
+    },
+    "query_6": {
+      "query_text": "6. How did Jeanne d'Arc become a symbol of French nationalism and a saint in the Catholic Church?",
+      "best_answer_text": "Jeanne d'Arc became a symbol of French nationalism for leading French troops to victory in the Hundred Years' War. She was canonized as a saint by the Catholic Church for her piety and martyrdom. In addition to leading French troops to victory, Jeanne d'Arc claimed to have received divine visions instructing her mission, which further solidified her connection to French nationalism and her eventual canonization as a saint recognized by the Catholic Church. Jeanne d'Arc's trial and eventual martyrdom at the stake by the English further fueled her status as a national hero and symbol of resistance. Her canonization in 1920 reinforced her legacy as a divine figure and solidified her importance in both French history and Catholic faith.",
+      "similarity": 0.8368557647671134
+    }
+  }
+}

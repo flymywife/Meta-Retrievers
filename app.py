@@ -9,6 +9,7 @@ import numpy as np
 from dotenv import load_dotenv, find_dotenv
 import openai
 import traceback
+import tiktoken
 
 # ロギングの設定
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -57,8 +58,42 @@ def generate_5w1h_queries(entity: str) -> Dict[str, str]:
     queries = response.choices[0].message.content.strip().split("\n")
     return {f"query_{i+1}": query.strip() for i, query in enumerate(queries)}
 
+def num_tokens_from_string(string: str, model_name: str) -> int:
+    """文字列のトークン数を計算する"""
+    encoding = tiktoken.encoding_for_model(model_name)
+    num_tokens = len(encoding.encode(string))
+    return num_tokens
+
+def extend_answer(entity: str, query: str, current_answer: str, min_tokens: int, max_tokens: int) -> str:
+    """回答を拡張して最小トークン数を満たす"""
+    current_tokens = num_tokens_from_string(current_answer, "gpt-3.5-turbo")
+    
+    if current_tokens >= min_tokens:
+        return current_answer
+    
+    additional_tokens_needed = min_tokens - current_tokens
+    prompt = f"The following is a partial answer to the question '{query}' about {entity}. Please extend this answer with additional relevant information. Add approximately {additional_tokens_needed} tokens:\n\n{current_answer}"
+    
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "system", "content": "You are a helpful assistant that extends answers with additional relevant information."},
+            {"role": "user", "content": prompt}
+        ],
+        max_tokens=max_tokens - current_tokens,
+        n=1,
+        temperature=0.7,
+    )
+    
+    extended_answer = current_answer + " " + response.choices[0].message.content.strip()
+    
+    # 再帰的に呼び出し、最小トークン数を満たすまで拡張を続ける
+    return extend_answer(entity, query, extended_answer, min_tokens, max_tokens)
+
 def generate_answer(entity: str, query: str, max_tokens: int) -> str:
-    """クエリに対する回答を生成する"""
+    """クエリに対する回答を生成し、必要に応じて拡張する"""
+    min_tokens = max(50, max_tokens - 100)  # 最小トークン数を設定（ただし50未満にはならないようにする）
+    
     prompt = f"Answer the following question about {entity} concisely: {query}"
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
@@ -70,7 +105,9 @@ def generate_answer(entity: str, query: str, max_tokens: int) -> str:
         n=1,
         temperature=0.7,
     )
-    return response.choices[0].message.content.strip()
+    
+    initial_answer = response.choices[0].message.content.strip()
+    return extend_answer(entity, query, initial_answer, min_tokens, max_tokens)
 
 def vectorize(text: str, model: str) -> List[float]:
     """テキストを指定されたモデルでベクトル化する"""
