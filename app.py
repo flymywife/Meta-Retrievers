@@ -11,7 +11,6 @@ import openai
 import traceback
 import tiktoken
 
-# ロギングの設定
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # .env ファイルを探して読み込む
@@ -121,7 +120,7 @@ def cosine_similarity(v1: List[float], v2: List[float]) -> float:
     """2つのベクトル間のコサイン類似度を計算する"""
     return np.dot(v1, v2) / (np.linalg.norm(v1) * np.linalg.norm(v2))
 
-def process_entity(entity: str, embedding_model: str, max_tokens: int) -> Tuple[Dict, Dict, Dict, Dict]:
+def process_entity(entity: str, embedding_model: str, max_tokens: int) -> Tuple[Dict, Dict, Dict, Dict, Dict, Dict]:
     """固有名詞を処理し、クエリ、コーパス、類似度、ベストマッチを生成する"""
     # クエリの生成とベクトル化
     queries = generate_5w1h_queries(entity)
@@ -130,11 +129,17 @@ def process_entity(entity: str, embedding_model: str, max_tokens: int) -> Tuple[
         for key, query in queries.items()
     }
     
+    # ベクターなしのクエリデータ
+    queries_data_no_vector = {key: {"text": query} for key, query in queries.items()}
+    
     # 各クエリに対する回答の生成とベクトル化
     corpus_data = {
         key: {"text": generate_answer(entity, query, max_tokens), "vector": vectorize(generate_answer(entity, query, max_tokens), embedding_model)}
         for key, query in queries.items()
     }
+    
+    # ベクターなしのコーパスデータ
+    corpus_data_no_vector = {key: {"text": data["text"]} for key, data in corpus_data.items()}
     
     # 類似度の計算（クエリとアンサーの間）
     similarities_data = {}
@@ -156,20 +161,25 @@ def process_entity(entity: str, embedding_model: str, max_tokens: int) -> Tuple[
             "similarity": max_similarity
         }
     
-    return queries_data, corpus_data, similarities_data, best_matches_data
+    return queries_data, corpus_data, similarities_data, best_matches_data, queries_data_no_vector, corpus_data_no_vector
+
 
 def gradio_interface(entity: str, embedding_model: str, max_tokens: int) -> Tuple[str, str, str, str]:
     """Gradioインターフェース用の関数"""
     try:
         logging.info(f"Processing entity: {entity} with model: {embedding_model} and max tokens: {max_tokens}")
         
-        queries_data, corpus_data, similarities_data, best_matches_data = process_entity(entity, embedding_model, max_tokens)
+        queries_data, corpus_data, similarities_data, best_matches_data, queries_data_no_vector, corpus_data_no_vector = process_entity(entity, embedding_model, max_tokens)
         
         # Save data to separate JSON files with timestamps in the history/model_name folder
         save_json_file({"entity": entity, "queries": queries_data}, "queries", embedding_model, max_tokens)
         save_json_file({"entity": entity, "corpus": corpus_data}, "corpus", embedding_model, max_tokens)
         save_json_file({"entity": entity, "similarities": similarities_data}, "similarities", embedding_model, max_tokens)
         save_json_file({"entity": entity, "best_matches": best_matches_data}, "best_matches", embedding_model, max_tokens)
+        
+        # Save vector-less versions
+        save_json_file({"entity": entity, "queries": queries_data_no_vector}, f"queries_for_{entity}", embedding_model, max_tokens)
+        save_json_file({"entity": entity, "corpus": corpus_data_no_vector}, f"corpus_for_{entity}", embedding_model, max_tokens)
         
         # Prepare output for Gradio interface
         queries_and_answers_text = f"Generated 5W1H Queries and Answers for '{entity}' using {embedding_model} (max tokens: {max_tokens}):\n\n"
