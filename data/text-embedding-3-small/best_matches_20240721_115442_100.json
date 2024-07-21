@@ -1,0 +1,35 @@
+{
+  "entity": "Jeanne d'Arc",
+  "best_matches": {
+    "query_1": {
+      "query_text": "Who was Jeanne d'Arc and what roles did she play during the Hundred Years' War?",
+      "best_answer_text": "Jeanne d'Arc, also known as Joan of Arc, was a French peasant girl born around 1412 who became a key figure in the Hundred Years' War between France and England. Claiming to have received divine visions, she played a crucial role as a military leader, inspiring French troops and leading them to several important victories, most notably the lifting of the Siege of Orl\u00e9ans in 1429. Her efforts helped pave the way for the coronation of Charles VII as King",
+      "similarity": 0.8059056371011917
+    },
+    "query_2": {
+      "query_text": "What significant events led to Jeanne d'Arc's rise as a key figure in French history?",
+      "best_answer_text": "Jeanne d'Arc, or Joan of Arc, rose as a key figure in French history due to several significant events:\n\n1. **Visions and Revelations (1425)**: At around 13 years old, she began experiencing visions and hearing voices, which she believed were messages from saints instructing her to support Charles VII and help reclaim France from English occupation.\n\n2. **Meeting Charles VII (1429)**: Jeanne gained an audience with Charles VII, convincing him of her divine mission",
+      "similarity": 0.8579251272423896
+    },
+    "query_3": {
+      "query_text": "When was Jeanne d'Arc captured, and what were the circumstances surrounding her arrest?",
+      "best_answer_text": "Jeanne d'Arc was captured on May 23, 1430. She was taken prisoner during a military campaign when she and her forces attempted to relieve the besieged city of Compi\u00e8gne. During a skirmish, she was surrounded by Burgundian troops and ultimately captured after being separated from her troops. The Burgundians sold her to the English, who were at war with France.",
+      "similarity": 0.8091608980613102
+    },
+    "query_4": {
+      "query_text": "Where did Jeanne d'Arc claim to receive her visions that inspired her to lead the French army?",
+      "best_answer_text": "Jeanne d'Arc claimed to receive her visions in her hometown of Domr\u00e9my, France, and later at the nearby village of Vaucouleurs. Jeanne d'Arc claimed to receive her visions in her hometown of Domr\u00e9my, France, and later at the nearby village of Vaucouleurs. These divine messages, she believed, were from saints, urging her to support Charles VII and reclaim France from English occupation.",
+      "similarity": 0.8334316580112389
+    },
+    "query_5": {
+      "query_text": "Why is Jeanne d'Arc considered a national heroine in France and a symbol of courage?",
+      "best_answer_text": "Jeanne d'Arc is considered a national heroine in France and a symbol of courage because she led French forces to several important victories during the Hundred Years' War, notably the lifting of the Siege of Orl\u00e9ans. Her unwavering faith and determination, despite being a young peasant girl, inspired the French to rally against English occupation. Captured and executed at a young age, she became a martyr and symbol of French unity and nationalism, ultimately being canonized as a saint.",
+      "similarity": 0.8341348221407798
+    },
+    "query_6": {
+      "query_text": "How did Jeanne d'Arc's actions impact the outcome of the Hundred Years' War?",
+      "best_answer_text": "Jeanne d'Arc's actions significantly boosted French morale and unity during the Hundred Years' War. Her leadership and vision inspired French troops, leading to key victories, particularly the lifting of the Siege of Orl\u00e9ans in 1429. This turnaround helped pave the way for the coronation of Charles VII and revitalized the French cause, ultimately contributing to the decline of English power in France and influencing the war's outcome in favor of the French.",
+      "similarity": 0.8606185727367919
+    }
+  }
+}

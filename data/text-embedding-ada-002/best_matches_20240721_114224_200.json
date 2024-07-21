@@ -1,0 +1,35 @@
+{
+  "entity": "Jeanne d'Arc",
+  "best_matches": {
+    "query_1": {
+      "query_text": "Who was Jeanne d'Arc and what role did she play in the Hundred Years' War?",
+      "best_answer_text": "Jeanne d'Arc, also known as Joan of Arc, was a French peasant girl who claimed to have received visions from saints instructing her to support Charles VII and drive the English out of France during the Hundred Years' War. She played a crucial role in lifting the siege of Orl\u00e9ans in 1429, which boosted French morale and led to Charles VII's coronation. Her leadership and inspiration were pivotal in revitalizing the French campaign against English forces. She was captured in 1430, tried for heresy, and executed in 1431, later becoming a symbol of French unity and nationalism.",
+      "similarity": 0.9141398683625428
+    },
+    "query_2": {
+      "query_text": "What were the key events that led to Jeanne d'Arc's rise to prominence in France?",
+      "best_answer_text": "The key events that led to Jeanne d'Arc's rise to prominence in France include:\n\n1. **Divine Visions (1425-1429)**: Jeanne claimed to have received visions from saints instructing her to support Charles VII and drive the English out of France.\n2. **Meeting Charles VII (1429)**: She gained an audience with Charles VII, convincing him of her divine mission and securing his support.\n3. **Siege of Orl\u00e9ans (1429)**: Jeanne played a crucial role in lifting the siege, which was a turning point in the Hundred Years' War and significantly boosted French morale.\n4. **Charles VII's Coronation (July 1429)**: Jeanne accompanied Charles to Reims, where he was crowned king, further legitimizing her role and influence.\n5. **Military Campaigns**: Following the coronation, she participated in several military campaigns, although subsequent defeats led to her capture.\n\nThese events established her as a national heroine and",
+      "similarity": 0.9412909835572574
+    },
+    "query_3": {
+      "query_text": "When did Jeanne d'Arc first claim to receive divine guidance and how did it influence her actions?",
+      "best_answer_text": "Jeanne d'Arc first claimed to receive divine guidance around 1425, when she reported hearing voices from saints, including Saint Michael, Saint Catherine, and Saint Margaret. This divine guidance influenced her actions by motivating her to support Charles VII, leading to her role in lifting the siege of Orl\u00e9ans in 1429 and ultimately contributing to his coronation as king. Jeanne d'Arc first claimed to receive divine guidance around 1425, when she reported hearing voices from saints, including Saint Michael, Saint Catherine, and Saint Margaret. This divine guidance influenced her actions by motivating her to support Charles VII, leading to her role in lifting the siege of Orl\u00e9ans in 1429 and ultimately contributing to his coronation as king. Her unwavering faith and conviction also inspired her troops, instilling a sense of purpose and hope during a time of despair for France.",
+      "similarity": 0.9411447419764128
+    },
+    "query_4": {
+      "query_text": "Where did Jeanne d'Arc lead the French army to victory against the English forces?",
+      "best_answer_text": "Jeanne d'Arc led the French army to victory at the Siege of Orl\u00e9ans. Jeanne d'Arc led the French army to victory at the Siege of Orl\u00e9ans in 1429, a pivotal moment in the Hundred Years' War. Her leadership and inspirational presence galvanized French troops, lifting their spirits and morale. The siege lasted from October 1428 to May 1429, and Jeanne's involvement was crucial in breaking the English blockade. Following this victory, she played a significant role in the coronation of Charles VII at Reims, further solidifying her impact on French history and national identity. Jeanne was later captured by the Burgundians in 1430 and ultimately executed, becoming a martyr and symbol of French unity.",
+      "similarity": 0.941281168496422
+    },
+    "query_5": {
+      "query_text": "Why was Jeanne d'Arc ultimately captured and tried by the English and their allies?",
+      "best_answer_text": "Jeanne d'Arc was ultimately captured and tried by the English and their allies because she played a crucial role in rallying French forces during the Hundred Years' War, leading to significant victories against the English. Her capture in 1430 occurred during a military campaign when she was besieged at Compi\u00e8gne. The English sought to discredit her and undermine French morale, leading to her trial for charges including heresy and witchcraft. Jeanne d'Arc was ultimately captured and tried by the English and their allies because she played a crucial role in rallying French forces during the Hundred Years' War, leading to significant victories against the English. Her capture in 1430 occurred during a military campaign when she was besieged at Compi\u00e8gne. The English sought to discredit her and undermine French morale, leading to her trial for charges including heresy and witchcraft. Additionally, her claims of divine guidance and her unique position as a female military leader challenged contemporary gender norms",
+      "similarity": 0.9388203163071428
+    },
+    "query_6": {
+      "query_text": "How did Jeanne d'Arc's legacy continue to impact French national identity after her death?",
+      "best_answer_text": "Jeanne d'Arc's legacy significantly shaped French national identity by symbolizing courage, patriotism, and the fight for justice. Her martyrdom and canonization in 1920 reinforced her status as a national heroine. She became a unifying figure during times of crisis, such as the World Wars, and her image has been used to inspire national pride and resilience, making her an enduring symbol of France's spirit and history. Jeanne d'Arc's legacy significantly shaped French national identity by symbolizing courage, patriotism, and the fight for justice. Her martyrdom and canonization in 1920 reinforced her status as a national heroine. She became a unifying figure during times of crisis, such as the World Wars, and her image has been used to inspire national pride and resilience, making her an enduring symbol of France's spirit and history. Additionally, her story has been celebrated in literature, art, and film, further embedding her influence in French culture and identity.",
+      "similarity": 0.9297027162779946
+    }
+  }
+}

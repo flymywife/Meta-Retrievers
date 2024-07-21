@@ -1,0 +1,35 @@
+{
+  "entity": "Jeanne d'Arc",
+  "best_matches": {
+    "query_1": {
+      "query_text": "Who was Jeanne d'Arc and what role did she play in the Hundred Years' War?",
+      "best_answer_text": "Jeanne d'Arc, or Joan of Arc, is considered a national heroine in France because she played a pivotal role in the Hundred Years' War, leading French troops to several important victories and rallying national pride. Her unwavering faith in her divine mission and her martyrdom after being captured and executed for her beliefs further solidified her status as a symbol of courage and faith. She embodies the struggle for justice and national identity, making her an enduring figure in French history and culture.",
+      "similarity": 0.9131789058625183
+    },
+    "query_2": {
+      "query_text": "What were the key events that led to Jeanne d'Arc's trial and execution?",
+      "best_answer_text": "Key events leading to Jeanne d'Arc's trial and execution include:\n\n1. **Military Successes (1429)**: Jeanne d'Arc played a pivotal role in lifting the Siege of Orl\u00e9ans and securing the coronation of Charles VII as King of France, which elevated her status and made her a target.\n\n2. **Capture (1430)**: Jeanne was captured by Burgundian forces during a military campaign at Compi\u00e8gne and later handed over to the English.\n\n3.",
+      "similarity": 0.9321178415046056
+    },
+    "query_3": {
+      "query_text": "When did Jeanne d'Arc become a prominent figure in the French military, and what significant battles did she lead?",
+      "best_answer_text": "Jeanne d'Arc became a prominent figure in the French military in 1429. She is best known for leading the French forces to victory at the Siege of Orl\u00e9ans and playing a crucial role in the subsequent coronation of Charles VII at Reims.",
+      "similarity": 0.9276368260459692
+    },
+    "query_4": {
+      "query_text": "Where did Jeanne d'Arc experience her visions that inspired her to support Charles VII and fight for France?",
+      "best_answer_text": "Jeanne d'Arc experienced her visions in her hometown of Domr\u00e9my, France. Jeanne d'Arc experienced her visions in her hometown of Domr\u00e9my, France, particularly around the age of 13. These divine revelations, which she believed were messages from saints like Michael, Catherine, and Margaret, inspired her to support Charles VII and fight for France during the Hundred Years' War.",
+      "similarity": 0.9343794173776974
+    },
+    "query_5": {
+      "query_text": "Why is Jeanne d'Arc considered a national heroine in France and a symbol of courage and faith?",
+      "best_answer_text": "Jeanne d'Arc, or Joan of Arc, is considered a national heroine in France because she played a pivotal role in the Hundred Years' War, leading French troops to several important victories and rallying national pride. Her unwavering faith in her divine mission and her martyrdom after being captured and executed for her beliefs further solidified her status as a symbol of courage and faith. She embodies the struggle for justice and national identity, making her an enduring figure in French history and culture.",
+      "similarity": 0.9363967930074957
+    },
+    "query_6": {
+      "query_text": "How did Jeanne d'Arc's actions and leadership influence the outcome of the Hundred Years' War?",
+      "best_answer_text": "Jeanne d'Arc, also known as Joan of Arc, significantly influenced the outcome of the Hundred Years' War by inspiring French troops and boosting morale. Her leadership during key battles, particularly the Siege of Orl\u00e9ans in 1429, helped turn the tide in favor of the French. She played a crucial role in the coronation of Charles VII, which solidified his legitimacy and rallied support for the French cause. Her actions revitalized French nationalism and contributed to the eventual defeat of the English",
+      "similarity": 0.9333428786507262
+    }
+  }
+}
