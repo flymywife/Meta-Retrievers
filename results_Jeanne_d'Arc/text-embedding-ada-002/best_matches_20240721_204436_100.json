@@ -1,0 +1,41 @@
+{
+  "entity": "Jeanne d'Arc",
+  "best_matches": {
+    "query_1": {
+      "query_text": "Who was Jeanne d'Arc and what role did she play in the Hundred Years' War?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "Jeanne d'Arc, also known as Joan of Arc, was a French peasant girl born around 1412 who claimed to have received visions from saints instructing her to support Charles VII and drive the English out of France during the Hundred Years' War. She played a crucial role by leading French forces to several important victories, most notably the Siege of Orl\u00e9ans in 1429, which boosted French morale and paved the way for Charles VII's coronation. Captured by the Burg",
+      "cosine_similarity": 0.9104897095505495
+    },
+    "query_2": {
+      "query_text": "What were the key events that led to Jeanne d'Arc's trial and execution?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "Key events leading to Jeanne d'Arc's trial and execution include:\n\n1. **Military Successes (1429)**: Jeanne d'Arc, claiming divine guidance, led French forces to key victories, including the Siege of Orl\u00e9ans, boosting French morale and leading to Charles VII's coronation.\n\n2. **Capture (1430)**: Jeanne was captured by Burgundian forces during a military campaign at Compi\u00e8gne.\n\n3. **Handing Over to the English**: The",
+      "cosine_similarity": 0.9299001292124873
+    },
+    "query_3": {
+      "query_text": "When did Jeanne d'Arc first claim to have received visions from saints directing her to support Charles VII?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Jeanne d'Arc first claimed to have received visions from saints in 1425. Jeanne d'Arc first claimed to have received visions from saints in 1425, specifically identifying Saint Michael, Saint Catherine, and Saint Margaret as her divine guides. These visions compelled her to support Charles VII in his quest for the French throne, ultimately leading to her pivotal role in the Hundred Years' War.",
+      "cosine_similarity": 0.9440709513730393
+    },
+    "query_4": {
+      "query_text": "Where did Jeanne d'Arc achieve her most significant military victory, and what impact did it have on the war?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "Jeanne d'Arc achieved her most significant military victory at the Siege of Orl\u00e9ans in 1429. This victory boosted French morale, rallied support for Charles VII, and marked a turning point in the Hundred Years' War, leading to the eventual coronation of Charles VII as king of France.",
+      "cosine_similarity": 0.9211527009453024
+    },
+    "query_5": {
+      "query_text": "Why is Jeanne d'Arc considered a national heroine in France and how has her legacy influenced French culture?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Jeanne d'Arc, or Joan of Arc, is considered a national heroine in France for her pivotal role in the Hundred Years' War, where she inspired French troops and played a key part in the coronation of Charles VII. Her bravery and leadership galvanized French nationalism and resistance against English occupation. \n\nHer legacy has profoundly influenced French culture, symbolizing courage, faith, and patriotism. She has been immortalized in literature, art, and film, and her story continues to inspire movements for",
+      "cosine_similarity": 0.9297836370991056
+    },
+    "query_6": {
+      "query_text": "How did Jeanne d'Arc's background and upbringing shape her beliefs and actions during her lifetime?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "Jeanne d'Arc, born around 1412 in Domr\u00e9my, France, was raised in a peasant family during the Hundred Years' War. Her strong religious upbringing, influenced by the Catholic faith and visions of saints, instilled a deep sense of purpose and divine mission. The socio-political turmoil of her environment, particularly the suffering of her country under English occupation, fueled her desire to support Charles VII and restore French sovereignty. These factors combined shaped her belief in her divine calling to",
+      "cosine_similarity": 0.9194003086531582
+    }
+  }
+}

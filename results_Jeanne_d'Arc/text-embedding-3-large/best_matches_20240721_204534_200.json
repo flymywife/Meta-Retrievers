@@ -1,0 +1,41 @@
+{
+  "entity": "Jeanne d'Arc",
+  "best_matches": {
+    "query_1": {
+      "query_text": "Who was Jeanne d'Arc and what role did she play in the Hundred Years' War?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "Jeanne d'Arc, also known as Joan of Arc, was a French peasant girl who claimed to have received visions from saints instructing her to support Charles VII and help drive the English out of France during the Hundred Years' War. She played a crucial role by leading French troops to several important victories, most notably the lifting of the siege of Orl\u00e9ans in 1429, which boosted French morale and paved the way for Charles VII's coronation. She was captured by the Burgundians in 1430, handed over to the English, and executed in 1431. Joan is considered a national heroine of France and was canonized as a saint in 1920.",
+      "cosine_similarity": 0.7300302867351527
+    },
+    "query_2": {
+      "query_text": "What were the key events in Jeanne d'Arc's life that led to her becoming a national heroine of France?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "Key events in Jeanne d'Arc's life that led to her becoming a national heroine of France include:\n\n1. **Visions and Voices (1425)**: At around 13 years old, she began experiencing visions and hearing voices, which she believed were messages from saints instructing her to support Charles VII and drive the English out of France.\n\n2. **Meeting Charles VII (1429)**: Jeanne gained an audience with Charles VII, convincing him of her divine mission and securing his support for her campaign.\n\n3. **Relief of Orl\u00e9ans (May 1429)**: Leading the French army, she played a crucial role in the successful siege of Orl\u00e9ans, which marked a turning point in the Hundred Years' War.\n\n4. **Coronation of Charles VII (July 1429)**: Jeanne accompanied Charles to Reims, where he was crowned king, symbolizing the restoration of French sovereignty.\n\n5. **Capture and Trial (1430-1431)**:",
+      "cosine_similarity": 0.8550562739367663
+    },
+    "query_3": {
+      "query_text": "When did Jeanne d'Arc first claim to have received visions from saints instructing her to support Charles VII?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Jeanne d'Arc first claimed to have received visions from saints in 1425. Jeanne d'Arc first claimed to have received visions from saints in 1425, specifically stating that she was instructed to support Charles VII, the Dauphin of France, in his quest to reclaim the French throne during the Hundred Years' War. These visions, which included appearances by Saint Michael, Saint Catherine, and Saint Margaret, were pivotal in shaping her mission. By 1429, she had gained the confidence of Charles VII, leading to her significant involvement in the Siege of Orl\u00e9ans, which marked a turning point in the war and solidified her role as a national heroine. Her actions and faith inspired many, ultimately contributing to Charles VII's coronation in Reims.",
+      "cosine_similarity": 0.8198876479120814
+    },
+    "query_4": {
+      "query_text": "Where did Jeanne d'Arc lead French troops to victory, significantly impacting the course of the Hundred Years' War?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "Jeanne d'Arc led French troops to victory at the Siege of Orl\u00e9ans. Jeanne d'Arc led French troops to victory at the Siege of Orl\u00e9ans in May 1429, a pivotal moment in the Hundred Years' War. Her leadership and inspiration rallied the French forces, lifting the siege that had lasted for nearly seven months. This victory not only boosted French morale but also paved the way for the coronation of Charles VII in Reims, further solidifying his claim to the throne. Jeanne's role as a symbol of hope and national unity was crucial, and her actions helped to turn the tide in favor of the French against the English forces.",
+      "cosine_similarity": 0.761557028601114
+    },
+    "query_5": {
+      "query_text": "Why was Jeanne d'Arc ultimately captured and tried by the English and their allies?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Jeanne d'Arc was ultimately captured and tried by the English and their allies because she was leading French troops to victories against the English during the Hundred Years' War, which threatened English control in France. After being captured at Compi\u00e8gne in 1430, she was handed over to the English, who sought to discredit her and undermine French morale. They put her on trial for charges including heresy and witchcraft, ultimately resulting in her execution. Jeanne d'Arc was ultimately captured and tried by the English and their allies because she was leading French troops to victories against the English during the Hundred Years' War, which threatened English control in France. After being captured at Compi\u00e8gne in 1430, she was handed over to the English, who sought to discredit her and undermine French morale. They put her on trial for charges including heresy and witchcraft, ultimately resulting in her execution. Her trial was politically motivated, aimed at delegitimizing her influence and",
+      "cosine_similarity": 0.8446612374037273
+    },
+    "query_6": {
+      "query_text": "How did Jeanne d'Arc's actions and beliefs influence the morale and unity of the French forces during the war?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "Jeanne d'Arc, or Joan of Arc, significantly boosted the morale and unity of the French forces during the Hundred Years' War through her charismatic leadership, unwavering faith, and symbolic representation of French nationalism. Her belief in divine guidance inspired soldiers and common people alike, galvanizing them to rally behind her cause. Her successful military campaigns, particularly the lifting of the Siege of Orl\u00e9ans in 1429, revitalized French hopes and contributed to a sense of purpose and cohesion among the troops, ultimately leading to a resurgence in the French fight against English occupation.",
+      "cosine_similarity": 0.8482547549363372
+    }
+  }
+}
