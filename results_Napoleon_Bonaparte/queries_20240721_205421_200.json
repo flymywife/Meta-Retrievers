@@ -1,0 +1,23 @@
+{
+  "entity": "Napoleon Bonaparte",
+  "queries": {
+    "query_1": {
+      "text": "Who was Napoleon Bonaparte, and what were the key events that defined his rise to power in France?"
+    },
+    "query_2": {
+      "text": "What were the major reforms implemented by Napoleon during his rule, and how did they impact French society?"
+    },
+    "query_3": {
+      "text": "When did Napoleon Bonaparte become Emperor of the French, and what were the circumstances surrounding his coronation?"
+    },
+    "query_4": {
+      "text": "Where did Napoleon Bonaparte spend his final years after his abdication, and what were the conditions of his exile?"
+    },
+    "query_5": {
+      "text": "Why did Napoleon's invasion of Russia in 1812 end in disaster, and what were the consequences of this military campaign?"
+    },
+    "query_6": {
+      "text": "How did Napoleon Bonaparte's military strategies influence modern warfare and the tactics used by future leaders?"
+    }
+  }
+}
