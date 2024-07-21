@@ -1,0 +1,41 @@
+{
+  "entity": "Abraham Lincoln",
+  "best_matches": {
+    "query_1": {
+      "query_text": "Who was Abraham Lincoln and what were his major contributions to American history?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "Abraham Lincoln was the 16th President of the United States, serving from 1861 to 1865. His major contributions to American history include leading the country during the Civil War, preserving the Union, and working to end slavery. He issued the Emancipation Proclamation in 1863, which declared the freedom of slaves in Confederate states, and he promoted the passage of the Thirteenth Amendment, which abolished slavery in the United States. Lincoln is also remembered for his speeches,",
+      "cosine_similarity": 0.8831159615385743
+    },
+    "query_2": {
+      "query_text": "What significant events occurred during Abraham Lincoln's presidency that shaped the nation?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "During Abraham Lincoln's presidency (1861-1865), significant events included the Civil War, the issuance of the Emancipation Proclamation in 1863, the Gettysburg Address, and the passage of the Thirteenth Amendment, which abolished slavery. These events were pivotal in shaping the nation's trajectory toward unity and civil rights.",
+      "cosine_similarity": 0.9201046627437767
+    },
+    "query_3": {
+      "query_text": "When did Abraham Lincoln deliver the Gettysburg Address, and why is it considered a pivotal moment in American history?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Abraham Lincoln delivered the Gettysburg Address on November 19, 1863, during the dedication of the Soldiers' National Cemetery in Gettysburg, Pennsylvania. It is considered a pivotal moment in American history because it redefined the purpose of the Civil War, emphasizing equality, national unity, and the principle of government \"of the people, by the people, for the people,\" thereby reinforcing the ideals of democracy and human rights.",
+      "cosine_similarity": 0.9150937507055924
+    },
+    "query_4": {
+      "query_text": "Where was Abraham Lincoln born, and how did his upbringing influence his political career?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "Abraham Lincoln was born on February 12, 1809, in Hardin County, Kentucky (now LaRue County). His upbringing in a poor, rural environment instilled in him a strong work ethic, a belief in self-improvement, and an understanding of the struggles of common people. These experiences shaped his empathy and commitment to issues like equality and democracy, which influenced his political career and policies as President.",
+      "cosine_similarity": 0.8934859694401079
+    },
+    "query_5": {
+      "query_text": "Why did Abraham Lincoln issue the Emancipation Proclamation, and what impact did it have on the Civil War?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Abraham Lincoln issued the Emancipation Proclamation on January 1, 1863, primarily to weaken the Confederacy's war effort by freeing enslaved people in the rebellious states. It aimed to turn the Civil War into a fight against slavery, bolstering the Union's moral cause and allowing for the enlistment of Black soldiers in the Union Army. The proclamation transformed the nature of the war, making it not just a battle for the Union, but also for freedom, and it helped",
+      "cosine_similarity": 0.908281675851084
+    },
+    "query_6": {
+      "query_text": "How did Abraham Lincoln's leadership style differ from that of his predecessors and successors during times of national crisis?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "Abraham Lincoln's leadership style during national crises was characterized by a combination of empathy, pragmatism, and a willingness to embrace diverse viewpoints. Unlike some of his predecessors and successors, he actively sought input from a \"team of rivals,\" incorporating differing opinions into his decision-making process. Lincoln emphasized unity and moral purpose, particularly in the context of the Civil War, while balancing strong executive action with a commitment to democratic principles. This approach fostered collaboration and resilience, distinguishing him from leaders who may have",
+      "cosine_similarity": 0.9200839765339552
+    }
+  }
+}

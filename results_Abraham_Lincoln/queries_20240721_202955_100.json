@@ -1,0 +1,23 @@
+{
+  "entity": "Abraham Lincoln",
+  "queries": {
+    "query_1": {
+      "text": "Who was Abraham Lincoln and what were his major contributions to American history?"
+    },
+    "query_2": {
+      "text": "What significant events occurred during Abraham Lincoln's presidency that shaped the nation?"
+    },
+    "query_3": {
+      "text": "When did Abraham Lincoln deliver the Gettysburg Address, and why is it considered a pivotal moment in American history?"
+    },
+    "query_4": {
+      "text": "Where was Abraham Lincoln born, and how did his upbringing influence his political career?"
+    },
+    "query_5": {
+      "text": "Why did Abraham Lincoln issue the Emancipation Proclamation, and what impact did it have on the Civil War?"
+    },
+    "query_6": {
+      "text": "How did Abraham Lincoln's leadership style differ from that of his predecessors and successors during times of national crisis?"
+    }
+  }
+}

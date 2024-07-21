@@ -1,0 +1,23 @@
+{
+  "entity": "Abraham Lincoln",
+  "queries": {
+    "query_1": {
+      "text": "Who was Abraham Lincoln and what were his most significant contributions to American history?"
+    },
+    "query_2": {
+      "text": "What major events and policies did Abraham Lincoln implement during his presidency?"
+    },
+    "query_3": {
+      "text": "When did Abraham Lincoln serve as the 16th President of the United States, and what were the key milestones of his administration?"
+    },
+    "query_4": {
+      "text": "Where did Abraham Lincoln deliver his famous Gettysburg Address, and what was the significance of that location?"
+    },
+    "query_5": {
+      "text": "Why is Abraham Lincoln often regarded as one of the greatest presidents in American history?"
+    },
+    "query_6": {
+      "text": "How did Abraham Lincoln's leadership during the Civil War impact the future of the United States?"
+    }
+  }
+}
