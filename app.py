@@ -53,7 +53,7 @@ def generate_5w1h_queries(entity: str) -> Dict[str, str]:
         ],
         max_tokens=200,
         n=1,
-        temperature=0.7,
+        temperature=0.5,
     )
     
     content = response.choices[0].message.content.strip()
@@ -131,7 +131,7 @@ def preprocess_text(text: str) -> str:
     text = ' '.join(text.split())
     return text
 
-def calculate_bm25_scores(queries: Dict, corpus: Dict) -> Dict[str, Dict[str, float]]:
+def calculate_bm25_scores(queries: Dict, corpus: Dict) -> Tuple[Dict[str, Dict[str, float]], Dict]:
     query_texts = [item['text'] for item in queries.values()]
     answer_texts = [item['text'] for item in corpus.values()]
     
@@ -142,14 +142,39 @@ def calculate_bm25_scores(queries: Dict, corpus: Dict) -> Dict[str, Dict[str, fl
     bm25 = BM25Okapi(tokenized_answers)
 
     scores = {}
+    best_matches = {}
     for query_key, query in zip(queries.keys(), preprocessed_queries):
         query_tokens = query.split()
         query_scores = bm25.get_scores(query_tokens)
         scores[query_key] = {f"answer_{i+1}": float(score) for i, score in enumerate(query_scores)}
+        
+        best_answer_key = max(scores[query_key], key=scores[query_key].get)
+        best_score = scores[query_key][best_answer_key]
+        best_matches[query_key] = {
+            "query_text": queries[query_key]["text"],
+            "best_answer_key": best_answer_key,
+            "best_answer_text": corpus[best_answer_key]["text"],
+            "bm25_score": best_score
+        }
     
-    return scores
+    return scores, best_matches
 
-def process_entity(entity: str, max_tokens: int) -> Tuple[Dict, Dict, Dict, Dict]:
+def find_best_matches(queries_data, corpus_data, embedding_results):
+    best_matches = {}
+    for model, similarities in embedding_results.items():
+        best_matches[model] = {}
+        for query_key, query_similarities in similarities.items():
+            best_answer_key = max(query_similarities, key=query_similarities.get)
+            best_similarity = query_similarities[best_answer_key]
+            best_matches[model][query_key] = {
+                "query_text": queries_data[query_key]["text"],
+                "best_answer_key": best_answer_key,
+                "best_answer_text": corpus_data[best_answer_key]["text"],
+                "cosine_similarity": best_similarity
+            }
+    return best_matches
+
+def process_entity(entity: str, max_tokens: int) -> Tuple[Dict, Dict, Dict, Dict, Dict, Dict]:
     # エンティティ名を含む結果フォルダ名を作成
     RESULTS_FOLDER = f"results_{entity.replace(' ', '_')}"
     os.makedirs(RESULTS_FOLDER, exist_ok=True)
@@ -210,16 +235,25 @@ def process_entity(entity: str, max_tokens: int) -> Tuple[Dict, Dict, Dict, Dict
     # Process for BM25
     bm25_folder = os.path.join(RESULTS_FOLDER, "BM25")
     os.makedirs(bm25_folder, exist_ok=True)
-    bm25_scores = calculate_bm25_scores(queries_data, corpus_data)
+    bm25_scores, bm25_best_matches = calculate_bm25_scores(queries_data, corpus_data)
     save_json_file({"entity": entity, "scores": bm25_scores}, "scores", bm25_folder, max_tokens)
+    save_json_file({"entity": entity, "best_matches": bm25_best_matches}, "best_matches", bm25_folder, max_tokens)
     
-    return queries_data, corpus_data, embedding_results, bm25_scores
+    # Find and save best matches for each model
+    best_matches = find_best_matches(queries_data, corpus_data, embedding_results)
+    for model, model_best_matches in best_matches.items():
+        model_folder = os.path.join(RESULTS_FOLDER, model)
+        save_json_file({"entity": entity, "best_matches": model_best_matches}, 
+                       "best_matches", model_folder, max_tokens)
+    
+    return queries_data, corpus_data, embedding_results, bm25_scores, best_matches, bm25_best_matches
 
-def integrated_interface(entity: str, max_tokens: int) -> Tuple[str, str, str, str]:
+
+def integrated_interface(entity: str, max_tokens: int) -> Tuple[str, str, str, str, str]:
     try:
         logging.info(f"Processing entity: {entity} with max tokens: {max_tokens}")
         
-        queries_data, corpus_data, embedding_results, bm25_scores = process_entity(entity, max_tokens)
+        queries_data, corpus_data, embedding_results, bm25_scores, best_matches, bm25_best_matches = process_entity(entity, max_tokens)
         
         queries_and_answers_text = f"Generated 5W1H Queries and Answers for '{entity}' (max tokens: {max_tokens}):\n\n"
         for query_key, query_data in queries_data.items():
@@ -243,13 +277,29 @@ def integrated_interface(entity: str, max_tokens: int) -> Tuple[str, str, str, s
                 bm25_summary += f"  {answer_key}: {score:.4f}\n"
             bm25_summary += "\n"
         
+        best_matches_summary = "\nBest Matches:\n"
+        for model, model_best_matches in best_matches.items():
+            best_matches_summary += f"\n{model}:\n"
+            for query_key, match_data in model_best_matches.items():
+                best_matches_summary += f"{query_key}:\n"
+                best_matches_summary += f"  Query: {match_data['query_text']}\n"
+                best_matches_summary += f"  Best Answer ({match_data['best_answer_key']}): {match_data['best_answer_text']}\n"
+                best_matches_summary += f"  Cosine Similarity: {match_data['cosine_similarity']:.4f}\n\n"
+        
+        best_matches_summary += "\nBM25 Best Matches:\n"
+        for query_key, match_data in bm25_best_matches.items():
+            best_matches_summary += f"{query_key}:\n"
+            best_matches_summary += f"  Query: {match_data['query_text']}\n"
+            best_matches_summary += f"  Best Answer ({match_data['best_answer_key']}): {match_data['best_answer_text']}\n"
+            best_matches_summary += f"  BM25 Score: {match_data['bm25_score']:.4f}\n\n"
+
         logging.info("Entity processing completed successfully")
-        return queries_and_answers_text, embedding_summary, bm25_summary, json.dumps({"entity": entity, "embedding_results": embedding_results, "bm25_scores": bm25_scores}, indent=2)
+        return queries_and_answers_text, embedding_summary, bm25_summary, best_matches_summary, json.dumps({"entity": entity, "embedding_results": embedding_results, "bm25_scores": bm25_scores, "best_matches": best_matches, "bm25_best_matches": bm25_best_matches}, indent=2)
     except Exception as e:
         error_message = f"An unexpected error occurred: {str(e)}"
         logging.error(error_message)
         logging.error(traceback.format_exc())
-        return error_message, "", "", "{}"
+        return error_message, "", "", "", "{}"
 
 iface = gr.Interface(
     fn=integrated_interface,
@@ -261,10 +311,11 @@ iface = gr.Interface(
         gr.Textbox(label="Generated Queries and Answers"),
         gr.Textbox(label="Embedding-based Similarities Summary"),
         gr.Textbox(label="BM25 Scores Summary"),
+        gr.Textbox(label="Best Matches Summary"),
         gr.JSON(label="Detailed Results")
     ],
-    title="Integrated 5W1H RAG Model with Multiple Embedding Models and BM25",
-    description="Enter an entity and set the maximum tokens for answers. This will generate 5W1H queries, answers, calculate similarities using multiple embedding models, and perform BM25 scoring."
+    title="Integrated 5W1H RAG Model with Multiple Embedding Models, BM25, and Best Matches",
+    description="Enter an entity and set the maximum tokens for answers. This will generate 5W1H queries, answers, calculate similarities using multiple embedding models, perform BM25 scoring, and find the best matches based on cosine similarity."
 )
 
 if __name__ == "__main__":
