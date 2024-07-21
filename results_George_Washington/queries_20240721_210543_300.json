@@ -1,0 +1,23 @@
+{
+  "entity": "George Washington",
+  "queries": {
+    "query_1": {
+      "text": "Who was George Washington and what role did he play in the founding of the United States?"
+    },
+    "query_2": {
+      "text": "What significant actions did George Washington take during the American Revolutionary War?"
+    },
+    "query_3": {
+      "text": "When was George Washington inaugurated as the first President of the United States?"
+    },
+    "query_4": {
+      "text": "Where did George Washington grow up, and how did his early life influence his leadership?"
+    },
+    "query_5": {
+      "text": "Why is George Washington often referred to as the \"Father of His Country\"?"
+    },
+    "query_6": {
+      "text": "How did George Washington's leadership style impact the formation of the new American government?"
+    }
+  }
+}

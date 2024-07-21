@@ -1,0 +1,41 @@
+{
+  "entity": "George Washington",
+  "best_matches": {
+    "query_1": {
+      "query_text": "Who was George Washington and what role did he play in the founding of the United States?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "George Washington was the first President of the United States and a key leader during the American Revolutionary War. He served as the commander-in-chief of the Continental Army, leading the colonies to victory against British rule. Washington is often referred to as the \"Father of His Country\" for his pivotal role in the founding of the United States, including presiding over the Constitutional Convention in 1787 and setting many precedents for the presidency.",
+      "cosine_similarity": 0.8929397017731132
+    },
+    "query_2": {
+      "query_text": "What were some of the key accomplishments of George Washington during his presidency?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "During his presidency, George Washington achieved several key accomplishments:\n\n1. **Establishment of the Executive Branch**: He set precedents for the executive branch, including the formation of a Cabinet.\n2. **Judiciary Act of 1789**: He supported the establishment of the federal judiciary system.\n3. **Neutrality Proclamation**: He declared a policy of neutrality in foreign conflicts, particularly in the war between Britain and France.\n4. **Whiskey Rebellion**: He suppressed this",
+      "cosine_similarity": 0.9036949031084078
+    },
+    "query_3": {
+      "query_text": "When did George Washington serve as the first President of the United States, and how long did his presidency last?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "George Washington served as the first President of the United States from April 30, 1789, to March 4, 1797, for a total of just under eight years. George Washington served as the first President of the United States from April 30, 1789, to March 4, 1797, for a total of just under eight years. He was unanimously elected and set many precedents for the office, including the tradition of a two-term limit.",
+      "cosine_similarity": 0.9050062934872436
+    },
+    "query_4": {
+      "query_text": "Where was George Washington born, and how did his early life influence his later career?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "George Washington was born in Westmoreland County, Virginia, on February 22, 1732. His early life on a Virginia plantation, where he gained experience in land surveying and farming, instilled in him a strong work ethic and leadership skills. Additionally, his exposure to the complexities of colonial society and his involvement in local politics laid the groundwork for his later military and political career, ultimately shaping his role as a leader during the American Revolution and as the first President of the United States.",
+      "cosine_similarity": 0.8876816017052195
+    },
+    "query_5": {
+      "query_text": "Why is George Washington often referred to as the \"Father of His Country\"?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "George Washington is often referred to as the \"Father of His Country\" because of his pivotal role in leading the American colonies to victory in the Revolutionary War and his contributions to the founding of the United States, including serving as the first President and helping to establish the principles of the new nation.",
+      "cosine_similarity": 0.9282130806047607
+    },
+    "query_6": {
+      "query_text": "How did George Washington's leadership during the American Revolutionary War impact the outcome of the conflict?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "George Washington's leadership during the American Revolutionary War was crucial to the outcome of the conflict. His strategic foresight, ability to inspire and unify the Continental Army, and resilience in the face of adversity helped maintain morale and cohesion among the troops. Key victories, such as the surprise attack at Trenton and the decisive win at Yorktown, were made possible by his leadership. Additionally, Washington's commitment to a professional army and his ability to secure French support were instrumental in achieving independence. Overall, his leadership",
+      "cosine_similarity": 0.9238862715734644
+    }
+  }
+}
