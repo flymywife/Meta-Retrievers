@@ -1,0 +1,23 @@
+{
+  "entity": "Jeanne d'Arc",
+  "queries": {
+    "query_1": {
+      "text": "Who was Jeanne d'Arc and what role did she play in the Hundred Years' War?"
+    },
+    "query_2": {
+      "text": "What were the main motivations behind Jeanne d'Arc's actions and her quest to support Charles VII?"
+    },
+    "query_3": {
+      "text": "When did Jeanne d'Arc first claim to receive visions from saints that guided her to lead the French army?"
+    },
+    "query_4": {
+      "text": "Where did Jeanne d'Arc achieve her most significant military victories during her campaign in France?"
+    },
+    "query_5": {
+      "text": "Why was Jeanne d'Arc ultimately captured and put on trial, leading to her execution?"
+    },
+    "query_6": {
+      "text": "How did Jeanne d'Arc's leadership and bravery impact the morale of the French troops during the conflict?"
+    }
+  }
+}

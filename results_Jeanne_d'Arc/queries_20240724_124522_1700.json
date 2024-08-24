@@ -1,0 +1,23 @@
+{
+  "entity": "Jeanne d'Arc",
+  "queries": {
+    "query_1": {
+      "text": "Who was Jeanne d'Arc and what role did she play in the Hundred Years' War?"
+    },
+    "query_2": {
+      "text": "What were the key events that led to Jeanne d'Arc's trial and eventual execution?"
+    },
+    "query_3": {
+      "text": "When did Jeanne d'Arc first claim to receive visions that inspired her to support Charles VII?"
+    },
+    "query_4": {
+      "text": "Where did Jeanne d'Arc lead French troops to achieve significant victories against the English forces?"
+    },
+    "query_5": {
+      "text": "Why is Jeanne d'Arc considered a national heroine in France and a symbol of courage and faith?"
+    },
+    "query_6": {
+      "text": "How did Jeanne d'Arc's actions influence the outcome of the Hundred Years' War and the future of France?"
+    }
+  }
+}
