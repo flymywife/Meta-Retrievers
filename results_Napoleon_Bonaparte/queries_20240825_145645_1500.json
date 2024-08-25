@@ -1,0 +1,23 @@
+{
+  "entity": "Napoleon Bonaparte",
+  "queries": {
+    "query_1": {
+      "text": "Who was Napoleon Bonaparte and what roles did he play in shaping European history?"
+    },
+    "query_2": {
+      "text": "What were the key events that led to Napoleon Bonaparte's rise to power in France?"
+    },
+    "query_3": {
+      "text": "When did Napoleon Bonaparte become Emperor of the French, and what significant changes did this bring to France?"
+    },
+    "query_4": {
+      "text": "Where did Napoleon Bonaparte conduct his most notable military campaigns, and what were the outcomes of these battles?"
+    },
+    "query_5": {
+      "text": "Why did Napoleon Bonaparte's rule ultimately come to an end, leading to his exile?"
+    },
+    "query_6": {
+      "text": "How did Napoleon Bonaparte's legal reforms, particularly the Napoleonic Code, influence modern legal systems?"
+    }
+  }
+}

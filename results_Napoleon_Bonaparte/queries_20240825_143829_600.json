@@ -1,0 +1,23 @@
+{
+  "entity": "Napoleon Bonaparte",
+  "queries": {
+    "query_1": {
+      "text": "Who was Napoleon Bonaparte and what were his major contributions to European history?"
+    },
+    "query_2": {
+      "text": "What significant events marked Napoleon Bonaparte's rise to power in France?"
+    },
+    "query_3": {
+      "text": "When did Napoleon Bonaparte become Emperor of the French, and what were the implications of this event?"
+    },
+    "query_4": {
+      "text": "Where did Napoleon Bonaparte spend his final years after his defeat, and how did this location influence his legacy?"
+    },
+    "query_5": {
+      "text": "Why did Napoleon Bonaparte's military campaigns lead to widespread changes across Europe during the early 19th century?"
+    },
+    "query_6": {
+      "text": "How did Napoleon Bonaparte's leadership style and reforms impact the political landscape of France and its territories?"
+    }
+  }
+}

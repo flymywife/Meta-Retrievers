@@ -1,0 +1,23 @@
+{
+  "entity": "Napoleon Bonaparte",
+  "queries": {
+    "query_1": {
+      "text": "Who was Napoleon Bonaparte, and what roles did he play in shaping European history?"
+    },
+    "query_2": {
+      "text": "What were the key events and achievements during Napoleon Bonaparte's reign as Emperor of the French?"
+    },
+    "query_3": {
+      "text": "When did Napoleon Bonaparte rise to power, and what significant milestones marked his ascent?"
+    },
+    "query_4": {
+      "text": "Where did Napoleon Bonaparte lead his military campaigns, and what impact did these locations have on his strategies?"
+    },
+    "query_5": {
+      "text": "Why did Napoleon Bonaparte's rule ultimately come to an end, and what factors contributed to his downfall?"
+    },
+    "query_6": {
+      "text": "How did Napoleon Bonaparte influence modern governance and military tactics through his reforms and leadership style?"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity": "Napoleon Bonaparte",
+  "queries": {
+    "query_1": {
+      "text": "Who was Napoleon Bonaparte and what roles did he play in European history?"
+    },
+    "query_2": {
+      "text": "What were the key events that led to Napoleon Bonaparte's rise to power in France?"
+    },
+    "query_3": {
+      "text": "When did Napoleon Bonaparte become Emperor of the French, and how did this change the political landscape of Europe?"
+    },
+    "query_4": {
+      "text": "Where did Napoleon Bonaparte conduct his most significant military campaigns, and what were the outcomes of these battles?"
+    },
+    "query_5": {
+      "text": "Why did Napoleon Bonaparte's empire ultimately fall, and what factors contributed to his defeat?"
+    },
+    "query_6": {
+      "text": "How did Napoleon Bonaparte's reforms and policies impact French society and governance during his rule?"
+    }
+  }
+}
