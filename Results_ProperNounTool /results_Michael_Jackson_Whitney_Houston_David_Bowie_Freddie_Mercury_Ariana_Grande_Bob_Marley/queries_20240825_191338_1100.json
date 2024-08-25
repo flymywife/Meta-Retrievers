@@ -1,0 +1,36 @@
+{
+  "entities": [
+    "Michael Jackson",
+    "Whitney Houston",
+    "David Bowie",
+    "Freddie Mercury",
+    "Ariana Grande",
+    "Bob Marley"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did Michael Jackson's innovative approach to music videos influence the evolution of the music industry and the way artists engage with their audiences?",
+      "entity": "Michael Jackson"
+    },
+    "query_2": {
+      "text": "How did Whitney Houston's unique vocal style and emotional delivery influence the landscape of pop and R&B music in the 1980s and 1990s?",
+      "entity": "Whitney Houston"
+    },
+    "query_3": {
+      "text": "How did David Bowie's exploration of identity and persona in his music and performances influence the broader cultural landscape of the 1970s and beyond?",
+      "entity": "David Bowie"
+    },
+    "query_4": {
+      "text": "How did Freddie Mercury's unique cultural background and personal experiences influence the themes and styles of his music with Queen?",
+      "entity": "Freddie Mercury"
+    },
+    "query_5": {
+      "text": "How has Ariana Grande's evolution as an artist and public figure influenced the representation of mental health issues in the music industry?",
+      "entity": "Ariana Grande"
+    },
+    "query_6": {
+      "text": "How did Bob Marley's experiences with social injustice and personal struggles influence the themes of love and resilience in his music?",
+      "entity": "Bob Marley"
+    }
+  }
+}

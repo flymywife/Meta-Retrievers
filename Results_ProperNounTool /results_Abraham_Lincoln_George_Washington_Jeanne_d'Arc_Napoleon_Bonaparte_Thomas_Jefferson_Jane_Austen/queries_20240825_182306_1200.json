@@ -1,0 +1,36 @@
+{
+  "entities": [
+    "Abraham Lincoln",
+    "George Washington",
+    "Jeanne d'Arc",
+    "Napoleon Bonaparte",
+    "Thomas Jefferson",
+    "Jane Austen"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did Abraham Lincoln's early experiences in frontier life shape his views on democracy and equality during his presidency?",
+      "entity": "Abraham Lincoln"
+    },
+    "query_2": {
+      "text": "How did George Washington's experiences as a military leader during the French and Indian War shape his strategies and decisions during the American Revolutionary War?",
+      "entity": "George Washington"
+    },
+    "query_3": {
+      "text": "How did Jeanne d'Arc's religious visions and convictions influence her military strategies and the morale of the French troops during the Hundred Years' War?",
+      "entity": "Jeanne d'Arc"
+    },
+    "query_4": {
+      "text": "How did Napoleon Bonaparte's military strategies and reforms influence the development of modern warfare and state governance in Europe?",
+      "entity": "Napoleon Bonaparte"
+    },
+    "query_5": {
+      "text": "How did Thomas Jefferson's philosophical beliefs about individual liberty and government influence the drafting of the Declaration of Independence and shape the future of American democracy?",
+      "entity": "Thomas Jefferson"
+    },
+    "query_6": {
+      "text": "How does Jane Austen's use of irony in her novels reflect the social norms and gender dynamics of her time?",
+      "entity": "Jane Austen"
+    }
+  }
+}

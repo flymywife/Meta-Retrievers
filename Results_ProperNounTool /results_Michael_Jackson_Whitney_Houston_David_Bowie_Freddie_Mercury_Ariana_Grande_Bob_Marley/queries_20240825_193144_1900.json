@@ -1,0 +1,36 @@
+{
+  "entities": [
+    "Michael Jackson",
+    "Whitney Houston",
+    "David Bowie",
+    "Freddie Mercury",
+    "Ariana Grande",
+    "Bob Marley"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did Michael Jackson's innovative approach to music videos influence the evolution of the music industry and the way artists communicate their artistic vision?",
+      "entity": "Michael Jackson"
+    },
+    "query_2": {
+      "text": "How did Whitney Houston's unique vocal style and emotional delivery influence the evolution of pop and R&B music in the late 20th century?",
+      "entity": "Whitney Houston"
+    },
+    "query_3": {
+      "text": "How did David Bowie's ability to constantly reinvent his musical persona influence the evolution of popular music and the concept of celebrity in the 20th century?",
+      "entity": "David Bowie"
+    },
+    "query_4": {
+      "text": "How did Freddie Mercury's diverse cultural background influence his musical style and the themes present in Queen's most iconic songs?",
+      "entity": "Freddie Mercury"
+    },
+    "query_5": {
+      "text": "How has Ariana Grande's musical evolution over the years reflected her personal experiences and growth, particularly in relation to themes of love, heartbreak, and resilience?",
+      "entity": "Ariana Grande"
+    },
+    "query_6": {
+      "text": "How did Bob Marley's experiences with social and political issues in Jamaica shape the themes and messages in his music, and what relevance do those themes hold in today's global context?",
+      "entity": "Bob Marley"
+    }
+  }
+}

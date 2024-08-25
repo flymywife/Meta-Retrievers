@@ -1,0 +1,36 @@
+{
+  "entities": [
+    "Michael Jackson",
+    "Whitney Houston",
+    "David Bowie",
+    "Freddie Mercury",
+    "Ariana Grande",
+    "Bob Marley"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did Michael Jackson's innovative approach to music videos and performance influence the evolution of pop culture and the music industry in the decades following his rise to fame?",
+      "entity": "Michael Jackson"
+    },
+    "query_2": {
+      "text": "How did Whitney Houston's unique vocal style and emotional delivery contribute to her status as one of the most influential artists in pop and R&B music history?",
+      "entity": "Whitney Houston"
+    },
+    "query_3": {
+      "text": "How did David Bowie's ability to reinvent his musical style and persona throughout his career reflect the cultural and social changes of the times?",
+      "entity": "David Bowie"
+    },
+    "query_4": {
+      "text": "How did Freddie Mercury's unique blend of cultural influences and personal experiences shape his artistic identity and the evolution of Queen's music?",
+      "entity": "Freddie Mercury"
+    },
+    "query_5": {
+      "text": "How has Ariana Grande's musical evolution over the years reflected her personal experiences and challenges, particularly in relation to her mental health and public persona?",
+      "entity": "Ariana Grande"
+    },
+    "query_6": {
+      "text": "How did Bob Marley's music and message contribute to the global awareness of social and political issues in Jamaica during the 1970s?",
+      "entity": "Bob Marley"
+    }
+  }
+}

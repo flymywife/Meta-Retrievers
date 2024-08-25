@@ -1,0 +1,36 @@
+{
+  "entities": [
+    "Taylor Swift",
+    "Ed Sheeran",
+    "Adele Laurie Blue Adkins",
+    "Beyonc\u00e9 Knowles-Carter",
+    "Bruno Mars",
+    "Lady Gaga"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How has Taylor Swift's evolution as an artist and songwriter reflected broader societal changes in the music industry and cultural landscape over the past decade?",
+      "entity": "Taylor Swift"
+    },
+    "query_2": {
+      "text": "How has Ed Sheeran's songwriting evolved over the years, and what themes do you think resonate most strongly with his audience today?",
+      "entity": "Ed Sheeran"
+    },
+    "query_3": {
+      "text": "How has Adele Laurie Blue Adkins' personal experiences and emotional journey influenced the themes and lyrical depth of her music throughout her career?",
+      "entity": "Adele Laurie Blue Adkins"
+    },
+    "query_4": {
+      "text": "How has Beyonc\u00e9 Knowles-Carter's evolution as an artist and cultural icon influenced contemporary discussions around feminism and empowerment in music?",
+      "entity": "Beyonc\u00e9 Knowles-Carter"
+    },
+    "query_5": {
+      "text": "How has Bruno Mars' fusion of various musical genres influenced contemporary pop music and shaped the sound of his generation?",
+      "entity": "Bruno Mars"
+    },
+    "query_6": {
+      "text": "How has Lady Gaga's evolution as an artist and public figure influenced discussions around mental health and self-acceptance in contemporary society?",
+      "entity": "Lady Gaga"
+    }
+  }
+}

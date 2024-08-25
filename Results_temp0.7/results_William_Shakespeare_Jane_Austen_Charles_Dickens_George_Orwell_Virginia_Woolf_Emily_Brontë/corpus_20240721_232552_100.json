@@ -1,0 +1,36 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bront\u00eb"
+  ],
+  "corpus": {
+    "answer_1": {
+      "text": "William Shakespeare's experiences in Elizabethan society deeply influenced his exploration of love, power, and betrayal in his plays. The social hierarchies and political instability of the time informed his portrayals of power dynamics, as seen in plays like \"Macbeth\" and \"Richard III.\" The complexities of romantic relationships and the societal expectations surrounding them are vividly depicted in works like \"Romeo and Juliet\" and \"A Midsummer Night's Dream.\" Additionally, the prevalence of betrayal in both personal and political",
+      "entity": "William Shakespeare"
+    },
+    "answer_2": {
+      "text": "Jane Austen's use of irony highlights the limitations placed on women in the early 19th century by exposing the discrepancies between societal expectations and individual desires. Through wit and satire, she critiques the marriage market, social class, and the lack of autonomy women faced, illustrating how these constraints often dictated their choices and happiness. Her ironic portrayals serve to both entertain and provoke thought about the injustices of her time, ultimately advocating for greater awareness of women's rights and agency.",
+      "entity": "Jane Austen"
+    },
+    "answer_3": {
+      "text": "Charles Dickens' experiences with poverty and social injustice, particularly during his childhood when his family faced financial difficulties, deeply influenced his writing. He often portrayed the struggles of the poor and critiques of the social class system in his novels. Characters like Oliver Twist and Ebenezer Scrooge reflect the harsh realities of poverty and the moral implications of wealth. Dickens used his works to advocate for social reform, highlighting issues such as child labor, education, and the treatment of the impoverished, making his themes resonate with",
+      "entity": "Charles Dickens"
+    },
+    "answer_4": {
+      "text": "George Orwell's experiences during the Spanish Civil War deeply influenced his views on totalitarianism, as he witnessed the brutal tactics employed by both fascists and communists. This led him to become disillusioned with the idea of revolutionary socialism, highlighting the dangers of oppressive regimes. His writing style in \"1984\" and \"Animal Farm\" reflects this by using clear, direct language to critique totalitarianism, emphasizing themes of propaganda, manipulation, and the betrayal of ideals. These works serve as alleg",
+      "entity": "George Orwell"
+    },
+    "answer_5": {
+      "text": "Virginia Woolf's exploration of the inner lives of her characters in \"Mrs. Dalloway\" and \"To the Lighthouse\" reflects her views on the fluidity of time and consciousness through her use of stream-of-consciousness narrative and non-linear time structures. She portrays characters' thoughts and memories as interconnected and transient, emphasizing how past experiences shape present perceptions. This approach highlights the subjective nature of reality, suggesting that time is not a fixed sequence but a fluid experience shaped by individual consciousness.",
+      "entity": "Virginia Woolf"
+    },
+    "answer_6": {
+      "text": "Emily Bront\u00eb's experiences in the isolated Yorkshire moors deeply influenced the themes of nature and emotional intensity in \"Wuthering Heights.\" The moors serve as a wild, untamed backdrop that reflects the tumultuous emotions of the characters, particularly Heathcliff and Catherine. The harsh, rugged landscape symbolizes their passionate and destructive love, while the isolation mirrors their inner turmoil and societal rejection. This connection between the characters and their environment emphasizes themes of nature's power and the intensity of human emotions,",
+      "entity": "Emily Bront\u00eb"
+    }
+  }
+}

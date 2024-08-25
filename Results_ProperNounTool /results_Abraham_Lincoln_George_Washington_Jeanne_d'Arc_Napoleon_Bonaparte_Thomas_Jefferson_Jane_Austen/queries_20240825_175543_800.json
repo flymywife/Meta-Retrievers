@@ -1,0 +1,36 @@
+{
+  "entities": [
+    "Abraham Lincoln",
+    "George Washington",
+    "Jeanne d'Arc",
+    "Napoleon Bonaparte",
+    "Thomas Jefferson",
+    "Jane Austen"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did Abraham Lincoln's early life experiences and personal struggles shape his views on equality and democracy during his presidency?",
+      "entity": "Abraham Lincoln"
+    },
+    "query_2": {
+      "text": "What were the key factors that influenced George Washington's decision to step down from the presidency after two terms, and how did this choice shape the future of American political leadership?",
+      "entity": "George Washington"
+    },
+    "query_3": {
+      "text": "How did Jeanne d'Arc's unique blend of religious fervor and military leadership challenge the societal norms of her time and influence the perception of women in positions of power?",
+      "entity": "Jeanne d'Arc"
+    },
+    "query_4": {
+      "text": "How did Napoleon Bonaparte's military strategies and reforms influence the modern concepts of nation-state and citizenship in Europe?",
+      "entity": "Napoleon Bonaparte"
+    },
+    "query_5": {
+      "text": "How did Thomas Jefferson's views on individual liberty and government influence the development of American democracy, and what contradictions can be observed in his personal life regarding these principles?",
+      "entity": "Thomas Jefferson"
+    },
+    "query_6": {
+      "text": "How does Jane Austen's portrayal of social class and gender roles in her novels reflect the societal changes occurring during the early 19th century in England?",
+      "entity": "Jane Austen"
+    }
+  }
+}

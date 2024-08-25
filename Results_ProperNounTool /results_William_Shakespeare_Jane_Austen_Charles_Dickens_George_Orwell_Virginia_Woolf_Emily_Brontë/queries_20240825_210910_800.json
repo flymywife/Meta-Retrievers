@@ -1,0 +1,36 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bront\u00eb"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did William Shakespeare's experiences as a member of the Elizabethan theater community influence the themes and characters in his plays?",
+      "entity": "William Shakespeare"
+    },
+    "query_2": {
+      "text": "How does Jane Austen's use of irony in her novels serve to critique the social norms and gender roles of her time?",
+      "entity": "Jane Austen"
+    },
+    "query_3": {
+      "text": "How did Charles Dickens' own experiences with poverty and social injustice shape the themes and characters in his novels, particularly in works like \"Oliver Twist\" and \"David Copperfield\"?",
+      "entity": "Charles Dickens"
+    },
+    "query_4": {
+      "text": "How did George Orwell's experiences in the Spanish Civil War influence his views on totalitarianism as reflected in his works \"1984\" and \"Animal Farm\"?",
+      "entity": "George Orwell"
+    },
+    "query_5": {
+      "text": "How does Virginia Woolf's exploration of the inner thoughts and consciousness of her characters in novels like \"Mrs. Dalloway\" and \"To the Lighthouse\" reflect her views on the complexities of identity and the passage of time?",
+      "entity": "Virginia Woolf"
+    },
+    "query_6": {
+      "text": "How does Emily Bront\u00eb's exploration of isolation and the natural landscape in \"Wuthering Heights\" reflect her own life experiences and beliefs about the human condition?",
+      "entity": "Emily Bront\u00eb"
+    }
+  }
+}

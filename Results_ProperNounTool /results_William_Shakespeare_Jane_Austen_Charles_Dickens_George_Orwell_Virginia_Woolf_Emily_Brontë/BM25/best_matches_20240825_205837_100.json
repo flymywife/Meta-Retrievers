@@ -1,0 +1,48 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bront\u00eb"
+  ],
+  "best_matches": {
+    "query_1": {
+      "query_text": "How did William Shakespeare's experiences and observations of the political and social climate of Elizabethan England influence the themes and characters in his plays?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "William Shakespeare's experiences and observations of the political and social climate of Elizabethan England deeply influenced his plays. The era was marked by political instability, social hierarchy, and issues of power and identity, which are reflected in themes such as ambition, betrayal, and the nature of authority. His characters often grapple with moral dilemmas and the consequences of their choices, mirroring the complexities of the human experience in a rapidly changing society. Additionally, the tensions between different social classes and the role of women in society",
+      "bm25_score": 15.253400129128998
+    },
+    "query_2": {
+      "query_text": "How does Jane Austen's use of irony and social commentary in her novels reflect the complexities of gender roles and class distinctions in early 19th-century England?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "Jane Austen employs irony and social commentary to critique and illuminate the rigid gender roles and class distinctions of early 19th-century England. Through her characters and their interactions, she highlights the limitations placed on women, who often lack economic independence and agency. For example, her use of irony reveals the absurdities of social norms and the expectations placed on women to marry for status rather than love. By depicting the struggles of her heroines within a patriarchal society, Austen underscores the complexities of identity and social mobility",
+      "bm25_score": 15.837370880332557
+    },
+    "query_3": {
+      "query_text": "How did Charles Dickens' own experiences with poverty and social injustice influence the themes and characters in his novels?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Charles Dickens' experiences with poverty and social injustice, particularly during his childhood when his family struggled financially, profoundly influenced his writing. He often depicted the harsh realities of life for the poor and the corrupt social systems that perpetuated inequality. His characters, such as Oliver Twist and Ebenezer Scrooge, embody the struggles of the downtrodden and the potential for redemption. Dickens used his novels to critique societal injustices and advocate for social reform, highlighting themes of compassion, resilience, and the need",
+      "bm25_score": 9.635769815342023
+    },
+    "query_4": {
+      "query_text": "How did George Orwell's experiences as a soldier in the Spanish Civil War influence his views on totalitarianism and shape the themes in his later works, such as \"1984\"?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "George Orwell's experiences as a soldier in the Spanish Civil War profoundly influenced his views on totalitarianism, leading him to recognize the dangers of oppressive regimes and the manipulation of truth. Witnessing the betrayal of revolutionary ideals and the rise of Stalinist tactics among leftist factions, he became acutely aware of how power can corrupt and how language can be used as a tool for oppression. These themes of surveillance, propaganda, and the erosion of individual freedoms are central to his later works, particularly in \"",
+      "bm25_score": 19.311294427376083
+    },
+    "query_5": {
+      "query_text": "How does Virginia Woolf's use of stream-of-consciousness narrative technique in her novels challenge traditional notions of time and character development?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Virginia Woolf's use of stream-of-consciousness narrative technique challenges traditional notions of time and character development by presenting thoughts and experiences in a fluid, non-linear manner. This approach allows her to explore characters' inner lives and consciousness in depth, emphasizing their subjective experiences over chronological events. Time becomes elastic, as past and present intermingle, reflecting the complexities of human memory and perception. Consequently, character development is depicted as a dynamic, evolving process rather than a fixed trajectory, highlighting the interconnectedness of thoughts",
+      "bm25_score": 17.307914763112283
+    },
+    "query_6": {
+      "query_text": "How does Emily Bront\u00eb's portrayal of nature in \"Wuthering Heights\" reflect the psychological states of her characters and the broader themes of passion and isolation in the novel?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "In \"Wuthering Heights,\" Emily Bront\u00eb uses nature as a powerful reflection of her characters' psychological states and the themes of passion and isolation. The tumultuous weather and rugged landscape of the Yorkshire moors mirror the intense emotions of the characters, particularly Heathcliff and Catherine. Storms and wildness symbolize their passionate, often destructive love, while the isolation of the moors underscores the characters' emotional alienation and suffering. Nature acts as both a backdrop and an active participant in the",
+      "bm25_score": 16.5770800272707
+    }
+  }
+}

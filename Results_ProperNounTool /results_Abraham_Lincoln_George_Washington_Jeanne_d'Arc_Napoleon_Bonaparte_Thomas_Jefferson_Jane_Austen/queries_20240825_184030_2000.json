@@ -1,0 +1,36 @@
+{
+  "entities": [
+    "Abraham Lincoln",
+    "George Washington",
+    "Jeanne d'Arc",
+    "Napoleon Bonaparte",
+    "Thomas Jefferson",
+    "Jane Austen"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did Abraham Lincoln's early life experiences and personal challenges shape his views on democracy and leadership during his presidency?",
+      "entity": "Abraham Lincoln"
+    },
+    "query_2": {
+      "text": "How did George Washington's leadership style and decisions during the Revolutionary War shape the future of the United States and its approach to governance?",
+      "entity": "George Washington"
+    },
+    "query_3": {
+      "text": "How did Jeanne d'Arc's visions and experiences shape her identity and mission, and what impact did they have on the perception of female leadership in a predominantly male-dominated society during the 15th century?",
+      "entity": "Jeanne d'Arc"
+    },
+    "query_4": {
+      "text": "How did Napoleon Bonaparte's military strategies and reforms influence the modern concepts of national identity and statehood in Europe?",
+      "entity": "Napoleon Bonaparte"
+    },
+    "query_5": {
+      "text": "How did Thomas Jefferson's views on individual liberty and government influence the development of democratic ideals in the early United States?",
+      "entity": "Thomas Jefferson"
+    },
+    "query_6": {
+      "text": "How does Jane Austen's portrayal of social class and gender roles in her novels reflect the complexities of early 19th-century English society?",
+      "entity": "Jane Austen"
+    }
+  }
+}

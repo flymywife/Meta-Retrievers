@@ -1,0 +1,36 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bront\u00eb"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did William Shakespeare's experiences in Elizabethan England influence the themes of love and power in his plays?",
+      "entity": "William Shakespeare"
+    },
+    "query_2": {
+      "text": "How does Jane Austen's use of irony in her novels serve to critique the social norms and gender roles of her time?",
+      "entity": "Jane Austen"
+    },
+    "query_3": {
+      "text": "How did Charles Dickens' own experiences with poverty and social injustice influence the themes and characters in his novels?",
+      "entity": "Charles Dickens"
+    },
+    "query_4": {
+      "text": "How did George Orwell's experiences in the Spanish Civil War shape his views on totalitarianism and influence his writing in works such as \"1984\" and \"Animal Farm\"?",
+      "entity": "George Orwell"
+    },
+    "query_5": {
+      "text": "How does Virginia Woolf's use of stream-of-consciousness narrative technique in her novels challenge traditional notions of time and character development?",
+      "entity": "Virginia Woolf"
+    },
+    "query_6": {
+      "text": "How did Emily Bront\u00eb's experiences in the isolated Yorkshire moors influence the themes of nature and emotional intensity in her novel \"Wuthering Heights\"?",
+      "entity": "Emily Bront\u00eb"
+    }
+  }
+}

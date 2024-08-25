@@ -1,0 +1,36 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bront\u00eb"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did William Shakespeare's experiences as an actor and playwright in the Elizabethan era influence the themes and characters in his works?",
+      "entity": "William Shakespeare"
+    },
+    "query_2": {
+      "text": "How does Jane Austen's exploration of social class and gender roles in her novels reflect the societal changes occurring in early 19th-century England?",
+      "entity": "Jane Austen"
+    },
+    "query_3": {
+      "text": "How did Charles Dickens' own experiences with poverty and social injustice influence the themes and characters in his novels?",
+      "entity": "Charles Dickens"
+    },
+    "query_4": {
+      "text": "How did George Orwell's experiences as a soldier in the Spanish Civil War influence his views on totalitarianism and shape the themes in his later works, particularly \"1984\"?",
+      "entity": "George Orwell"
+    },
+    "query_5": {
+      "text": "How does Virginia Woolf's exploration of the inner lives of her characters challenge traditional narratives of gender and identity in early 20th-century literature?",
+      "entity": "Virginia Woolf"
+    },
+    "query_6": {
+      "text": "How did Emily Bront\u00eb's experiences in the isolated Yorkshire moors influence the themes of nature and emotional intensity in her writing, particularly in \"Wuthering Heights\"?",
+      "entity": "Emily Bront\u00eb"
+    }
+  }
+}

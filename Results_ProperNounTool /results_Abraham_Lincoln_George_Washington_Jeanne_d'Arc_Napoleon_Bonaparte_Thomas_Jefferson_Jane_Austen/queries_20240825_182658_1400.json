@@ -1,0 +1,36 @@
+{
+  "entities": [
+    "Abraham Lincoln",
+    "George Washington",
+    "Jeanne d'Arc",
+    "Napoleon Bonaparte",
+    "Thomas Jefferson",
+    "Jane Austen"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did Abraham Lincoln's early life experiences and personal struggles shape his views on democracy and equality during his presidency?",
+      "entity": "Abraham Lincoln"
+    },
+    "query_2": {
+      "text": "What were the key leadership qualities that George Washington demonstrated during the American Revolutionary War, and how did they influence the founding principles of the United States?",
+      "entity": "George Washington"
+    },
+    "query_3": {
+      "text": "How did Jeanne d'Arc's religious visions and convictions influence her leadership and strategies during the Hundred Years' War?",
+      "entity": "Jeanne d'Arc"
+    },
+    "query_4": {
+      "text": "How did Napoleon Bonaparte's military strategies and reforms influence modern warfare and the structure of contemporary armies?",
+      "entity": "Napoleon Bonaparte"
+    },
+    "query_5": {
+      "text": "How did Thomas Jefferson's views on individual liberty and government influence the drafting of the Declaration of Independence and shape the future of American democracy?",
+      "entity": "Thomas Jefferson"
+    },
+    "query_6": {
+      "text": "How does Jane Austen's use of irony in her novels serve to critique the social norms and gender expectations of her time?",
+      "entity": "Jane Austen"
+    }
+  }
+}
