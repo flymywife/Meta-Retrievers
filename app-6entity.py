@@ -53,7 +53,7 @@ def generate_question(entity: str) -> str:
         ],
         max_tokens=50,
         n=1,
-        temperature=0.7,
+        temperature=0.5,
     )
     
     return response.choices[0].message.content.strip()
@@ -298,7 +298,7 @@ iface = gr.Interface(
         gr.Textbox(label="Entity 4"),
         gr.Textbox(label="Entity 5"),
         gr.Textbox(label="Entity 6"),
-        gr.Slider(minimum=50, maximum=500, step=10, label="Max Tokens for Answer", value=100)
+        gr.Slider(minimum=50, maximum=2000, step=10, label="Max Tokens for Answer", value=100)
     ],
     outputs=[
         gr.Textbox(label="Generated Questions and Answers"),
