@@ -1,0 +1,23 @@
+{
+  "entity": "Abraham Lincoln",
+  "queries": {
+    "query_1": {
+      "text": "Who was Abraham Lincoln and what significant role did he play in American history?"
+    },
+    "query_2": {
+      "text": "What were the main policies and actions taken by Abraham Lincoln during his presidency?"
+    },
+    "query_3": {
+      "text": "When did Abraham Lincoln serve as the President of the United States, and what were the key events during his time in office?"
+    },
+    "query_4": {
+      "text": "Where was Abraham Lincoln born, and how did his early life influence his political career?"
+    },
+    "query_5": {
+      "text": "Why is Abraham Lincoln often regarded as one of the greatest presidents in American history?"
+    },
+    "query_6": {
+      "text": "How did Abraham Lincoln's leadership during the Civil War impact the future of the United States?"
+    }
+  }
+}

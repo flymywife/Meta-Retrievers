@@ -1,0 +1,23 @@
+{
+  "entity": "Abraham Lincoln",
+  "queries": {
+    "query_1": {
+      "text": "Who was Abraham Lincoln and what significant role did he play in American history?"
+    },
+    "query_2": {
+      "text": "What major legislation did Abraham Lincoln sign that aimed to abolish slavery in the United States?"
+    },
+    "query_3": {
+      "text": "When did Abraham Lincoln deliver the Gettysburg Address, and what was the occasion for this speech?"
+    },
+    "query_4": {
+      "text": "Where was Abraham Lincoln born, and how did his early life influence his political career?"
+    },
+    "query_5": {
+      "text": "Why did Abraham Lincoln decide to issue the Emancipation Proclamation during the Civil War?"
+    },
+    "query_6": {
+      "text": "How did Abraham Lincoln's leadership style contribute to the Union's victory in the Civil War?"
+    }
+  }
+}

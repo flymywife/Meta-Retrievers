@@ -1,0 +1,23 @@
+{
+  "entity": "Abraham Lincoln",
+  "queries": {
+    "query_1": {
+      "text": "Who was Abraham Lincoln, and what were the key events in his early life that shaped his political career?"
+    },
+    "query_2": {
+      "text": "What significant actions did Abraham Lincoln take during his presidency to address the issues of slavery and the Civil War?"
+    },
+    "query_3": {
+      "text": "When did Abraham Lincoln deliver the Gettysburg Address, and why is this speech considered one of his most important contributions to American history?"
+    },
+    "query_4": {
+      "text": "Where did Abraham Lincoln grow up, and how did his upbringing influence his views on democracy and equality?"
+    },
+    "query_5": {
+      "text": "Why did Abraham Lincoln decide to issue the Emancipation Proclamation, and what impact did it have on the nation during the Civil War?"
+    },
+    "query_6": {
+      "text": "How did Abraham Lincoln's leadership style contribute to his effectiveness as a president during one of America's most challenging periods?"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity": "Abraham Lincoln",
+  "queries": {
+    "query_1": {
+      "text": "Who was Abraham Lincoln and what were the key events of his presidency?"
+    },
+    "query_2": {
+      "text": "What significant actions did Abraham Lincoln take to address slavery in the United States?"
+    },
+    "query_3": {
+      "text": "When did Abraham Lincoln deliver the Gettysburg Address, and what was its historical significance?"
+    },
+    "query_4": {
+      "text": "Where did Abraham Lincoln grow up, and how did his early life influence his political career?"
+    },
+    "query_5": {
+      "text": "Why is Abraham Lincoln often regarded as one of the greatest presidents in American history?"
+    },
+    "query_6": {
+      "text": "How did Abraham Lincoln's leadership during the Civil War shape the future of the United States?"
+    }
+  }
+}
