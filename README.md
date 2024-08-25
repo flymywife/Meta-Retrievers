@@ -1,90 +1,120 @@
-# RAG Gradio Application for Entity Analysis
+#アプリの説明
 
-This application is a Retrieval-Augmented Generation (RAG) system that generates questions and answers about a given entity using OpenAI's GPT model, calculates similarities between queries and answers, and finds the best matching pairs.
+## [app.py]
+Six-Dimensional Query Tool
+与えられた「固有名詞」に対して
+Six-Dimensional Query(Who, What, When, Where, Why, How)を生成します。
+その後、そのクエリに対応するアンサーを生成します。
+さらにクエリとアンサーをベクトル化して
+コサイン類似度またはBM25のスコアを計算して最適なマッチングを抽出します。
+出力は
+coupus_date_maxToken.json:生成した6つのコーパスをJSON出力します
+queries_date_maxToken.json:生成した6つのクエリをJSON出力します
+best_matches_date_maxToken.json:クエリに対して最もコサイン類似度またはスコアの数値の高かった組み合わせをJSON出力します
+scores_date_maxToken.json:クエリに対して全てのコーパスのスコアの数値をJSON出力します(BM25)
+cosine_similarities_date_maxToken.json:クエリに対して全てのコーパスのコサイン類似度の数値をJSON出力します(ベクトル検索)
+vectors_date_maxToken.json:テキストに対応したベクトルをJSON出力します
+※固有名詞はポピュラーな歴史上の人物とかが良いです
+アンサーのトークンの最大の長さを50-500まで指定することができます。
+3つのEmbeddingモデル（text-embedding-3-largeとtext-embedding-3-smallとtext—embedding-ada-002）
+のコサイン類似度とBM25のスコアを出力します。
 
-## Features
+## [app-large.py]
+上記Six-Dimensional Query Toolの追加実験用です。
+text-embedding-3-largeモデルの実験をmaxToken2000まで実施できます。
 
-- Generates 5W1H (Who, What, When, Where, Why, How) questions about a given entity
-- Produces answers to these questions
-- Calculates cosine similarities between queries and answers
-- Finds the best matching answer for each query based on similarity
-- Allows selection between different embedding models
-- Stores results in JSON files with timestamps for historical tracking
-- Provides a user-friendly interface using Gradio
+## [app-6entity.py]
+Proper Noun Tool
+固有名詞を最大6つ入力します
+その後、それぞれの固有名詞に対応した自由なクエリを１つずつ生成します
+さらにクエリとアンサーをベクトル化して
+コサイン類似度またはBM25のスコアを計算して最適なマッチングを抽出します。
 
-## Requirements
-
+## 必要条件
 - Python 3.10+
 - OpenAI API key
 
-## Installation
-
-1. Install the required packages:
+## インストール
+1. 必要なパッケージをインストールします：
    ```
    pip install -r requirements.txt
    ```
 
-2. Set up your OpenAI API key:
-   Create a `.env` file in the project root and add your API key:
+2. OpenAI APIキーを設定します
+プロジェクトのルートディレクトリに.envファイルを作成し、APIキーを追加します：
    ```
    OPENAI_API_KEY=your_api_key_here
    ```
 
-## Usage
+## 使用方法
 
-1. Run the application:
+1. アプリケーションを実行します：
    ```
    python app.py
    ```
 
-2. Open your web browser and go to the URL displayed in the console (usually `http://127.0.0.1:7860`).
+2. Webブラウザを開き、コンソールに表示されるURL（通常はhttp://127.0.0.1:7860）にアクセスします。
 
-3. In the text input field, enter the name of an entity (person, place, event, etc.) you want to analyze.
+3. テキスト入力フィールドに、固有名詞を入力します。
 
-4. Select the embedding model you want to use from the dropdown menu.
+4. maxTokenを指定してください。
 
-5. Click the "Submit" button.
+5. "Submit"ボタンを押すと動き出します。
 
-6. The application will generate:
-   - 5W1H questions about the entity
-   - Answers to these questions
-   - Cosine similarities between queries and answers
-   - Best matching query-answer pairs based on similarity
 
-## Output
 
-The application generates four types of output:
 
-1. Generated Queries and Answers: Displayed in the first text box of the interface.
-2. Cosine Similarities Summary: Shown in the second text box.
-3. Detailed Similarities: Presented in JSON format in the third box.
-4. Best Matches Summary: Displayed in the fourth text box, showing the best matching query-answer pairs.
+## [app.py]
+Six-Dimensional Query Tool
+This tool generates a Six-Dimensional Query (Who, What, When, Where, Why, How) for a given "proper noun".
+It then generates answers corresponding to these queries.
+Furthermore, it vectorizes the queries and answers to calculate cosine similarity or BM25 scores to extract the optimal matching.
+The outputs are:
+coupus_date_maxToken.json: Outputs the 6 generated corpora in JSON format
+queries_date_maxToken.json: Outputs the 6 generated queries in JSON format
+best_matches_date_maxToken.json: Outputs the combinations with the highest cosine similarity or score for each query in JSON format
+scores_date_maxToken.json: Outputs the scores for all corpora against each query in JSON format (BM25)
+cosine_similarities_date_maxToken.json: Outputs the cosine similarity values for all corpora against each query in JSON format (Vector search)
+vectors_date_maxToken.json: Outputs the vectors corresponding to the texts in JSON format
+Note: Popular historical figures are good choices for proper nouns.
+The maximum length of answer tokens can be specified from 50 to 500.
+It outputs cosine similarities and BM25 scores for three Embedding models (text-embedding-3-large, text-embedding-3-small, and text-embedding-ada-002).
 
-Additionally, four JSON files are saved in the `history/{model_name}` folder for each run:
-- `queries_YYYYMMDD_HHMMSS_MaxTokens.json`: Contains the generated queries and their vectors.
-- `corpus_YYYYMMDD_HHMMSS_MaxTokens.json`: Contains the generated answers and their vectors.
-- `similarities_YYYYMMDD_HHMMSS_MaxTokens.json`: Contains the calculated similarities between queries and answers.
-- `best_matches_YYYYMMDD_HHMMSS_MaxTokens.json`: Contains the best matching query-answer pairs based on similarity.
+## [app-large.py]
+This is for additional experiments with the above Six-Dimensional Query Tool.
+It can conduct experiments with the text-embedding-3-large model up to maxToken 2000.
 
-Where:
-- `YYYYMMDD_HHMMSS` represents the timestamp of the run.
-- `MaxTokens` is the maximum number of tokens set for answer generation.
+## [app-6entity.py]
+Proper Noun Tool
+Input up to 6 proper nouns.
+Then, it generates one free query corresponding to each proper noun.
+It further vectorizes the queries and answers to calculate cosine similarity or BM25 scores and extract the optimal matching.
 
-These files allow for easy tracking and comparison of different runs with various settings.
+## Requirements
+Python 3.10+
+OpenAI API key
 
-## Embedding Models
+## Installation
 
-The application supports two embedding models:
-1. text-embedding-ada-002
-2. text-embedding-3-small
+Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
 
-You can select the desired model from the dropdown menu in the user interface. The chosen model will be used for vectorizing the queries and answers, which affects the similarity calculations and best match results.
 
-## Note
+Set up the OpenAI API key
+Create a .env file in the project root directory and add your API key:
+   ```
+   OPENAI_API_KEY=your_api_key_here
+   ```
+## Usage
 
-This application uses the OpenAI API, which may incur costs. Please be aware of your usage and any associated fees.
+Run the application:
+   ```
+   python app.py
+   ```
 
-## Contributing
-
-Contributions to improve the application are welcome. Please feel free to submit a Pull Request.
-
+Open a web browser and access the URL displayed in the console (usually http://127.0.0.1:7860).
+Enter a proper noun in the text input field.
+Specify the maxToken.
+Press the "Submit" button to start the process.

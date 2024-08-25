@@ -314,8 +314,8 @@ iface = gr.Interface(
         gr.Textbox(label="Best Matches Summary"),
         gr.JSON(label="Detailed Results")
     ],
-    title="Integrated 5W1H RAG Model with Multiple Embedding Models, BM25, and Best Matches",
-    description="Enter an entity and set the maximum tokens for answers. This will generate 5W1H queries, answers, calculate similarities using multiple embedding models, perform BM25 scoring, and find the best matches based on cosine similarity."
+    title="Six-Dimensional Query Tool",
+    description="Generate Six-Dimensional Queries (Who, What, When, Where, Why, How) and their corresponding corpus for any given entity."
 )
 
 if __name__ == "__main__":

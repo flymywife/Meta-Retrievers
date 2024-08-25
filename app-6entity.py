@@ -245,6 +245,7 @@ def process_entities(entities: List[str], max_tokens: int) -> Tuple[Dict, Dict, 
 
 def integrated_interface(entity1: str, entity2: str, entity3: str, entity4: str, entity5: str, entity6: str, max_tokens: int) -> Tuple[str, str, str, str, str]:
     try:
+        best_matches_summary = ""
         entities = [entity1, entity2, entity3, entity4, entity5, entity6]
         logging.info(f"Processing entities: {entities} with max tokens: {max_tokens}")
         
