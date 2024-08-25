@@ -1,0 +1,23 @@
+{
+  "entity": "George Washington",
+  "queries": {
+    "query_1": {
+      "text": "Who was George Washington and what roles did he play in American history?"
+    },
+    "query_2": {
+      "text": "What were some of the key accomplishments of George Washington during his presidency?"
+    },
+    "query_3": {
+      "text": "When did George Washington serve as the first President of the United States?"
+    },
+    "query_4": {
+      "text": "Where was George Washington born and how did his early life influence his future leadership?"
+    },
+    "query_5": {
+      "text": "Why is George Washington often referred to as the \"Father of His Country\"?"
+    },
+    "query_6": {
+      "text": "How did George Washington's military strategies contribute to the success of the American Revolutionary War?"
+    }
+  }
+}

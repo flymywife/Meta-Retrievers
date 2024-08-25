@@ -1,0 +1,23 @@
+{
+  "entity": "George Washington",
+  "queries": {
+    "query_1": {
+      "text": "Who was George Washington and what roles did he play in American history?"
+    },
+    "query_2": {
+      "text": "What significant events did George Washington lead during the American Revolutionary War?"
+    },
+    "query_3": {
+      "text": "When did George Washington become the first President of the United States, and how long did he serve in that position?"
+    },
+    "query_4": {
+      "text": "Where was George Washington born, and how did his early life influence his leadership style?"
+    },
+    "query_5": {
+      "text": "Why is George Washington often referred to as the \"Father of His Country\" in the context of American independence?"
+    },
+    "query_6": {
+      "text": "How did George Washington's leadership and decisions shape the formation of the United States government?"
+    }
+  }
+}
