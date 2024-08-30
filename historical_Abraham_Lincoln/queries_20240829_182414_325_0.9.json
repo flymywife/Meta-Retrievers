@@ -1,0 +1,23 @@
+{
+  "entity": "Abraham Lincoln",
+  "queries": {
+    "query_1": {
+      "text": "How did Abraham Lincoln's early family life and upbringing in Kentucky and Indiana influence his values and beliefs later in life?"
+    },
+    "query_2": {
+      "text": "In what ways did Abraham Lincoln's limited formal education and self-directed learning contribute to his development as a thinker and leader?"
+    },
+    "query_3": {
+      "text": "What were the key milestones in Abraham Lincoln's early career that paved the way for his eventual rise in politics and law?"
+    },
+    "query_4": {
+      "text": "How did Abraham Lincoln's leadership during the Civil War and the Emancipation Proclamation define his legacy and impact on American society?"
+    },
+    "query_5": {
+      "text": "In what ways did Abraham Lincoln's personal relationships and character traits shape his approach to governance and public perception?"
+    },
+    "query_6": {
+      "text": "How have Abraham Lincoln's ideas and actions concerning liberty and equality continued to influence contemporary society and political discourse?"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did William Shakespeare's use of iambic pentameter contribute to the development of English poetry and drama during the Elizabethan era?"
+    },
+    "query_2": {
+      "text": "In what ways did Jane Austen's novels challenge the social norms and gender roles of her time, particularly in 'Pride and Prejudice' and 'Sense and Sensibility'?"
+    },
+    "query_3": {
+      "text": "How did Charles Dickens's experiences with poverty influence the themes of social reform and compassion in his works such as 'Oliver Twist' and 'A Christmas Carol'?"
+    },
+    "query_4": {
+      "text": "In what ways did George Orwell's political beliefs shape the narratives and themes of his major works, particularly '1984' and 'Animal Farm'?"
+    },
+    "query_5": {
+      "text": "How did Virginia Woolf's innovative narrative techniques in novels like 'Mrs. Dalloway' and 'To the Lighthouse' reflect her views on the inner workings of consciousness and time?"
+    },
+    "query_6": {
+      "text": "In what ways did Emily Bronte's unique perspective on nature and human emotion in 'Wuthering Heights' contribute to the Gothic novel genre?"
+    }
+  }
+}

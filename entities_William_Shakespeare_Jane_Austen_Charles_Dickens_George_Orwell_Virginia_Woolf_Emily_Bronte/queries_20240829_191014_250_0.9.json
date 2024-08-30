@@ -1,0 +1,30 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did William Shakespeare's use of iambic pentameter and innovative character development contribute to the evolution of English drama?"
+    },
+    "query_2": {
+      "text": "In what ways did Jane Austen's novels challenge the societal norms of her time and influence the development of the modern novel?"
+    },
+    "query_3": {
+      "text": "How did Charles Dickens's portrayal of social reform in his works reflect the conditions of Victorian England and impact public awareness of social issues?"
+    },
+    "query_4": {
+      "text": "In what ways did George Orwell's experiences with totalitarian regimes influence the themes and messages in his writings, particularly in '1984' and 'Animal Farm'?"
+    },
+    "query_5": {
+      "text": "How did Virginia Woolf's narrative techniques in her novels, such as stream-of-consciousness, shape the representation of female experience in literature?"
+    },
+    "query_6": {
+      "text": "In what ways did Emily Bronte's only novel, 'Wuthering Heights', challenge traditional narrative forms and themes of love and revenge in the context of 19th-century literature?"
+    }
+  }
+}

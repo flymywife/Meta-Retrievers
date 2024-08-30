@@ -1,0 +1,41 @@
+{
+  "entity": "Abraham Lincoln",
+  "best_matches": {
+    "query_1": {
+      "query_text": "How did Abraham Lincoln's early family life and the socio-economic conditions of his birthplace in Hardin County, Kentucky, influence his values and beliefs?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "Abraham Lincoln was born on February 12, 1809, in Hardin County, Kentucky, into a poor family of farmers. The socio-economic conditions of his birthplace, characterized by frontier life and limited resources, instilled in him a strong work ethic and a belief in self-improvement. His family's struggles with poverty and the harsh realities of rural life fostered values of perseverance, empathy, and a commitment to education. These early experiences shaped his later views on equality, opportunity, and the",
+      "cosine_similarity": 0.9136160042965523
+    },
+    "query_2": {
+      "query_text": "In what ways did Abraham Lincoln's limited formal education and his self-directed learning experiences shape his perspectives on democracy and leadership?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "Abraham Lincoln's limited formal education, consisting of about 18 months in a one-room schoolhouse, fostered a strong sense of self-directed learning. He voraciously read books, including the Bible, Shakespeare, and works on law and science, which shaped his understanding of human rights and governance. This self-education instilled in him a belief in the importance of individual potential and the value of education for all, influencing his democratic ideals. Lincoln's experiences as a self-taught lawyer and",
+      "cosine_similarity": 0.9270624960247537
+    },
+    "query_3": {
+      "query_text": "What were Abraham Lincoln's initial professional endeavors before entering politics, and how did these experiences contribute to his later political career?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Before entering politics, Abraham Lincoln worked as a rail-splitter, a storekeeper, and a surveyor. His early labor as a rail-splitter in Indiana and his experience in the general store in New Salem, Illinois, helped him develop a strong work ethic and an understanding of the struggles of ordinary people. Additionally, his role as a surveyor enhanced his analytical skills and knowledge of land issues, which were crucial in his later political debates. These experiences grounded him in the realities of frontier",
+      "cosine_similarity": 0.8912235240400239
+    },
+    "query_4": {
+      "query_text": "What were the key legislative achievements of Abraham Lincoln during his presidency, particularly regarding the Emancipation Proclamation and the preservation of the Union?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "During his presidency, Abraham Lincoln achieved significant legislative milestones, particularly with the Emancipation Proclamation and efforts to preserve the Union. The Emancipation Proclamation, issued on January 1, 1863, declared the freedom of all enslaved people in Confederate-held territory, redefining the Civil War's purpose to include the abolition of slavery. Additionally, Lincoln championed the passage of the Thirteenth Amendment, which abolished slavery in the United States, ratified in December 1865.",
+      "cosine_similarity": 0.9155373320485262
+    },
+    "query_5": {
+      "query_text": "How did Abraham Lincoln's personal relationships, particularly with his wife Mary Todd Lincoln and his close friends, impact his emotional well-being and decision-making as a leader?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Abraham Lincoln's personal relationships significantly influenced his emotional well-being and leadership. His marriage to Mary Todd Lincoln was tumultuous; her struggles with mental health and their frequent disagreements often added to his stress. Despite this, she was a source of support during the Civil War. Lincoln's close friendships, particularly with figures like Joshua Speed and William H. Seward, provided him with counsel and emotional refuge. These relationships helped him navigate the pressures of leadership, offering both companionship and differing perspectives that shaped his decision",
+      "cosine_similarity": 0.946111339409554
+    },
+    "query_6": {
+      "query_text": "In what ways have Abraham Lincoln's principles and actions during the Civil War influenced contemporary American society and the ongoing discourse around civil rights and equality?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "Abraham Lincoln's principles during the Civil War, particularly his commitment to preserving the Union and ending slavery, laid the groundwork for contemporary civil rights discourse. The Emancipation Proclamation of 1863 not only freed enslaved individuals in Confederate states but also redefined the war's purpose to include the fight for equality. Lincoln's belief in a government \"of the people, by the people, for the people\" has inspired ongoing movements for civil rights, emphasizing the importance of equality and justice. His",
+      "cosine_similarity": 0.9005859716886487
+    }
+  }
+}

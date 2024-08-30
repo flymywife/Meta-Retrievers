@@ -1,0 +1,23 @@
+{
+  "entity": "Abraham Lincoln",
+  "queries": {
+    "query_1": {
+      "text": "How did Abraham Lincoln's early family life and the socio-economic conditions of his birthplace in Hardin County, Kentucky, influence his values and beliefs?"
+    },
+    "query_2": {
+      "text": "In what ways did Abraham Lincoln's limited formal education and self-directed learning contribute to his development as a lawyer and politician?"
+    },
+    "query_3": {
+      "text": "How did Abraham Lincoln's early experiences as a rail-splitter and his involvement in local politics shape his initial career path and contributions to the legal profession?"
+    },
+    "query_4": {
+      "text": "What were the key policies and actions taken by Abraham Lincoln during his presidency that solidified his legacy as a leader during the American Civil War?"
+    },
+    "query_5": {
+      "text": "How did Abraham Lincoln's personal struggles, including his bouts of depression and his relationships with family members, affect his leadership style and public image?"
+    },
+    "query_6": {
+      "text": "In what ways have Abraham Lincoln's speeches and writings, particularly the Gettysburg Address and the Emancipation Proclamation, influenced contemporary views on democracy and civil rights?"
+    }
+  }
+}

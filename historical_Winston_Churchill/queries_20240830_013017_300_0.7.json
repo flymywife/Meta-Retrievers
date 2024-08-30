@@ -1,0 +1,23 @@
+{
+  "entity": "Winston Churchill",
+  "queries": {
+    "query_1": {
+      "text": "How did Winston Churchill's family background and upbringing influence his political views and leadership style?"
+    },
+    "query_2": {
+      "text": "In what ways did Winston Churchill's education at Harrow School and the Royal Military Academy Sandhurst shape his approach to leadership and decision-making?"
+    },
+    "query_3": {
+      "text": "What were Winston Churchill's early career milestones and contributions that established his reputation in British politics before World War II?"
+    },
+    "query_4": {
+      "text": "During which specific events or actions did Winston Churchill achieve peak recognition, and how did these moments define his legacy as a wartime leader?"
+    },
+    "query_5": {
+      "text": "How did Winston Churchill's personal relationships and character traits affect his public image and effectiveness as a leader during challenging times?"
+    },
+    "query_6": {
+      "text": "In what ways has Winston Churchill's rhetoric and policies influenced modern political thought and international relations, and how is he remembered today?"
+    }
+  }
+}

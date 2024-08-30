@@ -1,0 +1,23 @@
+{
+  "entity": "Abraham Lincoln",
+  "queries": {
+    "query_1": {
+      "text": "How did Abraham Lincoln's early family life and the values instilled by his parents influence his later political beliefs and leadership style?"
+    },
+    "query_2": {
+      "text": "In what ways did Abraham Lincoln's limited formal education shape his self-directed learning and personal development throughout his life?"
+    },
+    "query_3": {
+      "text": "What were the key milestones in Abraham Lincoln's early career that contributed to his rise as a significant political figure before the presidency?"
+    },
+    "query_4": {
+      "text": "What were Abraham Lincoln's most notable achievements during his presidency, and how did these accomplishments redefine the role of the federal government in American society?"
+    },
+    "query_5": {
+      "text": "How did Abraham Lincoln's personal relationships, including his marriage to Mary Todd Lincoln, affect his emotional well-being and decision-making as a leader during the Civil War?"
+    },
+    "query_6": {
+      "text": "In what ways have Abraham Lincoln's policies and speeches, particularly the Emancipation Proclamation, influenced contemporary discussions on civil rights and equality in the United States?"
+    }
+  }
+}

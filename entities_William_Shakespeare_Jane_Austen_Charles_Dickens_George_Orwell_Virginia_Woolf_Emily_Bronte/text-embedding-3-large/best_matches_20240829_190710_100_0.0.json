@@ -1,0 +1,48 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "best_matches": {
+    "query_1": {
+      "query_text": "How did William Shakespeare's use of iambic pentameter influence the development of English poetry and drama during the Renaissance?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "William Shakespeare's use of iambic pentameter significantly influenced English poetry and drama during the Renaissance by establishing a rhythmic structure that enhanced the emotional and dramatic impact of his works. This meter, consisting of five pairs of alternating unstressed and stressed syllables, allowed for a natural flow of speech, making dialogue more engaging. Shakespeare's mastery of this form enabled him to explore complex themes and character emotions, setting a standard for subsequent playwrights and poets. His innovative variations on iambic pentam",
+      "cosine_similarity": 0.8706984164041567
+    },
+    "query_2": {
+      "query_text": "In what ways did Jane Austen's novels challenge the social norms of her time, particularly regarding women's roles and marriage?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "Jane Austen's novels, particularly \"Pride and Prejudice\" and \"Sense and Sensibility,\" challenged early 19th-century social norms by portraying women as complex individuals with desires beyond marriage. Austen critiqued the economic dependency of women on marriage, highlighting the limited options available to them. Her characters often seek love and compatibility rather than financial security, promoting the idea of marrying for affection. Additionally, Austen's use of irony and social commentary exposes the absurdities of societal expectations, encouraging readers to",
+      "cosine_similarity": 0.8095335223571537
+    },
+    "query_3": {
+      "query_text": "How did Charles Dickens's experiences in poverty shape the themes of social reform and class struggle in his literary works?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Charles Dickens's experiences in poverty, particularly during his childhood when his family was imprisoned for debt, profoundly influenced his literary themes. This background instilled in him a deep empathy for the underprivileged and a critical view of social injustices. Works like \"Oliver Twist\" and \"Hard Times\" vividly depict the struggles of the poor and advocate for social reform. Dickens used his narratives to highlight the harsh realities of class disparity, child labor, and the inadequacies of the Poor Law, ultimately aiming to",
+      "cosine_similarity": 0.8450723317323567
+    },
+    "query_4": {
+      "query_text": "In what ways did George Orwell's political beliefs manifest in his writings, particularly in 'Animal Farm' and '1984'?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "George Orwell's political beliefs, particularly his opposition to totalitarianism and advocacy for democratic socialism, are vividly illustrated in 'Animal Farm' and '1984'. In 'Animal Farm', he critiques the corruption of socialist ideals through the allegory of a farm where the pigs, representing the ruling class, betray the other animals, symbolizing the working class. '1984' explores the dangers of oppressive regimes, surveillance, and propaganda, reflecting Orwell's concerns about the loss of individual freedoms and truth under",
+      "cosine_similarity": 0.8313114304418417
+    },
+    "query_5": {
+      "query_text": "How did Virginia Woolf's innovative narrative techniques contribute to the modernist movement in literature?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Virginia Woolf's innovative narrative techniques, such as stream of consciousness, free indirect discourse, and nonlinear timelines, significantly contributed to the modernist movement. In works like \"Mrs. Dalloway\" and \"To the Lighthouse,\" she explored the inner thoughts and perceptions of characters, emphasizing subjective experience over traditional plot structures. This focus on consciousness and the fluidity of time challenged conventional narrative forms, reflecting the complexities of human experience and aligning with modernist themes of fragmentation and alienation. Woolf's",
+      "cosine_similarity": 0.8488405497732544
+    },
+    "query_6": {
+      "query_text": "In what ways did Emily Bronte's 'Wuthering Heights' explore the complexities of love and revenge, and how has it influenced subsequent literature?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "Emily Bront\u00eb's 'Wuthering Heights' intricately explores the complexities of love and revenge through the tumultuous relationship between Heathcliff and Catherine Earnshaw. Their passionate love is marred by betrayal and societal constraints, leading Heathcliff to seek vengeance against those he believes wronged him. This cycle of love and revenge creates a dark, gothic atmosphere that challenges conventional romantic ideals. The novel's themes have profoundly influenced subsequent literature, inspiring works that delve into obsessive love and moral ambiguity,",
+      "cosine_similarity": 0.8255047711491239
+    }
+  }
+}

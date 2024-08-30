@@ -1,0 +1,30 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did William Shakespeare's use of iambic pentameter contribute to the development of English literature during the Elizabethan era?"
+    },
+    "query_2": {
+      "text": "In what ways did Jane Austen's novels challenge the social norms of her time, particularly regarding women's roles and marriage?"
+    },
+    "query_3": {
+      "text": "How did Charles Dickens's experiences in poverty influence the themes of social justice and reform in his literary works?"
+    },
+    "query_4": {
+      "text": "In what ways did George Orwell's political beliefs shape the themes and messages of his notable works, such as '1984' and 'Animal Farm'?"
+    },
+    "query_5": {
+      "text": "How did Virginia Woolf's contributions to modernist literature and her advocacy for women's rights impact the literary landscape of the early 20th century?"
+    },
+    "query_6": {
+      "text": "In what ways did Emily Bronte's unique narrative style in 'Wuthering Heights' influence the portrayal of complex characters in literature?"
+    }
+  }
+}

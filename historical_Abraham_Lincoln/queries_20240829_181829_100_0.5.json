@@ -1,0 +1,23 @@
+{
+  "entity": "Abraham Lincoln",
+  "queries": {
+    "query_1": {
+      "text": "How did Abraham Lincoln's early family life and the values instilled by his parents influence his later political beliefs and leadership style?"
+    },
+    "query_2": {
+      "text": "In what ways did Abraham Lincoln's limited formal education and self-directed learning contribute to his development as a lawyer and politician?"
+    },
+    "query_3": {
+      "text": "What were Abraham Lincoln's initial professional endeavors before he entered politics, and how did these experiences shape his approach to governance?"
+    },
+    "query_4": {
+      "text": "What key policies and actions during Abraham Lincoln's presidency are considered his most significant achievements, and how did they alter the course of American history?"
+    },
+    "query_5": {
+      "text": "How did Abraham Lincoln's personal relationships, particularly with his wife Mary Todd Lincoln and his close friends, affect his emotional well-being and decision-making during his presidency?"
+    },
+    "query_6": {
+      "text": "In what ways has Abraham Lincoln's legacy continued to influence contemporary discussions on civil rights and equality in the United States?"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity": "George Washington",
+  "queries": {
+    "query_1": {
+      "text": "How did George Washington's family background and upbringing in Virginia influence his values and leadership style?"
+    },
+    "query_2": {
+      "text": "In what ways did George Washington's limited formal education impact his early life experiences and his approach to learning throughout his career?"
+    },
+    "query_3": {
+      "text": "What initial roles and responsibilities did George Washington undertake in his early career, and how did these experiences lay the groundwork for his future leadership?"
+    },
+    "query_4": {
+      "text": "What were the key achievements of George Washington during the American Revolutionary War, and how did these accomplishments contribute to his recognition as a national leader?"
+    },
+    "query_5": {
+      "text": "How did George Washington's personal relationships and character traits shape his public image and effectiveness as a leader during his presidency?"
+    },
+    "query_6": {
+      "text": "In what ways has George Washington's legacy influenced modern American political culture and the perception of presidential leadership?"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "best_matches": {
+    "query_1": {
+      "query_text": "How did William Shakespeare's use of iambic pentameter contribute to the development of English poetry and drama during the Elizabethan era?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "William Shakespeare's use of iambic pentameter significantly influenced English poetry and drama during the Elizabethan era by establishing a rhythmic and structured form that enhanced the emotional and dramatic impact of his works. Iambic pentameter, consisting of five pairs of alternating unstressed and stressed syllables, allowed for a natural flow of speech, mirroring everyday conversation while maintaining a poetic quality. This meter became a standard for English verse, enabling Shakespeare to convey complex characters and themes with clarity and depth.\n\nHis adept manipulation of this form, including variations and deviations, added musicality and heightened tension in key moments of his plays. By employing iambic pentameter, Shakespeare elevated the status of English drama, moving it beyond mere entertainment to a respected literary art form. This innovation not only shaped the works of his contemporaries but also laid the groundwork for future poets and playwright",
+      "cosine_similarity": 0.9392794598893652
+    },
+    "query_2": {
+      "query_text": "In what ways did Jane Austen's novels challenge the social norms and gender roles of her time, particularly in 'Pride and Prejudice' and 'Sense and Sensibility'?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "Jane Austen's novels, particularly \"Pride and Prejudice\" and \"Sense and Sensibility,\" challenge the social norms and gender roles of the early 19th century by presenting strong, complex female characters who seek autonomy and assert their desires. In \"Pride and Prejudice,\" Elizabeth Bennet defies the expectation of marrying solely for financial security by prioritizing love and mutual respect, showcasing the importance of personal choice in marriage. Austen critiques the limited roles available to women, highlighting the constraints of societal expectations through characters like Mr. Collins, who embodies the absurdity of social status.\n\nIn \"Sense and Sensibility,\" the Dashwood sisters represent contrasting responses to societal pressures\u2014Elinor's rationality versus Marianne's emotionality\u2014ultimately advocating for a balance between reason and sentiment. Both novels emphasize women's intelligence and moral agency, challenging the notion that their primary purpose",
+      "cosine_similarity": 0.9304375114358713
+    },
+    "query_3": {
+      "query_text": "How did Charles Dickens's experiences with poverty influence the themes of social reform and compassion in his works such as 'Oliver Twist' and 'A Christmas Carol'?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Charles Dickens's early experiences with poverty significantly shaped his literary themes of social reform and compassion. As a child, Dickens faced financial hardship when his father was imprisoned for debt, forcing him to work in a factory at a young age. This firsthand exposure to the struggles of the impoverished informed his portrayal of social injustices in works like *Oliver Twist* and *A Christmas Carol*. \n\nIn *Oliver Twist*, Dickens highlights the plight of orphaned children and critiques the workhouse system, emphasizing the need for compassion and reform in society. The character of Oliver symbolizes the innocence lost in a harsh world, calling attention to the neglect of the vulnerable. Similarly, in *A Christmas Carol*, Dickens advocates for empathy and social responsibility through Ebenezer Scrooge's transformation, illustrating the impact of individual actions on societal change. These narratives reflect Dickens's deep-seated belief in the necessity",
+      "cosine_similarity": 0.9460264717737913
+    },
+    "query_4": {
+      "query_text": "In what ways did George Orwell's political beliefs shape the narratives and themes of his major works, particularly '1984' and 'Animal Farm'?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "George Orwell's political beliefs, particularly his opposition to totalitarianism and his advocacy for democratic socialism, significantly shaped the narratives and themes of his major works, especially '1984' and 'Animal Farm.' In 'Animal Farm,' Orwell critiques the corruption of socialist ideals, illustrating how power can lead to tyranny through the allegorical representation of the Russian Revolution. The pigs, who initially promote equality, ultimately become indistinguishable from the oppressive humans they replaced, highlighting the betrayal of revolutionary principles.\n\nIn '1984,' Orwell explores the dangers of totalitarian regimes and the manipulation of truth. The novel's depiction of surveillance, propaganda, and the erasure of history reflects his concerns about authoritarianism and the loss of individual freedoms. Both works serve as cautionary tales about the fragility of democracy and the potential for political systems to devolve into oppression, underscoring Orwell's",
+      "cosine_similarity": 0.9368061882312912
+    },
+    "query_5": {
+      "query_text": "How did Virginia Woolf's innovative narrative techniques in novels like 'Mrs. Dalloway' and 'To the Lighthouse' reflect her views on the inner lives of women and the passage of time?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Virginia Woolf's innovative narrative techniques in 'Mrs. Dalloway' and 'To the Lighthouse' are pivotal in exploring the inner lives of women and the concept of time. In 'Mrs. Dalloway', Woolf employs stream-of-consciousness to delve into Clarissa Dalloway's thoughts, revealing her emotional depth and societal constraints. This technique allows readers to experience her memories and perceptions fluidly, emphasizing the complexity of her inner life.\n\nSimilarly, in 'To the Lighthouse', Woolf uses a non-linear structure and shifts in perspective to illustrate the passage of time and its impact on relationships and identity. The novel\u2019s sections reflect the characters' thoughts and feelings, particularly those of Lily Briscoe and Mrs. Ramsay, highlighting the nuances of female experience and creativity. Woolf's focus on subjective experience over chronological narrative underscores her belief that the inner lives",
+      "cosine_similarity": 0.939150720982797
+    },
+    "query_6": {
+      "query_text": "In what ways did Emily Bronte's only novel, 'Wuthering Heights', challenge the conventions of Victorian literature and explore themes of passion and revenge?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "Emily Bront\u00eb's only novel, *Wuthering Heights*, published in 1847, significantly challenged Victorian literary conventions through its complex characters and dark themes. Unlike the era's typical romantic novels that often idealized love and morality, Bront\u00eb presented a raw exploration of passion, particularly through the tumultuous relationship between Heathcliff and Catherine Earnshaw. Their love is portrayed as destructive and obsessive, defying societal norms of the time.\n\nAdditionally, the novel delves into themes of revenge, as Heathcliff's quest for retribution against those who wronged him drives much of the plot. This focus on vengeance, coupled with the portrayal of intense, often violent emotions, starkly contrasts with the restrained emotional expressions expected in Victorian literature. Bront\u00eb's non-linear narrative structure and use of multiple perspectives further subvert traditional storytelling methods, allowing for a more",
+      "cosine_similarity": 0.9259970114373229
+    }
+  }
+}

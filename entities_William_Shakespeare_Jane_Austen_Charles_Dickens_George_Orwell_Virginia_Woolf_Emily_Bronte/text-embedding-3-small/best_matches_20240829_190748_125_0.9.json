@@ -1,0 +1,48 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "best_matches": {
+    "query_1": {
+      "query_text": "How did William Shakespeare's use of iambic pentameter and innovative character development contribute to the evolution of English drama?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "William Shakespeare's use of iambic pentameter provided a rhythmic and metrical structure that elevated the language of English drama, allowing for greater emotional expression and poetic nuance. This meter became a standard for subsequent playwrights, influencing the rhythm and flow of dialogue in plays. Furthermore, his innovative character development, characterized by complex, multi-dimensional figures, set a new benchmark for psychological depth in drama. Characters like Hamlet and Lady Macbeth exhibit intricate motivations and conflicts, moving beyond the archetypal figures common in earlier works. This blend of poetic form and rich characterization marked a significant evolution in English drama, paving the way for future",
+      "cosine_similarity": 0.835466571114491
+    },
+    "query_2": {
+      "query_text": "In what ways did Jane Austen's novels challenge the societal norms of her time and influence the portrayal of women in literature?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "Jane Austen's novels, written in the early 19th century, challenged societal norms by portraying women as complex individuals with desires, intelligence, and agency, rather than mere objects of marriage. Through protagonists like Elizabeth Bennet and Anne Elliot, Austen criticized the limited roles available to women, highlighting the economic and social pressures they faced. Her emphasis on character development and moral choice allowed for a nuanced exploration of women's independence and personal growth, influencing future literature by laying the groundwork for stronger, more relatable female characters. Austen's works encouraged a shift in the portrayal of women, making them active participants in their own stories.",
+      "cosine_similarity": 0.828411904119467
+    },
+    "query_3": {
+      "query_text": "How did Charles Dickens's experiences in poverty shape the themes of social justice and reform in his literary works?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Charles Dickens's early experiences with poverty, particularly during his childhood when his family was imprisoned for debt, deeply influenced his literary themes of social justice and reform. This personal struggle exposed him to the harsh realities of the poor in Victorian England, leading him to portray the injustices faced by the working class in works like \"Oliver Twist\" and \"David Copperfield.\" Dickens highlighted the failures of the social system, emphasizing the need for reform in areas such as child labor and social welfare. His empathy for the downtrodden compelled him to advocate for change, making social critique a cornerstone of his writing.",
+      "cosine_similarity": 0.864490066659658
+    },
+    "query_4": {
+      "query_text": "In what ways did George Orwell's political views and experiences in the Spanish Civil War inform the themes of totalitarianism and oppression in his writings?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "George Orwell's experiences in the Spanish Civil War profoundly shaped his political views and the themes of totalitarianism and oppression in his writings. Serving with the POUM (Workers' Party of Marxist Unification), Orwell witnessed firsthand the rise of Stalinist repression against leftist factions. This experience highlighted the dangers of authoritarianism, leading him to critique totalitarian regimes in works like \"Animal Farm\" and \"1984.\" His observations of betrayal among the left and the manipulation of truth reinforced his belief in the necessity of political integrity and the protection of individual freedoms, themes that became central to his literary output following the war.",
+      "cosine_similarity": 0.8754999879768777
+    },
+    "query_5": {
+      "query_text": "How did Virginia Woolf's contributions to modernist literature and her advocacy for women's rights impact the literary landscape of the early 20th century?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Virginia Woolf's contributions to modernist literature in the early 20th century are exemplified in her innovative narrative techniques, such as stream of consciousness and fragmented structure, seen in works like \"Mrs. Dalloway\" and \"To the Lighthouse.\" These approaches challenged traditional storytelling and emphasized psychological depth. Concurrently, her advocacy for women's rights, notably in essays like \"A Room of One's Own,\" argued for women's intellectual freedom and financial independence, influencing feminist literary criticism. Woolf's work not only reshaped narrative form but also positioned women's experiences as central in literature, significantly altering the literary landscape and fostering an environment",
+      "cosine_similarity": 0.8086815761790507
+    },
+    "query_6": {
+      "query_text": "In what ways did Emily Bronte's use of the moors as a setting in 'Wuthering Heights' reflect the themes of isolation and passion in her storytelling?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "In 'Wuthering Heights,' Emily Bront\u00eb uses the Yorkshire moors as a setting to embody themes of isolation and passion. The vast, rugged landscape reflects the emotional turmoil and wildness of characters like Heathcliff and Catherine. The isolation of the moors parallels their tumultuous love and personal struggles, emphasizing their disconnect from societal norms. This setting also heightens the sense of foreboding and melancholia, illustrating how the environment shapes the characters' identities and fates. Ultimately, the moors serve as both a physical and emotional backdrop, intensifying the novel's exploration of deep, often destructive, passion",
+      "cosine_similarity": 0.8804822610746009
+    }
+  }
+}

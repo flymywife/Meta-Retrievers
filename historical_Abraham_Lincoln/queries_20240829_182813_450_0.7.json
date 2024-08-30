@@ -1,0 +1,23 @@
+{
+  "entity": "Abraham Lincoln",
+  "queries": {
+    "query_1": {
+      "text": "How did Abraham Lincoln's early family life and the values instilled by his parents influence his later political beliefs and leadership style?"
+    },
+    "query_2": {
+      "text": "In what ways did Abraham Lincoln's limited formal education and his self-directed learning experiences shape his perspectives on democracy and governance?"
+    },
+    "query_3": {
+      "text": "What were Abraham Lincoln's initial career choices before entering politics, and how did these experiences contribute to his skills as a leader?"
+    },
+    "query_4": {
+      "text": "What were the key legislative achievements during Abraham Lincoln's presidency, and how did they reflect his vision for the United States during the Civil War?"
+    },
+    "query_5": {
+      "text": "How did Abraham Lincoln's personal struggles, including his bouts with depression, affect his relationships with family and colleagues, and how did this interplay with his public persona?"
+    },
+    "query_6": {
+      "text": "In what ways has Abraham Lincoln's legacy continued to influence contemporary discussions on civil rights and equality in American society?"
+    }
+  }
+}

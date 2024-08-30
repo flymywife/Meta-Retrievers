@@ -1,0 +1,30 @@
+{
+  "entities": [
+    "Taylor Swift",
+    "Ed Sheeran",
+    "Adele Laurie Blue Adkins",
+    "Beyonc\u00e9 Knowles Carter",
+    "Bruno Mars",
+    "Lady Gaga"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How has Taylor Swift's songwriting evolved over the years, and what impact has it had on her commercial success and critical acclaim?"
+    },
+    "query_2": {
+      "text": "In what ways has Ed Sheeran's fusion of different musical genres contributed to his global popularity and the numerous awards he has received?"
+    },
+    "query_3": {
+      "text": "How did Adele Laurie Blue Adkins's personal experiences influence the themes and success of her albums, particularly '21' and '25'?"
+    },
+    "query_4": {
+      "text": "In what ways has Beyonc\u00e9 Knowles Carter's work as a solo artist and with Destiny's Child shaped the landscape of contemporary pop and R&B music?"
+    },
+    "query_5": {
+      "text": "How has Bruno Mars integrated elements of funk, soul, and pop in his music, and what recognition has he received for his contributions to the music industry?"
+    },
+    "query_6": {
+      "text": "In what ways has Lady Gaga used her platform to advocate for social issues, and how has this activism influenced her artistic expression and public persona?"
+    }
+  }
+}

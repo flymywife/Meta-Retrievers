@@ -1,0 +1,48 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "best_matches": {
+    "query_1": {
+      "query_text": "How did William Shakespeare's use of iambic pentameter contribute to the development of English poetry and drama during the Elizabethan era?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "William Shakespeare's use of iambic pentameter significantly influenced English poetry and drama during the Elizabethan era by establishing a rhythmic and structured form that enhanced the emotional and dramatic impact of his works. This meter, consisting of five feet with alternating unstressed and stressed syllables, allowed for a natural flow of speech, making dialogue more engaging and accessible. Shakespeare's mastery of iambic pentameter enabled him to convey complex characters and themes while maintaining a lyrical quality. His innovative use of this form also inspired future poets and playwrights, solidifying iambic pentameter as a foundational element of English literature.",
+      "bm25_score": 19.41464720182876
+    },
+    "query_2": {
+      "query_text": "In what ways did Jane Austen's novels challenge the social norms and gender roles of her time, particularly in works like 'Pride and Prejudice' and 'Emma'?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "Jane Austen's novels, particularly \"Pride and Prejudice\" and \"Emma,\" challenge the social norms and gender roles of the early 19th century by portraying strong, intelligent female protagonists who assert their autonomy in a patriarchal society. In \"Pride and Prejudice,\" Elizabeth Bennet defies the expectation of marrying solely for financial security, prioritizing love and mutual respect instead. Similarly, \"Emma\" features a heroine who navigates social expectations while exercising her independence and agency in matchmaking. Both novels critique the limitations placed on women, advocating for personal choice and intellectual equality, ultimately questioning the societal pressures that dictate women's",
+      "bm25_score": 13.023824573333423
+    },
+    "query_3": {
+      "query_text": "How did Charles Dickens's portrayal of social issues in his novels, such as 'Oliver Twist' and 'A Christmas Carol', influence public perception and legislative reforms in Victorian England?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Charles Dickens's portrayal of social issues in novels like 'Oliver Twist' and 'A Christmas Carol' significantly influenced public perception and legislative reforms in Victorian England. 'Oliver Twist' highlighted the harsh realities of child labor and the inadequacies of the Poor Law, drawing public attention to the plight of the impoverished. This exposure contributed to the reform of social welfare policies. Similarly, 'A Christmas Carol' emphasized the importance of compassion and social responsibility, resonating with the Victorian ethos. Dickens's vivid storytelling and moral messages galvanized public sentiment, prompting discussions that ultimately led to reforms such as the Poor Law Amendment Act of 1834",
+      "bm25_score": 26.628990396099777
+    },
+    "query_4": {
+      "query_text": "In what ways did George Orwell's experiences in the Spanish Civil War shape his views on totalitarianism as reflected in his works '1984' and 'Animal Farm'?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "George Orwell's experiences in the Spanish Civil War profoundly influenced his views on totalitarianism, which are evident in both '1984' and 'Animal Farm.' While fighting for the POUM (Workers' Party of Marxist Unification), he witnessed the betrayal of revolutionary ideals by Stalinist forces, leading to a deep skepticism of authoritarian regimes. This experience informed his portrayal of oppressive governments in '1984,' where surveillance and manipulation suppress individual freedom. In 'Animal Farm,' he critiques the corruption of socialist ideals, illustrating how revolutionary leaders can become indistinguishable from the tyrants they replace. These works reflect his belief that",
+      "bm25_score": 21.638303922133176
+    },
+    "query_5": {
+      "query_text": "How did Virginia Woolf's innovative narrative techniques in novels like 'Mrs. Dalloway' and 'To the Lighthouse' contribute to the modernist literary movement?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Virginia Woolf's innovative narrative techniques in novels like 'Mrs. Dalloway' and 'To the Lighthouse' significantly contributed to the modernist literary movement by employing stream-of-consciousness and nonlinear storytelling. In 'Mrs. Dalloway,' Woolf captures the inner thoughts and perceptions of characters, blurring the lines between past and present, which reflects the complexities of human consciousness. Similarly, 'To the Lighthouse' uses shifting perspectives and fragmented time to explore themes of memory and existence. These techniques challenge traditional narrative structures, emphasizing subjective experience and the fluidity of time, hallmark characteristics of modernist literature that sought to represent",
+      "bm25_score": 20.801582453253843
+    },
+    "query_6": {
+      "query_text": "In what ways did Emily Bronte's novel 'Wuthering Heights' challenge the conventions of Victorian literature and explore themes of passion and revenge?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "Emily Bront\u00eb's 'Wuthering Heights' challenges Victorian literary conventions through its complex characters and unorthodox narrative structure. Unlike typical Victorian novels that often emphasized morality and social order, Bront\u00eb presents raw, intense emotions, particularly through the passionate relationship between Heathcliff and Catherine. The novel explores themes of revenge as Heathcliff's relentless pursuit of vengeance against those who wronged him drives the plot, showcasing the darker sides of human nature. Additionally, the use of a non-linear narrative and multiple perspectives breaks from the era's preference for straightforward storytelling, allowing for a deeper exploration of psychological and emotional turmoil.",
+      "bm25_score": 11.392228495028485
+    }
+  }
+}

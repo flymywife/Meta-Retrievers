@@ -1,0 +1,48 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "best_matches": {
+    "query_1": {
+      "query_text": "How did William Shakespeare's use of iambic pentameter influence the development of English poetry and drama during the Renaissance?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "William Shakespeare's use of iambic pentameter significantly influenced English poetry and drama during the Renaissance by establishing a rhythmic and metrical framework that became a standard for subsequent writers. This five-foot line, with its alternating unstressed and stressed syllables, allowed for a natural flow of speech, enhancing the emotional depth and expressiveness of his characters. Shakespeare's mastery of this form enabled him to blend poetic language with dramatic dialogue, making his works more accessible and engaging. His innovative use of iambic pentameter also inspired later poets and playwrights, solidifying its role as a foundational element in English literature and shaping the evolution of poetic forms in the centuries that followed.",
+      "bm25_score": 16.23323909933652
+    },
+    "query_2": {
+      "query_text": "In what ways did Jane Austen's novels challenge the social norms of her time, particularly regarding women's roles and marriage?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "Jane Austen's novels, particularly \"Pride and Prejudice\" and \"Sense and Sensibility,\" challenged the social norms of the early 19th century by critiquing the limited roles available to women and the institution of marriage. Austen portrayed her female protagonists as intelligent and independent, emphasizing their right to choose partners based on love and mutual respect rather than economic necessity or social status. For instance, Elizabeth Bennet's rejection of Mr. Collins highlights her desire for personal agency over societal expectations. Additionally, Austen's exploration of marriage as a complex social contract rather than a mere economic arrangement encouraged readers to reconsider the motivations behind marital unions, ultimately advocating for women's autonomy and emotional fulfillment within the constraints of her time.",
+      "bm25_score": 12.21059321971088
+    },
+    "query_3": {
+      "query_text": "How did Charles Dickens's experiences in poverty shape the themes of social reform and class disparity in his literary works?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Charles Dickens's experiences with poverty during his childhood profoundly influenced his literary themes. At the age of twelve, he was forced to work in a blacking factory after his father was imprisoned for debt, exposing him to the harsh realities of the working class. This firsthand experience of deprivation and social injustice fueled his passion for social reform. In novels like \"Oliver Twist\" and \"Hard Times,\" Dickens vividly depicted the struggles of the poor and the moral failings of the wealthy, highlighting class disparity and advocating for social change. His works often served as a critique of the Victorian social system, emphasizing the need for compassion and reform to address the plight of the underprivileged.",
+      "bm25_score": 12.201062460673906
+    },
+    "query_4": {
+      "query_text": "In what ways did George Orwell's political beliefs and experiences inform the themes of totalitarianism and individualism in his novels, particularly in '1984' and 'Animal Farm'?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "George Orwell's political beliefs and experiences, particularly his opposition to totalitarian regimes and advocacy for democratic socialism, profoundly shaped the themes in his novels '1984' and 'Animal Farm.' His experiences fighting in the Spanish Civil War exposed him to the dangers of authoritarianism, leading him to critique both fascism and Stalinism. In 'Animal Farm,' he uses allegory to illustrate how revolutionary ideals can be corrupted, showcasing the betrayal of the working class by those in power. '1984' explores the extreme measures of totalitarian control, emphasizing the loss of individualism and truth. Both works reflect Orwell's commitment to warning against oppressive governments and the importance of personal freedom.",
+      "bm25_score": 17.40929764226931
+    },
+    "query_5": {
+      "query_text": "How did Virginia Woolf's innovative narrative techniques, such as stream of consciousness, contribute to the evolution of modernist literature?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Virginia Woolf's innovative narrative techniques, particularly her use of stream of consciousness, significantly contributed to the evolution of modernist literature by emphasizing the fluidity of thought and the complexity of human experience. In works like \"Mrs. Dalloway\" and \"To the Lighthouse,\" Woolf employed this technique to delve into characters' inner lives, allowing readers to experience their thoughts and emotions in real-time. This approach challenged traditional linear storytelling, reflecting the fragmented nature of modern existence. By prioritizing subjective experience over objective reality, Woolf helped to redefine narrative structure, influencing contemporaries and future writers in their exploration of consciousness and identity, thus marking a pivotal shift in literary form during the modernist period.",
+      "bm25_score": 14.795904429115213
+    },
+    "query_6": {
+      "query_text": "In what ways did Emily Bronte's personal experiences and the setting of the Yorkshire moors influence the themes and characters in her novel 'Wuthering Heights'?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "Emily Bront\u00eb's personal experiences and the Yorkshire moors significantly influenced the themes and characters in her novel 'Wuthering Heights.' Growing up in the isolated and rugged landscape of the moors, Bront\u00eb developed a deep connection to nature, which is reflected in the novel's setting. The moors serve as a backdrop for the tumultuous relationships and emotional intensity of the characters, particularly Heathcliff and Catherine. Themes of passion, revenge, and the struggle against societal norms are mirrored in the wild, untamed environment. Additionally, Bront\u00eb's own experiences of loss and isolation, stemming from her family's early deaths and her reclusive lifestyle, inform the novel's exploration of love and suffering, making the characters' emotional depth resonate with",
+      "bm25_score": 15.25570806254812
+    }
+  }
+}

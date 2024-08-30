@@ -1,0 +1,30 @@
+{
+  "entities": [
+    "Abraham Lincoln",
+    "George Washington",
+    "Winston Churchill",
+    "Napoleon Bonaparte",
+    "Thomas Jefferson",
+    "Jane Austen"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did Abraham Lincoln's Emancipation Proclamation impact the course of the American Civil War and the status of slavery in the United States?"
+    },
+    "query_2": {
+      "text": "In what ways did George Washington's leadership during the American Revolutionary War establish him as a foundational figure in American history?"
+    },
+    "query_3": {
+      "text": "How did Winston Churchill's speeches and radio broadcasts during World War II contribute to British morale and the overall war effort against Nazi Germany?"
+    },
+    "query_4": {
+      "text": "In what ways did Napoleon Bonaparte's implementation of the Napoleonic Code influence legal systems in Europe and beyond?"
+    },
+    "query_5": {
+      "text": "How did Thomas Jefferson's founding principles, as articulated in the Declaration of Independence, shape American democracy and its values?"
+    },
+    "query_6": {
+      "text": "In what ways did Jane Austen's novels reflect the social and gender dynamics of early 19th-century England?"
+    }
+  }
+}

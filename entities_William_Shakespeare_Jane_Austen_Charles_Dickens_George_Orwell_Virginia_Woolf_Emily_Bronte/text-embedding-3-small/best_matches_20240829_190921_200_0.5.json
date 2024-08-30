@@ -1,0 +1,48 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "best_matches": {
+    "query_1": {
+      "query_text": "How did William Shakespeare's use of iambic pentameter contribute to the development of English poetry and drama during the Elizabethan era?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "William Shakespeare's use of iambic pentameter significantly influenced English poetry and drama during the Elizabethan era by establishing a rhythmic and structured framework that enhanced the emotional and dramatic impact of his works. Iambic pentameter, a metrical pattern consisting of five feet, each containing an unstressed syllable followed by a stressed syllable, allowed for a natural flow of speech that mirrored the English vernacular. This made his dialogue more relatable and engaging for audiences.\n\nShakespeare\u2019s mastery of this meter enabled him to explore complex themes and character emotions with nuance and depth. By varying the rhythm and occasionally deviating from strict iambic pentameter, he created tension and highlighted key moments in his plays. This flexibility contributed to the richness of his poetic language, setting a standard for subsequent playwrights and poets. His innovative use of iambic pentameter not only enhanced the aesthetic quality of his works but also solidified the meter\u2019s prominence in English literature, influencing generations of writers",
+      "cosine_similarity": 0.8818147264490915
+    },
+    "query_2": {
+      "query_text": "In what ways did Jane Austen's novels challenge the social norms and gender roles of her time, particularly in works like 'Pride and Prejudice' and 'Emma'?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "Jane Austen's novels, particularly \"Pride and Prejudice\" and \"Emma,\" challenge the social norms and gender roles of the early 19th century by exploring themes of marriage, class, and female autonomy. In \"Pride and Prejudice,\" Elizabeth Bennet defies the expectation that women should prioritize financial security over personal happiness in marriage. Her refusal to conform to societal pressures highlights the limitations placed on women and advocates for the right to choose a partner based on love rather than economic necessity.\n\nSimilarly, \"Emma\" features a strong-willed heroine who actively engages in matchmaking, demonstrating a degree of agency uncommon for women of her time. Emma Woodhouse's journey reveals the complexities of social class and the consequences of meddling in others' lives, ultimately leading to her self-awareness and growth. Through these characters, Austen critiques the rigid class structure and the limited roles available to women, promoting the idea that women can possess intellect, agency, and moral depth, thereby challenging the prevailing notions of feminin",
+      "cosine_similarity": 0.8518132640907625
+    },
+    "query_3": {
+      "query_text": "How did Charles Dickens's portrayal of social issues in his novels, such as 'Oliver Twist' and 'A Christmas Carol', influence public perception and legislative reforms in Victorian England?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Charles Dickens's portrayal of social issues in his novels, particularly in 'Oliver Twist' and 'A Christmas Carol', had a significant impact on public perception and legislative reforms in Victorian England. 'Oliver Twist' highlighted the harsh realities of the Poor Law system and the plight of orphaned children, drawing attention to the inhumane conditions in workhouses. This novel contributed to widespread public outrage, leading to calls for reform in social welfare policies.\n\nSimilarly, 'A Christmas Carol' underscored themes of social responsibility and compassion for the poor, portraying the transformative power of generosity. Dickens's depiction of Scrooge's redemption resonated with readers and encouraged a more charitable attitude towards the less fortunate. The public's emotional response to these narratives helped foster a growing awareness of social injustices.\n\nThese works influenced policymakers and contributed to significant reforms, including the Poor Law Amendment Act of 1834 and various initiatives aimed at improving living conditions for the impoverished. Dickens's ability to weave social critique into compelling narratives",
+      "cosine_similarity": 0.9058893641499338
+    },
+    "query_4": {
+      "query_text": "In what ways did George Orwell's experiences in the Spanish Civil War shape his views on totalitarianism as reflected in his works '1984' and 'Animal Farm'?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "George Orwell's experiences in the Spanish Civil War profoundly influenced his views on totalitarianism, which are vividly reflected in his works '1984' and 'Animal Farm.' Serving as a soldier for the POUM (Partido Obrero de Unificaci\u00f3n Marxista), Orwell witnessed firsthand the complexities of revolutionary politics and the betrayal of socialist ideals. He observed the infighting among leftist factions, particularly the brutal suppression of the POUM by Stalinist forces, which highlighted the dangers of ideological purity and authoritarianism.\n\nThese experiences led Orwell to recognize that totalitarian regimes often manipulate language and truth to maintain control, a theme central to '1984' with its concepts of Newspeak and doublethink. Similarly, 'Animal Farm' serves as an allegory for the corruption of revolutionary ideals, illustrating how power can corrupt and lead to oppressive governance, mirroring his disillusionment with the Soviet model of communism. Thus, Orwell's time in Spain solidified his belief that totalitarianism can arise even",
+      "cosine_similarity": 0.9058425918099887
+    },
+    "query_5": {
+      "query_text": "How did Virginia Woolf's innovative narrative techniques in novels like 'Mrs. Dalloway' and 'To the Lighthouse' contribute to the modernist literary movement?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Virginia Woolf's innovative narrative techniques in novels such as 'Mrs. Dalloway' and 'To the Lighthouse' significantly contributed to the modernist literary movement by challenging traditional linear storytelling and exploring the complexities of human consciousness. In 'Mrs. Dalloway,' Woolf employs stream-of-consciousness to delve into the inner thoughts and perceptions of her characters, reflecting their fragmented experiences and the passage of time. This technique allows readers to experience the fluidity of consciousness, mirroring the modernist interest in subjective reality.\n\nSimilarly, in 'To the Lighthouse,' Woolf utilizes shifting perspectives and non-linear timelines to depict the characters' emotional landscapes and the interplay between memory and reality. Her use of free indirect discourse blurs the boundaries between narrator and character, emphasizing individual perception over objective narration. These innovative approaches not only enhance the depth of character exploration but also align with modernist themes of alienation, identity, and the search for meaning in a rapidly changing world, solidifying Woolf's place as",
+      "cosine_similarity": 0.8858961264987448
+    },
+    "query_6": {
+      "query_text": "In what ways did Emily Bronte's novel 'Wuthering Heights' challenge the conventions of Victorian literature and explore themes of passion and revenge?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "Emily Bront\u00eb's novel 'Wuthering Heights,' published in 1847, significantly challenged the conventions of Victorian literature through its unconventional narrative structure, complex characters, and exploration of intense themes. Unlike the typical Victorian focus on social morality and domesticity, Bront\u00eb presented a raw and tumultuous portrayal of love and revenge, primarily through the characters of Heathcliff and Catherine Earnshaw. Their passionate relationship defies societal expectations, emphasizing the destructive nature of obsession and the depths of human emotion.\n\nThe novel's nonlinear narrative and the use of multiple narrators further subvert traditional storytelling techniques, creating a disorienting yet immersive experience. Bront\u00eb's depiction of nature as a reflection of the characters' inner turmoil also contrasts sharply with the era's idealized views. Themes of revenge are intricately woven throughout the plot, as Heathcliff's relentless quest for vengeance against those who wronged him illustrates the darker aspects of human nature. Overall, 'Wuthering Heights' stands as",
+      "cosine_similarity": 0.8373381708125047
+    }
+  }
+}

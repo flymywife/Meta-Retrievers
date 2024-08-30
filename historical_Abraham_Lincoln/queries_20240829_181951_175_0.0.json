@@ -1,0 +1,23 @@
+{
+  "entity": "Abraham Lincoln",
+  "queries": {
+    "query_1": {
+      "text": "How did Abraham Lincoln's early family life and the environment of his birthplace in Hardin County, Kentucky, influence his values and beliefs?"
+    },
+    "query_2": {
+      "text": "In what ways did Abraham Lincoln's limited formal education and his self-directed learning experiences shape his perspectives on law and governance?"
+    },
+    "query_3": {
+      "text": "How did Abraham Lincoln's early career as a rail-splitter and his subsequent work as a lawyer contribute to his development as a public figure and politician?"
+    },
+    "query_4": {
+      "text": "What were the key achievements of Abraham Lincoln during his presidency, particularly in relation to the Emancipation Proclamation and the preservation of the Union?"
+    },
+    "query_5": {
+      "text": "How did Abraham Lincoln's personal relationships, particularly with his wife Mary Todd Lincoln and his close friends, influence his emotional resilience and decision-making during his presidency?"
+    },
+    "query_6": {
+      "text": "In what ways have Abraham Lincoln's ideas and actions regarding democracy and equality continued to influence American society and culture in the years following his assassination?"
+    }
+  }
+}

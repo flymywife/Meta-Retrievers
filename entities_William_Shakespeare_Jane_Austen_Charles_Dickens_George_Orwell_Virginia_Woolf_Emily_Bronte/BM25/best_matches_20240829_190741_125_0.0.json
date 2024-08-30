@@ -1,0 +1,48 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "best_matches": {
+    "query_1": {
+      "query_text": "How did William Shakespeare's use of iambic pentameter influence the development of English poetry and drama during the Renaissance?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "William Shakespeare's use of iambic pentameter significantly influenced English poetry and drama during the Renaissance by establishing a rhythmic structure that became a standard for subsequent writers. This meter, characterized by five pairs of alternating unstressed and stressed syllables, allowed for a natural flow of speech, enhancing the emotional depth and expressiveness of his characters. Shakespeare's mastery of this form enabled him to blend poetic language with dramatic dialogue, elevating the quality of English verse. His innovative use of iambic pentameter set a precedent that shaped the works of later poets and playwrights, solidifying its role as a foundational element in",
+      "bm25_score": 15.832584520330474
+    },
+    "query_2": {
+      "query_text": "In what ways did Jane Austen's novels challenge the social norms of her time, particularly regarding women's roles and marriage?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "Jane Austen's novels, particularly \"Pride and Prejudice\" and \"Sense and Sensibility,\" challenged the social norms of the early 19th century by critiquing the limited roles available to women and the institution of marriage. Austen portrayed her female protagonists as intelligent and independent, emphasizing their right to choose partners based on love and mutual respect rather than economic necessity. Through characters like Elizabeth Bennet, she questioned the societal expectation that women should prioritize marriage for financial security. Additionally, Austen highlighted the consequences of marrying for status, showcasing the importance of personal happiness and moral integrity in relationships, thus advocating for a more progressive view",
+      "bm25_score": 11.011122628777526
+    },
+    "query_3": {
+      "query_text": "How did Charles Dickens's experiences in poverty shape the themes of social reform and class struggle in his literary works?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Charles Dickens's experiences in poverty during his childhood, particularly when his family was imprisoned for debt, profoundly influenced his literary themes. This early hardship exposed him to the harsh realities of the working class and the injustices of the Victorian social system. In works like \"Oliver Twist\" and \"Hard Times,\" Dickens vividly depicted the struggles of the poor, advocating for social reform and highlighting the plight of the underprivileged. His characters often faced systemic oppression, reflecting his belief in the need for compassion and change. Thus, his personal experiences directly informed his commitment to addressing class struggle and advocating for social justice in his writings.",
+      "bm25_score": 13.431084819112643
+    },
+    "query_4": {
+      "query_text": "In what ways did George Orwell's political beliefs and experiences inform the themes of totalitarianism and individualism in his writings, particularly in '1984' and 'Animal Farm'?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "George Orwell's political beliefs, shaped by his experiences in the Spanish Civil War and his opposition to totalitarian regimes, profoundly influenced the themes of totalitarianism and individualism in his works. In '1984', he critiques oppressive governments through the depiction of a dystopian society where individualism is crushed by pervasive surveillance and propaganda. Similarly, 'Animal Farm' serves as an allegory for the betrayal of revolutionary ideals, illustrating how power can corrupt and lead to a new form of tyranny. Orwell's firsthand encounters with authoritarianism fueled his commitment to individual rights and his warnings against the dangers of unchecked political power.",
+      "bm25_score": 18.05806372025215
+    },
+    "query_5": {
+      "query_text": "How did Virginia Woolf's innovative narrative techniques contribute to the modernist movement in literature, especially in her works like 'Mrs. Dalloway' and 'To the Lighthouse'?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Virginia Woolf's innovative narrative techniques, particularly her use of stream of consciousness and free indirect discourse, significantly advanced the modernist movement in literature. In 'Mrs. Dalloway,' she intertwines the inner thoughts of characters with the external world, blurring the lines between perception and reality. Similarly, in 'To the Lighthouse,' Woolf employs shifting perspectives and temporal fluidity, allowing readers to experience time and consciousness in a non-linear fashion. These techniques challenge traditional narrative structures, emphasizing subjective experience and the complexity of human thought, which are hallmarks of modernist literature. Woolf's focus on the inner lives of",
+      "bm25_score": 20.396989499561336
+    },
+    "query_6": {
+      "query_text": "In what ways did Emily Bronte's unique perspective on nature and human emotion manifest in her only novel, 'Wuthering Heights', and how did it influence later literary works?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "Emily Bront\u00eb's unique perspective on nature and human emotion in 'Wuthering Heights' is evident through her use of the Yorkshire moors as a backdrop, reflecting the tumultuous inner lives of her characters. The wild, untamed landscape parallels the intense passions and conflicts, particularly between Heathcliff and Catherine. Bront\u00eb's exploration of themes like love, revenge, and the supernatural showcases a deep connection between environment and emotion. This innovative blending of setting and psychological depth influenced later literary works, particularly in the Gothic and Romantic genres, inspiring authors to explore complex character dynamics and the interplay between nature and human experience.",
+      "bm25_score": 14.536703299777505
+    }
+  }
+}

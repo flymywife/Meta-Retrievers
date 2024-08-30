@@ -1,0 +1,23 @@
+{
+  "entity": "George Washington",
+  "queries": {
+    "query_1": {
+      "text": "How did George Washington's family background and upbringing in colonial Virginia influence his values and leadership style?"
+    },
+    "query_2": {
+      "text": "In what ways did George Washington's limited formal education and early experiences as a land surveyor shape his perspective on governance and military strategy?"
+    },
+    "query_3": {
+      "text": "What were George Washington's initial professional endeavors before the American Revolution, and how did they contribute to his reputation as a leader?"
+    },
+    "query_4": {
+      "text": "What key achievements during the American Revolutionary War solidified George Washington's status as a national hero and leader of the emerging United States?"
+    },
+    "query_5": {
+      "text": "How did George Washington's relationships with contemporaries, such as Martha Washington and his fellow generals, reflect his character and influence his decision-making?"
+    },
+    "query_6": {
+      "text": "In what ways have George Washington's principles and actions as the first President of the United States impacted the development of American democracy and political culture in both the short and long term?"
+    }
+  }
+}

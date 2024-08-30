@@ -1,0 +1,48 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "best_matches": {
+    "query_1": {
+      "query_text": "How did William Shakespeare's use of iambic pentameter and innovative character development contribute to the evolution of English drama?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "William Shakespeare's use of iambic pentameter provided a rhythmic and metrical structure that enhanced the emotional depth and musicality of his plays, making them more engaging for audiences. This meter allowed for a natural flow of speech, which mirrored everyday language while maintaining a poetic quality. Additionally, Shakespeare's innovative character development moved beyond the archetypal figures of earlier drama, presenting complex, multi-dimensional characters with distinct motivations and psychological depth. This shift enabled a deeper exploration of human nature and social issues, setting a new standard for character portrayal in English drama and influencing playwrights for centuries to come.",
+      "cosine_similarity": 0.9330778039091486
+    },
+    "query_2": {
+      "query_text": "In what ways did Jane Austen's novels challenge the societal norms of her time, particularly in relation to gender and class?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "Jane Austen's novels, particularly \"Pride and Prejudice\" and \"Emma,\" challenged societal norms by portraying strong, independent female characters who sought personal fulfillment beyond marriage. Austen critiqued the limited roles available to women, highlighting the constraints imposed by class and gender. Her protagonists often navigate the complex social hierarchy, advocating for emotional and intellectual compatibility in marriage rather than mere economic necessity. By emphasizing women's agency and moral judgment, Austen subtly undermined the prevailing belief that a woman's value was primarily tied to her marital status and social standing, encouraging readers to reconsider the implications of gender and class in their society.",
+      "cosine_similarity": 0.9290565692527938
+    },
+    "query_3": {
+      "query_text": "How did Charles Dickens's portrayal of social reform in his works reflect the conditions of Victorian England, and what impact did this have on public awareness?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Charles Dickens's portrayal of social reform in his works, such as \"Oliver Twist\" and \"Bleak House,\" vividly illustrated the harsh realities of Victorian England, including child labor, poverty, and the inadequacies of the legal system. His characters often represented the struggles of the working class, highlighting the social injustices prevalent during the Industrial Revolution. Dickens's vivid storytelling and empathetic characterizations raised public awareness and sparked discussions about social issues, contributing to movements for reform. His works played a significant role in mobilizing public sentiment and influencing legislation, such as the Poor Law Amendment of 1834, reflecting the urgent need for",
+      "cosine_similarity": 0.9177213409371645
+    },
+    "query_4": {
+      "query_text": "In what ways did George Orwell's experiences during the Spanish Civil War influence his political beliefs and writings, particularly in 'Animal Farm' and '1984'?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "George Orwell's experiences during the Spanish Civil War profoundly shaped his political beliefs and writings. Fighting for the POUM, a socialist group, he witnessed firsthand the factionalism and betrayal within the left, particularly the repression of anti-Stalinist factions by the Soviet-backed communists. This disillusionment with totalitarianism informed his critique of oppressive regimes in 'Animal Farm,' where he allegorizes the betrayal of revolutionary ideals, and in '1984,' where he explores the mechanisms of state control and propaganda. These works reflect his belief in the dangers of absolute power and the corruption of socialist ideals, emphasizing the importance of",
+      "cosine_similarity": 0.9380761974900795
+    },
+    "query_5": {
+      "query_text": "How did Virginia Woolf's experimentation with narrative form and stream of consciousness in her novels alter the landscape of modernist literature?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Virginia Woolf's experimentation with narrative form and the stream of consciousness technique significantly transformed modernist literature by prioritizing the inner thoughts and emotions of characters over traditional plot structures. In novels like \"Mrs. Dalloway\" and \"To the Lighthouse,\" she employed fluid time shifts and multiple perspectives to reflect the complexity of human experience. This approach allowed for a deeper exploration of identity, memory, and perception, challenging conventional narrative forms and influencing contemporaries. Woolf's innovative style encouraged subsequent writers to explore psychological depth and fragmented realities, reshaping the narrative landscape of 20th-century literature.",
+      "cosine_similarity": 0.9276285044876041
+    },
+    "query_6": {
+      "query_text": "In what ways did Emily Bronte's unique perspective on nature and the human condition in 'Wuthering Heights' distinguish her from her contemporaries in the literary world?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "Emily Bront\u00eb's unique perspective on nature and the human condition in \"Wuthering Heights\" is characterized by an intense, almost elemental connection between characters and their environment. Unlike her contemporaries, who often portrayed nature as a backdrop for human emotion, Bront\u00eb imbues the moors with a wild, untamed spirit that mirrors the tumultuous lives of her characters, particularly Heathcliff and Catherine. This interplay reflects her views on passion, isolation, and the destructive potential of love, making her work stand out in the Victorian literary landscape. Her exploration of nature\u2019s fierce beauty and its impact on human relationships set",
+      "cosine_similarity": 0.9302550075538515
+    }
+  }
+}

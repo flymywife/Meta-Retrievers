@@ -1,0 +1,30 @@
+{
+  "entities": [
+    "Michael Jackson",
+    "Whitney Houston",
+    "David Bowie",
+    "Freddie Mercury",
+    "Ariana Grande",
+    "Bob Marley"
+  ],
+  "corpus": {
+    "answer_1": {
+      "text": "Michael Jackson's innovative music videos, particularly 'Thriller' and 'Beat It', revolutionized the music industry by transforming music videos into an art form and a marketing tool. 'Thriller', with its cinematic storytelling and choreography, became the first music video to receive significant airtime on television, particularly on MTV, which previously focused on rock music. This opened doors for diverse artists and genres. 'Beat It' showcased a blend of rock and pop, further bridging musical divides. These videos not only"
+    },
+    "answer_2": {
+      "text": "Whitney Houston's vocal prowess, characterized by her powerful range and emotive delivery, redefined pop and R&B music in the late 20th century. Her iconic rendition of \"I Will Always Love You,\" released in 1992, showcased her ability to blend technical skill with deep emotional resonance, influencing countless artists. The song's success, topping charts worldwide, set a new standard for ballads in pop and R&B, emphasizing vocal performance and emotional storytelling. Houston's impact also paved the"
+    },
+    "answer_3": {
+      "text": "David Bowie's ability to constantly reinvent his musical style and persona significantly impacted the evolution of glam rock and popular music in the 20th century. Emerging in the early 1970s, his alter ego Ziggy Stardust epitomized glam rock's theatricality, blending music, fashion, and performance art. Bowie's fusion of rock with diverse genres, including soul and electronic, expanded the boundaries of popular music. His exploration of identity and sexuality challenged societal norms, influencing artists across genres. This"
+    },
+    "answer_4": {
+      "text": "Freddie Mercury's theatrical performances, characterized by his flamboyant stage presence and dynamic vocal range, captivated audiences and set a new standard for rock concerts. His songwriting, blending diverse genres and poignant lyrics, produced timeless anthems like \"Bohemian Rhapsody\" and \"We Will Rock You.\" Mercury's ability to engage fans emotionally and create a communal experience during live shows solidified Queen's reputation. This combination of theatricality and musical innovation not only distinguished Mercury as a frontman but also ensured"
+    },
+    "answer_5": {
+      "text": "Ariana Grande's blend of pop and R&B, characterized by her impressive four-octave vocal range, has significantly reshaped contemporary music since her mainstream debut in the early 2010s. Her ability to seamlessly merge these genres has influenced the sound of modern pop, encouraging artists to explore deeper emotional themes and vocal complexity. Grande's use of melisma and vocal runs has set a new standard for vocal performance, inspiring a generation of singers to adopt similar techniques. Additionally, her incorporation of personal"
+    },
+    "answer_6": {
+      "text": "Bob Marley's music and message of peace and social justice significantly shaped global perceptions of reggae by intertwining the genre with themes of resistance and unity. His songs, such as \"One Love\" and \"Get Up, Stand Up,\" emphasized collective action against oppression, resonating with diverse audiences. Marley\u2019s commitment to social justice, particularly in the context of post-colonial struggles, elevated reggae from a local Jamaican genre to an international symbol of hope and activism. His performances, notably at the One Love"
+    }
+  }
+}

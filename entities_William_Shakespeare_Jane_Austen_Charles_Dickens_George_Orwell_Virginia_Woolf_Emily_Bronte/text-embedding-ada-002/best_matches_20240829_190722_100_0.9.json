@@ -1,0 +1,48 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "best_matches": {
+    "query_1": {
+      "query_text": "How did William Shakespeare's use of iambic pentameter and innovative character development contribute to the evolution of English drama?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "William Shakespeare's use of iambic pentameter provided a rhythmic and metrical structure that elevated the language of English drama, allowing for greater emotional expression and poetic nuance. His innovative character development, exemplified in complex, multi-dimensional figures like Hamlet and Lady Macbeth, introduced psychological depth and human realism. This combination transformed characters into relatable, flawed individuals, enabling a shift from archetypal roles to intricate narratives that explored themes of ambition, love, and morality. Consequently, Shakespeare's techniques significantly influenced",
+      "cosine_similarity": 0.929610378207945
+    },
+    "query_2": {
+      "query_text": "In what ways did Jane Austen's novels challenge the societal norms of her time and influence the portrayal of women in literature?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "Jane Austen's novels, written in the early 19th century, challenged societal norms by portraying women as complex individuals with desires, intelligence, and autonomy, rather than mere objects of marriage. Through protagonists like Elizabeth Bennet and Anne Elliot, Austen criticized the limitations placed on women and highlighted the importance of personal choice and moral integrity. Her emphasis on character development and inner conflict influenced the portrayal of women in literature, contributing to a shift toward more realistic and nuanced female characters that reflected the evolving roles of women",
+      "cosine_similarity": 0.9209051550155465
+    },
+    "query_3": {
+      "query_text": "How did Charles Dickens's experiences in poverty shape the themes of social justice and reform in his literary works?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Charles Dickens's early experiences with poverty, particularly during his childhood when his family faced financial struggles and he worked in a factory, heavily influenced his literary themes. This background fostered a deep empathy for the struggles of the poor and marginalized in Victorian society. His novels, such as \"Oliver Twist\" and \"David Copperfield,\" vividly depict the harsh realities of poverty, exploitation, and social injustice. Dickens used his platform to advocate for social reform, highlighting issues like child labor, the inadequacies of the",
+      "cosine_similarity": 0.9178021150091272
+    },
+    "query_4": {
+      "query_text": "In what ways did George Orwell's political views and experiences in the Spanish Civil War inform the themes of totalitarianism and oppression in his writings?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "George Orwell's experiences in the Spanish Civil War profoundly shaped his political views and the themes of totalitarianism and oppression in his writings. Witnessing the betrayal of anti-fascist forces by Stalinist elements firsthand, he became critical of authoritarianism on both the left and right. This experience highlighted the manipulation of truth and the suppression of dissent, influencing works like \"Animal Farm\" and \"1984.\" These texts reflect his concerns about the dangers of oppressive regimes, the use of propaganda, and the",
+      "cosine_similarity": 0.9436762105693568
+    },
+    "query_5": {
+      "query_text": "How did Virginia Woolf's contributions to modernist literature and her exploration of stream-of-consciousness narrative techniques impact the literary landscape of the 20th century?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Virginia Woolf significantly influenced modernist literature through her innovative use of stream-of-consciousness narrative techniques, which allowed for deeper introspection and character exploration. Works like \"Mrs. Dalloway\" and \"To the Lighthouse\" showcased the fluidity of time and subjective experience, challenging traditional linear storytelling. Her emphasis on the inner thoughts and perceptions of characters reshaped narrative form, encouraging writers to explore psychological complexity. This approach not only defined her work but also inspired a generation of modernist authors, reinforcing",
+      "cosine_similarity": 0.9175508153334863
+    },
+    "query_6": {
+      "query_text": "In what ways did Emily Bronte's unique narrative style and themes of nature and isolation in 'Wuthering Heights' reflect her personal beliefs and experiences?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "Emily Bront\u00eb's narrative style in 'Wuthering Heights' employs a complex structure and multiple perspectives, mirroring her introspective nature and preference for isolation. Themes of nature reflect her deep connection to the Yorkshire moors, which served as both a setting and a character in the novel. The isolation experienced by characters parallels Bront\u00eb's own reclusive lifestyle, shaped by her family's seclusion and the loss of her mother at a young age. These elements underscore her beliefs about the raw,",
+      "cosine_similarity": 0.9340972862618588
+    }
+  }
+}

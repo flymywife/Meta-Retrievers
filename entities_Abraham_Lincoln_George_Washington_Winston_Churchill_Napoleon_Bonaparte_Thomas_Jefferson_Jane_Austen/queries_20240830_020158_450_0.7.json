@@ -1,0 +1,30 @@
+{
+  "entities": [
+    "Abraham Lincoln",
+    "George Washington",
+    "Winston Churchill",
+    "Napoleon Bonaparte",
+    "Thomas Jefferson",
+    "Jane Austen"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did Abraham Lincoln's Emancipation Proclamation impact the course of the American Civil War and the status of slavery in the United States?"
+    },
+    "query_2": {
+      "text": "In what ways did George Washington's leadership during the American Revolutionary War establish key precedents for the office of the presidency?"
+    },
+    "query_3": {
+      "text": "How did Winston Churchill's speeches during World War II contribute to British morale and the overall war effort against Nazi Germany?"
+    },
+    "query_4": {
+      "text": "In what ways did Napoleon Bonaparte's legal reforms, particularly the Napoleonic Code, influence the legal systems of modern nations?"
+    },
+    "query_5": {
+      "text": "How did Thomas Jefferson's authorship of the Declaration of Independence reflect Enlightenment principles and shape the foundation of American democracy?"
+    },
+    "query_6": {
+      "text": "In what ways did Jane Austen's novels critique the social norms of her time and contribute to the development of the English novel?"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entities": [
+    "Michael Jackson",
+    "Whitney Houston",
+    "David Bowie",
+    "Freddie Mercury",
+    "Ariana Grande",
+    "Bob Marley"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did Michael Jackson's innovative music videos, such as 'Thriller' and 'Beat It', contribute to the evolution of the music industry and popular culture?"
+    },
+    "query_2": {
+      "text": "In what ways did Whitney Houston's vocal prowess and tracks like 'I Will Always Love You' influence the landscape of pop and soul music in the 1980s and 1990s?"
+    },
+    "query_3": {
+      "text": "How did David Bowie's reinvention of his musical style and persona, especially with albums like 'Ziggy Stardust', impact the glam rock movement and inspire future generations of artists?"
+    },
+    "query_4": {
+      "text": "In what ways did Freddie Mercury's theatrical performances and songwriting with Queen elevate the standard for live concerts in the rock music genre?"
+    },
+    "query_5": {
+      "text": "How has Ariana Grande's blend of pop and R&B, along with her vocal techniques, shaped contemporary music and influenced young artists in the 2010s?"
+    },
+    "query_6": {
+      "text": "In what ways did Bob Marley's music and message of peace and social justice through reggae contribute to his legacy as a global cultural icon?"
+    }
+  }
+}

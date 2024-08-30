@@ -1,0 +1,23 @@
+{
+  "entity": "Abraham Lincoln",
+  "queries": {
+    "query_1": {
+      "text": "How did Abraham Lincoln's early family life and upbringing in Kentucky and Indiana influence his values and beliefs later in life?"
+    },
+    "query_2": {
+      "text": "In what ways did Abraham Lincoln's limited formal education and self-directed learning contribute to his development as a thinker and leader?"
+    },
+    "query_3": {
+      "text": "What were the key milestones in Abraham Lincoln's early career that paved the way for his eventual rise in politics and law?"
+    },
+    "query_4": {
+      "text": "What were the most significant accomplishments of Abraham Lincoln during his presidency that solidified his legacy as one of America's greatest leaders?"
+    },
+    "query_5": {
+      "text": "How did Abraham Lincoln's personal experiences and relationships, particularly with his family and friends, shape his approach to leadership and the challenges he faced in office?"
+    },
+    "query_6": {
+      "text": "In what ways have Abraham Lincoln's policies and speeches, particularly the Emancipation Proclamation, influenced contemporary discussions on civil rights and social justice in the United States?"
+    }
+  }
+}

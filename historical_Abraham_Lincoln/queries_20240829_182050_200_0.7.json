@@ -1,0 +1,23 @@
+{
+  "entity": "Abraham Lincoln",
+  "queries": {
+    "query_1": {
+      "text": "How did Abraham Lincoln's early family life and the values instilled by his parents influence his later political beliefs and leadership style?"
+    },
+    "query_2": {
+      "text": "In what ways did Abraham Lincoln's limited formal education and his self-directed learning experiences shape his perspectives on democracy and governance?"
+    },
+    "query_3": {
+      "text": "How did Abraham Lincoln's early career as a rail-splitter and a storekeeper contribute to his understanding of the American economy and his later policies as president?"
+    },
+    "query_4": {
+      "text": "What were the key legislative achievements of Abraham Lincoln during his presidency, particularly in relation to the Emancipation Proclamation and the passage of the Thirteenth Amendment?"
+    },
+    "query_5": {
+      "text": "How did Abraham Lincoln's personal relationships, particularly with his wife Mary Todd Lincoln and his close associates, impact his emotional resilience and decision-making during the Civil War?"
+    },
+    "query_6": {
+      "text": "In what ways have Abraham Lincoln's speeches and writings, such as the Gettysburg Address, influenced contemporary American values and the ongoing discourse on civil rights and equality?"
+    }
+  }
+}

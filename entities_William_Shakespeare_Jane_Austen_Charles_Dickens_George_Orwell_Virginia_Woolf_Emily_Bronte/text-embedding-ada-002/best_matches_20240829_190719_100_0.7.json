@@ -1,0 +1,48 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "best_matches": {
+    "query_1": {
+      "query_text": "How did William Shakespeare's use of iambic pentameter and innovative character development contribute to the evolution of English drama?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "William Shakespeare's use of iambic pentameter provided a rhythmic structure that enhanced the poetic quality of his dialogue, making it more engaging for audiences. This meter allowed for natural speech patterns, contributing to a more authentic portrayal of character emotions and thoughts. Furthermore, Shakespeare's innovative character development, characterized by complex motivations and psychological depth, set a new standard for dramatic storytelling. His characters often grappled with internal conflicts, which added layers to their narratives, influencing subsequent playwrights and shaping the evolution of",
+      "cosine_similarity": 0.9295514602268584
+    },
+    "query_2": {
+      "query_text": "In what ways did Jane Austen's novels challenge the societal norms of her time, particularly in relation to gender and class?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "Jane Austen's novels, particularly \"Pride and Prejudice\" and \"Emma,\" challenged societal norms by portraying strong, intelligent female protagonists who sought autonomy and love based on personal choice rather than economic necessity. Through characters like Elizabeth Bennet, Austen criticized the limited roles available to women, highlighting the absurdities of social class and marriage expectations. Her narratives often subverted class hierarchies, showcasing the complexity of human relationships beyond wealth and status, thereby advocating for a more nuanced understanding of gender and social",
+      "cosine_similarity": 0.9210699994640184
+    },
+    "query_3": {
+      "query_text": "How did Charles Dickens's personal experiences influence the themes of poverty and social reform in his literary works?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Charles Dickens's personal experiences profoundly shaped his literary themes of poverty and social reform. As a child, he faced financial hardship when his father was imprisoned for debt, forcing him to work in a factory at a young age. This experience of deprivation and exploitation informed his depictions of the struggles of the lower class in novels like \"Oliver Twist\" and \"David Copperfield.\" Dickens's advocacy for social reform, seen in his writings and public speeches, stemmed from his desire to improve the conditions of the",
+      "cosine_similarity": 0.9364246827650696
+    },
+    "query_4": {
+      "query_text": "In what ways did George Orwell's experiences during the Spanish Civil War shape his views on totalitarianism as reflected in his novels '1984' and 'Animal Farm'?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "George Orwell's experiences during the Spanish Civil War profoundly influenced his views on totalitarianism. Witnessing the betrayal of revolutionary ideals by both fascists and Stalinists, he became disillusioned with the leftist movements. This exposure to the manipulation of truth and propaganda informed his portrayal of oppressive regimes in '1984' and 'Animal Farm.' In these works, he critiques how totalitarian governments distort reality, suppress dissent, and exploit language to maintain power, reflecting his belief that ideological purity can lead",
+      "cosine_similarity": 0.9514670417979282
+    },
+    "query_5": {
+      "query_text": "How did Virginia Woolf's use of stream-of-consciousness narrative in her writings revolutionize modernist literature?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Virginia Woolf's use of stream-of-consciousness narrative in her writings, particularly in novels like \"Mrs. Dalloway\" and \"To the Lighthouse,\" revolutionized modernist literature by prioritizing the inner thoughts and perceptions of characters over traditional plot structures. This technique allowed readers to experience the fluidity of consciousness, capturing the complexity of human experience and emotion. Woolf's approach emphasized subjective reality and temporal dislocation, breaking away from linear storytelling and challenging conventional narrative forms, thereby influencing subsequent writers",
+      "cosine_similarity": 0.9289046953944162
+    },
+    "query_6": {
+      "query_text": "In what ways did Emily Bronte's exploration of complex emotions and the human psyche in 'Wuthering Heights' contribute to the development of Gothic literature?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "Emily Bront\u00eb's \"Wuthering Heights\" significantly advanced Gothic literature through its deep exploration of complex emotions and the human psyche. The novel presents intense feelings of love, revenge, and despair, embodied in the tumultuous relationship between Heathcliff and Catherine. Bront\u00eb's use of a dark, brooding setting and themes of isolation and psychological torment evokes the Gothic tradition. Additionally, her portrayal of the characters' inner turmoil and moral ambiguity challenges conventional notions of good and evil, enhancing the",
+      "cosine_similarity": 0.9350326147208616
+    }
+  }
+}

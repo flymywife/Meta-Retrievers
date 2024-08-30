@@ -1,0 +1,30 @@
+{
+  "entities": [
+    "Taylor Swift",
+    "Ed Sheeran",
+    "Adele Laurie Blue Adkins",
+    "Beyonc\u00e9 Knowles Carter",
+    "Bruno Mars",
+    "Lady Gaga"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How has Taylor Swift's songwriting evolved over the years, particularly in terms of themes and musical styles, as evidenced by her albums from 'Taylor Swift' to 'Midnights'?"
+    },
+    "query_2": {
+      "text": "In what ways has Ed Sheeran's approach to songwriting and collaboration influenced contemporary pop music, especially with his use of diverse genres and storytelling?"
+    },
+    "query_3": {
+      "text": "How did Adele Laurie Blue Adkins achieve global recognition with her album '21', and what specific elements contributed to its critical and commercial success?"
+    },
+    "query_4": {
+      "text": "In what ways has Beyonc\u00e9 Knowles Carter utilized her platform to advocate for social justice and empowerment, particularly through her music and public appearances?"
+    },
+    "query_5": {
+      "text": "How has Bruno Mars combined various musical influences in his work to create a distinctive sound, and what impact has this had on the modern pop and R&B landscape?"
+    },
+    "query_6": {
+      "text": "In what ways has Lady Gaga pushed the boundaries of performance art in her music career, and how have her visual aesthetics contributed to her identity as an artist?"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity": "Napoleon Bonaparte",
+  "queries": {
+    "query_1": {
+      "text": "How did Napoleon Bonaparte's Corsican origins and family background influence his early ambitions and political views?"
+    },
+    "query_2": {
+      "text": "In what ways did Napoleon's education at the military academy in Brienne-le-Ch\u00e2teau shape his strategic thinking and approach to leadership?"
+    },
+    "query_3": {
+      "text": "How did Napoleon's initial military career in the artillery contribute to his rise in the ranks of the French Army during the Revolutionary Wars?"
+    },
+    "query_4": {
+      "text": "What were the key outcomes of Napoleon's campaigns during the Napoleonic Wars that solidified his reputation as a military genius in Europe?"
+    },
+    "query_5": {
+      "text": "How did Napoleon Bonaparte's relationships with figures like Josephine and his family affect his personal decisions and public image throughout his reign?"
+    },
+    "query_6": {
+      "text": "In what ways did Napoleon Bonaparte's reforms and legal codes influence modern governance and legal systems in Europe and beyond?"
+    }
+  }
+}

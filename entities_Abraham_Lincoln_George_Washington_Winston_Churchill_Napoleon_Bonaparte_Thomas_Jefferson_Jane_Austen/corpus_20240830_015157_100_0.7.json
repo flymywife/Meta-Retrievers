@@ -1,0 +1,30 @@
+{
+  "entities": [
+    "Abraham Lincoln",
+    "George Washington",
+    "Winston Churchill",
+    "Napoleon Bonaparte",
+    "Thomas Jefferson",
+    "Jane Austen"
+  ],
+  "corpus": {
+    "answer_1": {
+      "text": "Abraham Lincoln's Emancipation Proclamation, issued on January 1, 1863, transformed the Civil War's purpose by making the abolition of slavery a central goal of the Union war effort. It declared the freedom of all enslaved people in Confederate-held territory, thereby weakening the Confederacy's labor force and bolstering the Union's moral cause. The proclamation also paved the way for the enlistment of African American soldiers in the Union Army, further enhancing its military strength. While it"
+    },
+    "answer_2": {
+      "text": "George Washington's leadership during the American Revolutionary War established him as a foundational figure in American history through his role as Commander-in-Chief of the Continental Army. He demonstrated strategic military prowess, notably during the surprise attack at Trenton and the victory at Yorktown, which were pivotal in securing American independence. Washington's ability to maintain troop morale despite hardships, his emphasis on unity among the colonies, and his commitment to civilian governance helped shape the ideals of the new nation. His leadership fostered a sense of national"
+    },
+    "answer_3": {
+      "text": "Winston Churchill's speeches and radio broadcasts during World War II played a crucial role in bolstering British morale. His oratory was characterized by stirring rhetoric and vivid imagery, famously portraying the struggle against Nazi Germany as a fight for survival and freedom. Speeches like \"We shall fight on the beaches\" galvanized the public, instilling resilience and determination. Additionally, his regular radio addresses made him a familiar voice, offering reassurance during dark times. This combination of powerful communication and direct engagement helped unite the"
+    },
+    "answer_4": {
+      "text": "Napoleon Bonaparte's implementation of the Napoleonic Code in 1804 established a unified legal framework emphasizing principles such as equality before the law, secular authority, and protection of property rights. It abolished feudal privileges and reinforced civil rights, influencing the legal systems of various European nations as they adopted similar codes. The Napoleonic Code served as a model for legal reforms in countries such as Italy, Spain, and the Netherlands, and its principles can be seen in modern legal systems worldwide,"
+    },
+    "answer_5": {
+      "text": "Thomas Jefferson's founding principles in the Declaration of Independence, particularly the ideas of individual rights, liberty, and the pursuit of happiness, profoundly shaped American democracy. By asserting that governments derive their just powers from the consent of the governed, Jefferson laid the groundwork for a democratic system based on popular sovereignty. His emphasis on equality and natural rights influenced the development of key democratic values, such as civil liberties and social justice, which continue to underpin American political discourse and policy. These principles established a framework for a government"
+    },
+    "answer_6": {
+      "text": "Jane Austen\u2019s novels critique the social structures of her time by highlighting issues such as class disparities, gender roles, and marriage dynamics. Through characters like Elizabeth Bennet in \"Pride and Prejudice,\" she exposes the limitations imposed on women and the social pressure to marry for economic security rather than love. Her use of irony and free indirect discourse deepens character development and social commentary, contributing to the evolution of the novel as a literary form. Austen\u2019s focus on domestic life and moral complexity paved the way"
+    }
+  }
+}

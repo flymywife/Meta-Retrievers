@@ -1,0 +1,30 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did William Shakespeare's use of iambic pentameter and innovative character development contribute to the lasting impact of his plays on English literature?"
+    },
+    "query_2": {
+      "text": "In what ways did Jane Austen challenge the social norms of her time through her portrayal of women's roles in novels such as 'Pride and Prejudice' and 'Emma'?"
+    },
+    "query_3": {
+      "text": "How did Charles Dickens's experiences with poverty and social injustice influence the themes and characters in his novels, particularly in works like 'Oliver Twist' and 'A Christmas Carol'?"
+    },
+    "query_4": {
+      "text": "In what ways did George Orwell's political beliefs and experiences shape the themes of totalitarianism and social justice in his works '1984' and 'Animal Farm'?"
+    },
+    "query_5": {
+      "text": "How did Virginia Woolf's contributions to the modernist literary movement and her exploration of stream-of-consciousness narrative techniques influence subsequent generations of writers?"
+    },
+    "query_6": {
+      "text": "In what ways did Emily Bronte's solitary lifestyle and deep connection to nature manifest in her poetry and her novel 'Wuthering Heights', shaping its themes of passion and revenge?"
+    }
+  }
+}

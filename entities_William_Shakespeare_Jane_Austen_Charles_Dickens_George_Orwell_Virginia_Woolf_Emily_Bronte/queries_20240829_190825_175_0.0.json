@@ -1,0 +1,30 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did William Shakespeare's use of iambic pentameter influence the development of English poetry and drama during the Renaissance?"
+    },
+    "query_2": {
+      "text": "In what ways did Jane Austen's novels challenge the social norms of her time, particularly regarding women's roles and marriage?"
+    },
+    "query_3": {
+      "text": "How did Charles Dickens's experiences in poverty shape the themes of social reform and class struggle in his literary works?"
+    },
+    "query_4": {
+      "text": "In what ways did George Orwell's political beliefs manifest in his writings, particularly in 'Animal Farm' and '1984'?"
+    },
+    "query_5": {
+      "text": "How did Virginia Woolf's innovative narrative techniques contribute to the modernist movement in literature?"
+    },
+    "query_6": {
+      "text": "In what ways did Emily Bronte's 'Wuthering Heights' explore themes of passion and revenge, and how did it differ from other novels of her time?"
+    }
+  }
+}

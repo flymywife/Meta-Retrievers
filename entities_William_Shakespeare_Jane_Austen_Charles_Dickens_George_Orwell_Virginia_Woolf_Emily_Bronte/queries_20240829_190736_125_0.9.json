@@ -1,0 +1,30 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "queries": {
+    "query_1": {
+      "text": "How did William Shakespeare's use of iambic pentameter and innovative character development contribute to the evolution of English drama?"
+    },
+    "query_2": {
+      "text": "In what ways did Jane Austen's novels challenge the societal norms of her time and influence the portrayal of women in literature?"
+    },
+    "query_3": {
+      "text": "How did Charles Dickens's experiences in poverty shape the themes of social justice and reform in his literary works?"
+    },
+    "query_4": {
+      "text": "In what ways did George Orwell's political views and experiences in the Spanish Civil War inform the themes of totalitarianism and oppression in his writings?"
+    },
+    "query_5": {
+      "text": "How did Virginia Woolf's contributions to modernist literature and her advocacy for women's rights impact the literary landscape of the early 20th century?"
+    },
+    "query_6": {
+      "text": "In what ways did Emily Bronte's use of the moors as a setting in 'Wuthering Heights' reflect the themes of isolation and passion in her storytelling?"
+    }
+  }
+}

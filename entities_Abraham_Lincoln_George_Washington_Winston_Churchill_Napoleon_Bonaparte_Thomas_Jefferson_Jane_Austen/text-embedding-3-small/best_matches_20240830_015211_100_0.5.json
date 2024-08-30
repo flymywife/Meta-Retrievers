@@ -1,0 +1,48 @@
+{
+  "entities": [
+    "Abraham Lincoln",
+    "George Washington",
+    "Winston Churchill",
+    "Napoleon Bonaparte",
+    "Thomas Jefferson",
+    "Jane Austen"
+  ],
+  "best_matches": {
+    "query_1": {
+      "query_text": "How did Abraham Lincoln's Emancipation Proclamation impact the course of the American Civil War and the status of slavery in the United States?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "Abraham Lincoln's Emancipation Proclamation, issued on January 1, 1863, transformed the Civil War's purpose by making the abolition of slavery a central goal of the Union war effort. It declared freedom for enslaved people in Confederate-held territories, undermining the South's labor force. This strategic move aimed to weaken the Confederacy while also allowing for the enlistment of Black soldiers in the Union Army, bolstering its numbers. The Proclamation shifted international perceptions, discouraging",
+      "cosine_similarity": 0.7605283783556142
+    },
+    "query_2": {
+      "query_text": "In what ways did George Washington's leadership during the American Revolutionary War establish him as a foundational figure in American history?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "George Washington's leadership during the American Revolutionary War established him as a foundational figure in American history through his role as Commander-in-Chief of the Continental Army. He demonstrated strategic military prowess, notably during the surprise attack at Trenton and the decisive victory at Yorktown, which were pivotal in securing American independence. Washington's ability to maintain troop morale despite hardships and his commitment to unity among the colonies fostered a sense of national identity. His leadership style, characterized by resilience and adaptability, set a precedent for future",
+      "cosine_similarity": 0.8417562444436559
+    },
+    "query_3": {
+      "query_text": "How did Winston Churchill's speeches and radio broadcasts during World War II contribute to British morale and the overall war effort against Nazi Germany?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Winston Churchill's speeches and radio broadcasts during World War II played a crucial role in bolstering British morale and unifying the nation against Nazi Germany. His oratory, characterized by powerful rhetoric and a resolute tone, instilled a sense of determination and resilience. Notable speeches, such as \"We shall fight on the beaches,\" emphasized defiance and hope, rallying public support. His broadcasts reached millions, providing reassurance and a sense of shared purpose. By articulating the stakes of the",
+      "cosine_similarity": 0.8650150064692916
+    },
+    "query_4": {
+      "query_text": "In what ways did Napoleon Bonaparte's implementation of the Napoleonic Code influence legal systems in Europe and beyond?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "Napoleon Bonaparte's implementation of the Napoleonic Code in 1804 established a unified legal framework emphasizing principles such as equality before the law, secular authority, and protection of property rights. It abolished feudal privileges and promoted civil rights, influencing the legal systems of various European countries as they adopted similar codes. The Napoleonic Code served as a model for legal reforms in nations such as Italy, Spain, and the Netherlands, and its principles have been integrated into legal systems worldwide, shaping",
+      "cosine_similarity": 0.8584109517920706
+    },
+    "query_5": {
+      "query_text": "How did Thomas Jefferson's authorship of the Declaration of Independence reflect Enlightenment ideals and influence the development of democratic governance?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Thomas Jefferson's authorship of the Declaration of Independence in 1776 embodied Enlightenment ideals through its emphasis on individual rights, liberty, and the social contract. Influenced by philosophers like John Locke, Jefferson articulated the notion that governments derive their power from the consent of the governed and are obligated to protect natural rights. This framework not only justified the colonies' break from British rule but also laid foundational principles for democratic governance, inspiring future democratic movements and constitutions worldwide by promoting the idea of equality and the",
+      "cosine_similarity": 0.8642961789946102
+    },
+    "query_6": {
+      "query_text": "In what ways did Jane Austen's novels critique the social norms of her time, particularly regarding gender and class?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "Jane Austen's novels critique the social norms of the early 19th century by highlighting the limited roles available to women and the rigid class structures of her time. Through characters like Elizabeth Bennet in \"Pride and Prejudice,\" Austen challenges the expectation that women must marry for financial security rather than love. She also exposes the absurdities of social status and wealth, particularly in \"Emma\" and \"Sense and Sensibility,\" where the characters navigate relationships influenced by social class. By portraying intelligent, strong",
+      "cosine_similarity": 0.8366813800528118
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity": "Napoleon Bonaparte",
+  "queries": {
+    "query_1": {
+      "text": "How did Napoleon Bonaparte's Corsican heritage and family background influence his early identity and ambitions?"
+    },
+    "query_2": {
+      "text": "In what ways did Napoleon's education at military academies shape his strategic thinking and leadership style?"
+    },
+    "query_3": {
+      "text": "What were Napoleon Bonaparte's initial military contributions that marked the beginning of his rise to prominence in the French army?"
+    },
+    "query_4": {
+      "text": "What were the key achievements during Napoleon's rule as Emperor of the French that solidified his legacy in European history?"
+    },
+    "query_5": {
+      "text": "How did Napoleon Bonaparte's personal relationships, particularly with his family and his wife Josephine, impact his decision-making and public image?"
+    },
+    "query_6": {
+      "text": "In what ways has Napoleon Bonaparte's approach to governance and military strategy influenced modern political and military thought?"
+    }
+  }
+}

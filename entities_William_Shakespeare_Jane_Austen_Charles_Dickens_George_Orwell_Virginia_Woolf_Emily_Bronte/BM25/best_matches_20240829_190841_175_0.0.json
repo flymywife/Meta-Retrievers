@@ -1,0 +1,48 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "best_matches": {
+    "query_1": {
+      "query_text": "How did William Shakespeare's use of iambic pentameter influence the development of English poetry and drama during the Renaissance?",
+      "best_answer_key": "answer_1",
+      "best_answer_text": "William Shakespeare's use of iambic pentameter significantly influenced the development of English poetry and drama during the Renaissance by establishing a rhythmic and metrical foundation that became a hallmark of English literature. Iambic pentameter, characterized by five pairs of alternating unstressed and stressed syllables, allowed for a natural flow of speech, making dialogue more engaging and relatable. This meter enabled Shakespeare to convey complex emotions and ideas with clarity and musicality, enhancing the dramatic impact of his plays.\n\nMoreover, his mastery of this form encouraged other playwrights and poets to adopt and adapt iambic pentameter, leading to its widespread use in subsequent works. This shift contributed to the evolution of English verse, moving away from rigid structures to more flexible and expressive forms. Shakespeare's innovative use of language within this meter also enriched the English lexicon, introducing new words and phrases that",
+      "bm25_score": 18.418679932434674
+    },
+    "query_2": {
+      "query_text": "In what ways did Jane Austen's novels challenge the social norms of her time, particularly regarding women's roles and marriage?",
+      "best_answer_key": "answer_2",
+      "best_answer_text": "Jane Austen's novels critically examined the social norms of the late 18th and early 19th centuries, particularly concerning women's roles and marriage. In a time when women's primary value was often tied to their marital prospects, Austen's heroines frequently challenge these expectations. For instance, Elizabeth Bennet in \"Pride and Prejudice\" prioritizes personal happiness and mutual respect over financial security in marriage, defying the era's emphasis on advantageous unions.\n\nAusten also critiques the limited options available to women, as seen in \"Sense and Sensibility,\" where the Dashwood sisters navigate societal pressures and economic constraints. By portraying intelligent, independent women who seek fulfillment beyond traditional roles, Austen advocates for female agency. Additionally, her use of irony highlights the absurdities of social conventions surrounding marriage, encouraging readers to question the status quo. Through her nuanced characters and plots, Austen subtly promotes",
+      "bm25_score": 14.344209266329122
+    },
+    "query_3": {
+      "query_text": "How did Charles Dickens's experiences in poverty shape the themes of social reform and class struggle in his literary works?",
+      "best_answer_key": "answer_3",
+      "best_answer_text": "Charles Dickens's experiences in poverty during his childhood profoundly influenced the themes of social reform and class struggle in his literary works. At the age of twelve, Dickens was forced to leave school and work in a blacking factory after his father was imprisoned for debt. This firsthand experience of hardship and exploitation informed his understanding of the struggles faced by the poor in Victorian England.\n\nIn novels such as \"Oliver Twist\" and \"David Copperfield,\" Dickens vividly depicted the harsh realities of poverty, child labor, and the injustices of the class system. He used his characters' experiences to critique societal norms and advocate for reform, highlighting the need for compassion and systemic change. Dickens's portrayal of the plight of the underprivileged served to raise public awareness and foster empathy, ultimately contributing to social reform movements of his time. His works remain a powerful commentary on the enduring issues of inequality and social",
+      "bm25_score": 16.303625836292866
+    },
+    "query_4": {
+      "query_text": "In what ways did George Orwell's political beliefs manifest in his writings, particularly in 'Animal Farm' and '1984'?",
+      "best_answer_key": "answer_4",
+      "best_answer_text": "George Orwell's political beliefs, particularly his opposition to totalitarianism and his advocacy for democratic socialism, are vividly illustrated in his writings, especially in \"Animal Farm\" and \"1984.\" \n\nIn \"Animal Farm,\" Orwell critiques the corruption of socialist ideals through the allegory of a farm where animals overthrow their human owner, only to be subjugated by their own leaders, the pigs. This narrative reflects Orwell's disillusionment with the Soviet Union and the betrayal of revolutionary ideals, emphasizing how power can corrupt and lead to oppression.\n\nIn \"1984,\" Orwell explores the mechanisms of totalitarian control, including surveillance, propaganda, and the manipulation of truth. The oppressive regime of Big Brother serves as a warning against the dangers of unchecked government power and the loss of individual freedoms. Both works underscore Orwell's belief in the necessity of political awareness and the protection of democratic values",
+      "bm25_score": 10.094030540436382
+    },
+    "query_5": {
+      "query_text": "How did Virginia Woolf's innovative narrative techniques contribute to the modernist movement in literature?",
+      "best_answer_key": "answer_5",
+      "best_answer_text": "Virginia Woolf's innovative narrative techniques significantly advanced the modernist movement in literature through her use of stream of consciousness, nonlinear timelines, and a focus on the inner thoughts of characters. In works like \"Mrs. Dalloway\" and \"To the Lighthouse,\" Woolf eschewed traditional plot structures, opting instead to explore the fluidity of time and consciousness. This approach allowed her to delve deeply into the psychological experiences of her characters, revealing their complexities and the subtleties of human emotion.\n\nWoolf's emphasis on subjective experience challenged the conventions of realism, encouraging readers to engage with the text on a more introspective level. Her fragmented narrative style and innovative use of free indirect discourse blurred the boundaries between narrator and character, reflecting the modernist themes of alienation and the search for identity. By prioritizing the inner lives of her characters, Woolf not only",
+      "bm25_score": 11.429583333064599
+    },
+    "query_6": {
+      "query_text": "In what ways did Emily Bronte's 'Wuthering Heights' explore themes of passion and revenge, and how did it differ from other novels of her time?",
+      "best_answer_key": "answer_6",
+      "best_answer_text": "Emily Bront\u00eb's \"Wuthering Heights,\" published in 1847, intricately explores themes of passion and revenge through the tumultuous relationship between Heathcliff and Catherine Earnshaw. Their intense love is marked by obsession and betrayal, leading to a cycle of vengeance that affects multiple generations. Heathcliff's desire for revenge against those who wronged him, particularly Hindley and Edgar Linton, drives much of the plot, showcasing how passion can morph into destructive forces.\n\nUnlike many contemporary novels, which often adhered to moralistic and romantic ideals, Bront\u00eb's work presents a raw and unfiltered portrayal of human emotions. The novel's gothic elements and complex characterizations challenge the conventions of the time, emphasizing the darker aspects of love and the consequences of unchecked desire. This divergence from the typical sentimental narratives of the Victorian era sets \"Wuthering Heights\"",
+      "bm25_score": 9.264771914983266
+    }
+  }
+}

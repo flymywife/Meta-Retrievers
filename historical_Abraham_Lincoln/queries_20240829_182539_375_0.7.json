@@ -1,0 +1,23 @@
+{
+  "entity": "Abraham Lincoln",
+  "queries": {
+    "query_1": {
+      "text": "How did Abraham Lincoln's early family life and the values instilled by his parents influence his later political beliefs and leadership style?"
+    },
+    "query_2": {
+      "text": "In what ways did Abraham Lincoln's limited formal education shape his self-directed learning and personal development throughout his formative years?"
+    },
+    "query_3": {
+      "text": "What were Abraham Lincoln's first significant professional roles before he entered politics, and how did these experiences contribute to his later career as a lawyer and politician?"
+    },
+    "query_4": {
+      "text": "What were the key achievements of Abraham Lincoln's presidency, particularly in relation to the Emancipation Proclamation and the preservation of the Union during the Civil War?"
+    },
+    "query_5": {
+      "text": "How did Abraham Lincoln's personal characteristics, such as his sense of humor and empathy, influence his relationships with colleagues and the public during his presidency?"
+    },
+    "query_6": {
+      "text": "In what ways have Abraham Lincoln's ideals and policies continued to influence contemporary American society and civil rights movements today?"
+    }
+  }
+}

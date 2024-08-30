@@ -1,0 +1,30 @@
+{
+  "entities": [
+    "William Shakespeare",
+    "Jane Austen",
+    "Charles Dickens",
+    "George Orwell",
+    "Virginia Woolf",
+    "Emily Bronte"
+  ],
+  "corpus": {
+    "answer_1": {
+      "text": "William Shakespeare's use of iambic pentameter significantly influenced English poetry and drama during the Elizabethan era by establishing a rhythmic and structured form that enhanced the emotional and dramatic impact of his works. This meter, consisting of five feet with alternating unstressed and stressed syllables, allowed for a natural flow of speech, making dialogue more engaging and accessible. Shakespeare's mastery of iambic pentameter also enabled him to explore complex themes and characters, setting a standard for subsequent playwrights and poets"
+    },
+    "answer_2": {
+      "text": "Jane Austen's novels, particularly \"Pride and Prejudice\" and \"Emma,\" challenge social norms and gender roles by presenting strong, intelligent female protagonists who assert their independence and agency. Elizabeth Bennet in \"Pride and Prejudice\" critiques the limitations placed on women regarding marriage and inheritance, emphasizing personal choice over societal expectations. Similarly, \"Emma\" features a heroine who defies traditional roles by engaging in matchmaking and navigating her own desires, ultimately prioritizing self-awareness and personal growth. Through wit"
+    },
+    "answer_3": {
+      "text": "Charles Dickens's portrayal of social issues in novels like 'Oliver Twist' and 'A Christmas Carol' significantly influenced public perception and legislative reforms in Victorian England. His vivid depictions of poverty, child labor, and social injustice raised awareness among the middle and upper classes. 'Oliver Twist' highlighted the brutal realities of workhouses, prompting discussions that led to the Poor Law Amendment Act of 1834. Similarly, 'A Christmas Carol' emphasized the importance of compassion and social responsibility, contributing to the growing"
+    },
+    "answer_4": {
+      "text": "George Orwell's experiences in the Spanish Civil War profoundly influenced his views on totalitarianism. Witnessing the betrayal of revolutionary ideals by both fascists and Stalinists, he became acutely aware of how political power could corrupt and manipulate truth. This disillusionment is reflected in \"Animal Farm,\" where the rise of the pigs symbolizes the betrayal of socialist principles, and in \"1984,\" which depicts a dystopian society characterized by oppressive surveillance and propaganda. His firsthand observations of ideological conflicts underscored"
+    },
+    "answer_5": {
+      "text": "Virginia Woolf's innovative narrative techniques, particularly in 'Mrs. Dalloway' and 'To the Lighthouse,' significantly contributed to the modernist literary movement by employing stream-of-consciousness and free indirect discourse. These methods allowed for a deeper exploration of characters' inner thoughts and perceptions, breaking away from traditional linear storytelling. Woolf's focus on subjective experience and the fluidity of time reflected modernist themes of fragmentation and the complexities of human consciousness, thus reshaping narrative form and influencing subsequent writers in"
+    },
+    "answer_6": {
+      "text": "Emily Bront\u00eb's 'Wuthering Heights' challenged Victorian literary conventions through its complex characters and unorthodox narrative structure. Unlike typical Victorian novels that often emphasized morality and social order, Bront\u00eb explored raw human emotions, particularly intense passion and revenge, exemplified in the tumultuous relationship between Heathcliff and Catherine. The novel's portrayal of love as destructive and its focus on themes of social class and isolation diverged from the era's norms, allowing for a deeper examination of the darker"
+    }
+  }
+}
