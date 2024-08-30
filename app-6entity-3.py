@@ -426,7 +426,7 @@ iface = gr.Interface(
         gr.Textbox(label="Best Matches Summary"),
         gr.JSON(label="Detailed Results")
     ],
-    title="6 Types Of Proper Noun Meta-Retrievers",
+    title="Six Types Of Proper Noun Meta-Retrievers",
     description="Generate focused historical queries and their corresponding corpus for six given entities. Processes in 25-token increments up to the specified max tokens. Adjust temperature to control answer variability."
 )
 

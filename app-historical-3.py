@@ -429,7 +429,7 @@ iface = gr.Interface(
         gr.Textbox(label="Best Matches Summary"),
         gr.JSON(label="Detailed Results")
     ],
-    title="Historical Query Meta-Retriever",
+    title="Six-Dimensional Query Meta-Retrievers",
     description="Generate focused historical queries and their corresponding corpus for any given entity. Processes in 25-token increments up to the specified max tokens. Adjust temperature to control answer variability."
 )
 
