@@ -1,34 +1,51 @@
 # アプリの説明
 
-## [app.py]
-Six-Dimensional Query Tool
-与えられた「固有名詞」に対して
-Six-Dimensional Query(Who, What, When, Where, Why, How)を生成します。
-その後、そのクエリに対応するアンサーを生成します。
-さらにクエリとアンサーをベクトル化して
-コサイン類似度またはBM25のスコアを計算して最適なマッチングを抽出します。
-出力は
-coupus_date_maxToken.json:生成した6つのコーパスをJSON出力します
-queries_date_maxToken.json:生成した6つのクエリをJSON出力します
-best_matches_date_maxToken.json:クエリに対して最もコサイン類似度またはスコアの数値の高かった組み合わせをJSON出力します
-scores_date_maxToken.json:クエリに対して全てのコーパスのスコアの数値をJSON出力します(BM25)
-cosine_similarities_date_maxToken.json:クエリに対して全てのコーパスのコサイン類似度の数値をJSON出力します(ベクトル検索)
-vectors_date_maxToken.json:テキストに対応したベクトルをJSON出力します
-※固有名詞はポピュラーな歴史上の人物とかが良いです
-アンサーのトークンの最大の長さを50-500まで指定することができます。
-3つのEmbeddingモデル（text-embedding-3-largeとtext-embedding-3-smallとtext—embedding-ada-002）
-のコサイン類似度とBM25のスコアを出力します。
+## [app-historical-3.py]
+Six-DimensionalQueryMeta-Retrievers
 
-## [app-large.py]
-上記Six-Dimensional Query Toolの追加実験用です。
-text-embedding-3-largeモデルの実験をmaxToken2000まで実施できます。
+与えられたエンティティ（固有名詞）に対して話題の異なる6つの質問を生成します。
+その後、そのクエリに対応するアンサーを生成します。
+さらにクエリとアンサーをベクトル化してコサイン類似度またはBM25のスコアを計算して最適なマッチングを抽出します。
+
+出力は以下の通りです：
+- coupus_{date}_{maxToken}_{tempareture}.json: 生成した6つのコーパスをJSON出力します
+- queries_{date}_{maxToken}_{tempareture}.json: 生成した6つのクエリをJSON出力します
+- best_matches_{date}_{maxToken}_{tempareture}.json: クエリに対して最もコサイン類似度またはスコアの数値の高かった組み合わせをJSON出力します
+- scores_{date}_{maxToken}_{tempareture}.json: クエリに対して全てのコーパスのスコアの数値をJSON出力します(BM25)
+- cosine_similarities_{date}_{maxToken}_{tempareture}.json: クエリに対して全てのコーパスのコサイン類似度の数値をJSON出力します(ベクトル検索)
+- vectors_{date}_{maxToken}_{tempareture}.json: テキストに対応したベクトルをJSON出力します
+
+※固有名詞はある程度の年齢以上の有名人とかがいいです
+
+コーパスのmaxTokensの長さを100-2000まで指定することができます。
+100を超えるmaxTokensを指定すると100Tokensスタートで25Tokens刻みで自動的にテストします。
+
+temparatureの指定ができます。
+
+3つのEmbeddingモデル（text-embedding-3-large、text-embedding-3-small、text—embedding-ada-002）のコサイン類似度とBM25のスコアを出力します。
 
 ## [app-6entity.py]
-Proper Noun Tool
-固有名詞を最大6つ入力します
-その後、それぞれの固有名詞に対応した自由なクエリを１つずつ生成します
-さらにクエリとアンサーをベクトル化して
-コサイン類似度またはBM25のスコアを計算して最適なマッチングを抽出します。
+SixTypesOfProperNounMeta-Retrievers
+
+Six-DimensionalQueryMeta-Retrieversとの差分は以下の通りです：
+- 固有名詞を最大6つ入力します。
+- その後、それぞれの固有名詞に対応した自由なクエリを１つずつ生成します。
+
+## [analyze-app.py]
+Meta-Retrievers分析ツール
+Six-DimensionalQueryMeta-RetrieversとSixTypesOfProperNounMeta-Retrieversの
+試験結果であるbest_matches_{date}_{maxToken}_{tempareture}.jsonをエンティティとモデルごとにアップすることで
+エラーの数の分析ができます。
+出力はHTMLファイルになります。
+Retrieverは手動入力です。
+まとめてアップするときに読み取りたいトークンの範囲を設定できます。
+ファイル名の最初が「best_matches」になっているファイルだけ読み取ります。
+
+## [analyze-total-app.py]
+Meta-Retrievers総合分析ツール
+Meta-Retrievers分析ツールを用いて出力したHTMLファイルをまとめてアップすると
+RetrieverとtemparatureごとにエラーカウントしたHTMLファイルが出力できます。
+量が多くなりすぎて計算が難しくなってきた時に使ってください。
 
 ## 必要条件
 - Python 3.10+
@@ -50,71 +67,15 @@ Proper Noun Tool
 
 1. アプリケーションを実行します：
    ```
-   python app.py
+   python app-historical-3.py
    ```
 
 2. Webブラウザを開き、コンソールに表示されるURL（通常はhttp://127.0.0.1:7860）にアクセスします。
 
-3. テキスト入力フィールドに、固有名詞を入力します。
+3. エンティティ入力フィールドに、固有名詞を入力します。
 
 4. maxTokenを指定してください。
 
-5. "Submit"ボタンを押すと動き出します。
+5. temparatureを指定してください
 
-
-
-
-## [app.py]
-Six-Dimensional Query Tool
-This tool generates a Six-Dimensional Query (Who, What, When, Where, Why, How) for a given "proper noun".
-It then generates answers corresponding to these queries.
-Furthermore, it vectorizes the queries and answers to calculate cosine similarity or BM25 scores to extract the optimal matching.
-The outputs are:
-coupus_date_maxToken.json: Outputs the 6 generated corpora in JSON format
-queries_date_maxToken.json: Outputs the 6 generated queries in JSON format
-best_matches_date_maxToken.json: Outputs the combinations with the highest cosine similarity or score for each query in JSON format
-scores_date_maxToken.json: Outputs the scores for all corpora against each query in JSON format (BM25)
-cosine_similarities_date_maxToken.json: Outputs the cosine similarity values for all corpora against each query in JSON format (Vector search)
-vectors_date_maxToken.json: Outputs the vectors corresponding to the texts in JSON format
-Note: Popular historical figures are good choices for proper nouns.
-The maximum length of answer tokens can be specified from 50 to 500.
-It outputs cosine similarities and BM25 scores for three Embedding models (text-embedding-3-large, text-embedding-3-small, and text-embedding-ada-002).
-
-## [app-large.py]
-This is for additional experiments with the above Six-Dimensional Query Tool.
-It can conduct experiments with the text-embedding-3-large model up to maxToken 2000.
-
-## [app-6entity.py]
-Proper Noun Tool
-Input up to 6 proper nouns.
-Then, it generates one free query corresponding to each proper noun.
-It further vectorizes the queries and answers to calculate cosine similarity or BM25 scores and extract the optimal matching.
-
-## Requirements
-Python 3.10+
-OpenAI API key
-
-## Installation
-
-Install the required packages:
-   ```
-   pip install -r requirements.txt
-   ```
-
-
-Set up the OpenAI API key
-Create a .env file in the project root directory and add your API key:
-   ```
-   OPENAI_API_KEY=your_api_key_here
-   ```
-## Usage
-
-Run the application:
-   ```
-   python app.py
-   ```
-
-Open a web browser and access the URL displayed in the console (usually http://127.0.0.1:7860).
-Enter a proper noun in the text input field.
-Specify the maxToken.
-Press the "Submit" button to start the process.
+6. "Submit"ボタンを押すと動き出します。
